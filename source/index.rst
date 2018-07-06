@@ -12,8 +12,9 @@ compliant.
 
 Learn more about DutchX
 -----------------------
-One place you can learn all about the mechanisms of the DutchX is in:
+Some interesting links to learn all about the mechanisms of the DutchX are:
 
+* https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443
 * https://blog.gnosis.pm/tagged/dutchx
 
 .. toctree::
@@ -25,7 +26,7 @@ One place you can learn all about the mechanisms of the DutchX is in:
    :maxdepth: 2
    :caption: Guides:
 
-   First steps <development-first-steps>
+   First steps (devs) <dev-first-steps>
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
 
@@ -33,9 +34,13 @@ One place you can learn all about the mechanisms of the DutchX is in:
 .. toctree::
    :maxdepth: 2
    :caption: Reference:
-
-   reference_api
-   reference_smart-contracts
+  
+   smart-contracts_addresses
+   API Reference <https://dx.staging.gnosisdev.com/api>
+   Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
+   Github: Seller Web <https://github.com/gnosis/dx-react>
+   Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>
+   
 
 You may be also interested on
 -----------------------------

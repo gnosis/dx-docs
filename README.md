@@ -24,9 +24,9 @@ Meet the comunity in the gitter channel!
 * https://gitter.im/gnosis/DutchX
 
 # License
-All smart contracts and documentation are released under GPL v.3.
+All smart contracts are released under GPL v.3.
 
-The front ends, API, cli, bots and services under MIT License
+The Front ends, API, cli, bots, documentation and services under MIT License.
 
 # Security and Liability
 This software code is made available on an as-is basis free of charge and by 

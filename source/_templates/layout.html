@@ -1,0 +1,38 @@
+{% extends "!layout.html" %}
+  {% block footer %} {{ super() }}
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #549ddc;
+    }
+    
+    /* Sidebar */
+    .wy-nav-side {
+      background: #f3f3f4;
+      
+    }
+
+    .wy-nav-side a {
+      color: #5c666f;
+    }
+
+    .wy-menu-vertical a:hover {
+      background-color: white;
+    }
+
+    .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+      background-color: inherit;
+      color: black;
+    }
+
+    .wy-menu-vertical li.toctree-l1.current>a {
+      /*
+      border-bottom: solid 1px #c9c9c9;
+      border-top: solid 1px #c9c9c9;
+      */
+      border-bottom: none;
+      border-top: none;
+    }
+  </style>
+{% endblock %}

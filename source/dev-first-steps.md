@@ -15,7 +15,7 @@ project.
 * Some scripts
 
 So Just follow the steps and create your `cool-app` out of this example:
-[https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/example_01_build-of-top-of-dx](https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/example_01_build-of-top-of-dx)
+[https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/01_build-of-top-of-dx](https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/01_build-of-top-of-dx)
 
 ## Create your own migrations - Add your own token pair
 After you have your `cool-app` as a truffle project that in it's first migration

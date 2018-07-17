@@ -28,6 +28,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    Introduction <self>
    smart-contract-documentation
+   dutchx-as-an-open-platform
 
 .. toctree::
    :maxdepth: 2
@@ -65,6 +66,3 @@ Find the comunity in: https://gitter.im/gnosis/DutchX
 
 .. _Dutch auction: https://en.wikipedia.org/wiki/Dutch_auction
 .. _ERC20: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
-.. _First steps for development on top of DutchX: ./guides/development-first-steps.md
-.. _How to add a trading token pair: ./guides/add-token-pair.md
-.. _Run your own bots: ./guides/add-token-pair.md

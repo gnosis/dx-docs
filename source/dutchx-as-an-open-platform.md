@@ -31,7 +31,7 @@ to be performed in the smart contract, so they can throw more meaninful errors,
 instead of the `revert` that smart contracts throw.
 * **Services**: Some use cases built on top of the DutchX
 * **API**: REST Api that provides a simpler access to the data in the DutchX.
-[https://dutchx.d.exchange/api]()
+Check out the [API documentation](./api.html)
 * **CLI**: The Command Line Interface it's a very useful tool for invoking some
 operations in the smart contracts such as posting sell/buy orders, and to 
 extract some information from them (for example getting the status of a token 

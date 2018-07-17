@@ -36,6 +36,8 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    smart-contract-documentation
    dutchx-as-an-open-platform
    market-makers
+   api
+   use-the-cli
    security-of-the-contracts
    contribute
 
@@ -45,7 +47,6 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    build-on-top-of-dutchx
    use-dutchx-as-an-oracle
-   use-the-cli
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
 

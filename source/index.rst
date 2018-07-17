@@ -29,6 +29,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Introduction <self>
    smart-contract-documentation
    dutchx-as-an-open-platform
+   contribute
 
 .. toctree::
    :maxdepth: 2

@@ -1,10 +1,10 @@
 # Run your own bots for DutchX
-The bots a series of small applications that run in the background and have a 
+The bots are series of small applications that run in the background and have a 
 scoped task to fulfill. 
 
-They interact with the DutchX performing someo perations.
+They interact with the DutchX performing some operations.
 
-For example the liquidity bots watch some markets and provide liquidity ensuring
+For example the **liquidity bots** watch some markets and provide liquidity ensuring
 the auctions run continuosly and the prices don't drop below market price.
 
 Running the bots is important for markets were there's insufficient volume or a

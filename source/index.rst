@@ -38,7 +38,8 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :maxdepth: 2
    :caption: Developer guides
 
-   First steps <dev-first-steps>
+   build-on-top-of-dutchx
+   use-dutchx-as-an-oracle
    use-the-cli
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>

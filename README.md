@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="350px" src="http://dutchx.readthedocs.io/en/latest/_static/DutchX-logo_blue.svg" />
+</p>
+
 # DutchX Documentation
 The Dutch Exchange (DutchX) is a fully decentralized exchange, which allows 
 **everyone** to add any trading token pair.

@@ -14,13 +14,20 @@ Learn more about DutchX
 -----------------------
 Some interesting links to learn all about the mechanisms of the DutchX are:
 
-* https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443
-* https://blog.gnosis.pm/tagged/dutchx
+* **Small introduction to the features of DutchX**: https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443
+* **Blog with information about DutchX**: https://blog.gnosis.pm/tagged/dutchx
+
+Documentation for the Smart Contracts
+-------------------------------------
+To get a deeper knowdedge about the DutchX mechanisms, and the math behind them,
+check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentation.pdf>` for the smart contracts.
+
 
 .. toctree::
    :hidden:
 
    Introduction <self>
+   smart-contract-documentation
 
 .. toctree::
    :maxdepth: 2

@@ -43,7 +43,7 @@ liquidity ensuring the auctions run continuosly and the prices don't drop below
 market price. Learn more about the bots in the guide.
 [Run your own bots](./run-your-own-bots.html)
 
-# Seller interface
+## Seller interface
 The seller interface is a nice interface that allows users to participate in the
 auctions in a simple way. It can be found in [https://github.com/gnosis/dx-react](https://github.com/gnosis/dx-react).
 
@@ -57,7 +57,7 @@ This interface can be used by anyone as a base to build alternative ones, a
 buyer interface, or just host it in any server. Soo feel free to contribute to 
 the DutchX ecosystem.
 
-# Contribute
+## Contribute
 The community is what makes DutchX great. 
 
 Became part of it and contribute to create new interfaces, improve the tools, 

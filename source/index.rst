@@ -24,7 +24,8 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
 
 .. toctree::
-   :hidden:
+   :maxdepth: 0
+   :caption: Documents
 
    Introduction <self>
    smart-contract-documentation
@@ -35,9 +36,9 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
 .. toctree::
    :maxdepth: 2
-   :caption: Guides:
+   :caption: Developer guides
 
-   First steps (devs) <dev-first-steps>
+   First steps <dev-first-steps>
    use-the-cli
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>

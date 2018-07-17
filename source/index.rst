@@ -30,6 +30,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    smart-contract-documentation
    dutchx-as-an-open-platform
    market-makers
+   security-of-the-contracts
    contribute
 
 .. toctree::
@@ -37,6 +38,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :caption: Guides:
 
    First steps (devs) <dev-first-steps>
+   use-the-cli
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
 

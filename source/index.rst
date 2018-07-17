@@ -1,5 +1,10 @@
-DutchX's documentation
-==================================
+.. image:: ./_static/DutchX-logo_blue.svg
+    :width: 350px
+    :align: center
+    :alt: DutchX
+    :class: dutchx-logo
+
+
 The **Dutch Exchange (DutchX)** is a fully decentralized exchange, which
 allows **everyone** to add any trading token pair.
 
@@ -50,7 +55,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :caption: Reference:
   
    smart-contracts_addresses
-   API Reference <https://dx.staging.gnosisdev.com/api>
+   API Reference <https://dutchx.d.exchange/api/>
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
    Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>
@@ -64,7 +69,7 @@ Related github projects:
 * **Seller interface for DutchX**: https://github.com/gnosis/dx-react
 * **Example on using the bots**: https://github.com/gnosis/dx-examples-liquidity-bots
 * **Example on using the read API**: https://github.com/gnosis/dx-examples-api
-* **Example on using the CLI**: https://github.com/gnosis/dx-example-cli-rinkeby
+* **Example on using the CLI**: https://github.com/gnosis/dx-examples-cli
 
 Contact the DutchX comunity
 ===========================

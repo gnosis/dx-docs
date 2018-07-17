@@ -9,4 +9,4 @@ contract from our project.
 One simple use of the DutchX can be to use it as a onchain price oracle. 
 
 Learn how to get the price for any token pair from the DutchX following the 
-steps described in this project [Use DutchX as an Oracle](https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/02_use-dx-as-an-oracle)
+steps described in this project [Use DutchX as an Oracle](https://github.com/gnosis/dx-examples-dev/tree/master/02_use-dx-as-an-oracle)

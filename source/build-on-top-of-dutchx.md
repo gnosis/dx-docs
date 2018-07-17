@@ -16,4 +16,4 @@ project.
 
 So Just follow the steps and create your `cool-app` following the steps 
 described in this project:
-[Build on top of the DutchX](https://github.com/gnosis/dx-example-build-on-top-of-dutchx/tree/master/01_build-of-top-of-dx)
+[Build on top of the DutchX](https://github.com/gnosis/dx-examples-dev/tree/master/01_build-of-top-of-dx)

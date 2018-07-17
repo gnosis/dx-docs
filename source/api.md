@@ -17,3 +17,8 @@ how to do this by reading [Build on top of the Dutch Exchange](./build-on-top-of
 
 The API logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
 for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)
+
+For developers, it should be very easy to get information form the API, check 
+out for example 
+[DutchX Example: How to use the API](https://github.com/gnosis/dx-examples-api) 
+project.

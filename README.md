@@ -27,20 +27,6 @@ to exchange any kind of token.
 Meet the comunity in the gitter channel!
 * https://gitter.im/gnosis/DutchX
 
-# License
-All smart contracts are released under GPL v.3.
-
-The Front ends, API, cli, bots, documentation and services under MIT License.
-
-# Security and Liability
-This software code is made available on an as-is basis free of charge and by 
-doing so, no personal data is collected, used, stored, disclosed or secured by 
-the creators. Depending on how you use this software code, you may be required 
-to provide and apply an appropriate privacy policy to comply with law.
-
-An API gathers publicly available data from the Ethereum blockchain on the 
-usage of this software code.
-
 # Generate the doc
 ```bash
 pip3 install -r requirements.txt

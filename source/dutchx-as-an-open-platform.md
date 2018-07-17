@@ -37,7 +37,7 @@ operations in the smart contracts such as posting sell/buy orders, and to
 extract some information from them (for example getting the status of a token 
 pair).
 It can be used in test nets like`rinkeby` or in `mainnet`.
-Learn more about the CLI in the guide [Use the CLI](./use-the-cli.html)
+Learn more about the CLI in the guide [Use the CLI](./cli.html)
 * **Bots**: The bots are series of small applications that run in the background 
 and have a scoped task to fulfill. They interact with the DutchX performing some
 operations. For example the liquidity bots watch some markets and provide 

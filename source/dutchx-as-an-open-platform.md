@@ -17,7 +17,7 @@ This contract is the one holding the data of the DutchX, so it's the one we shou
 use to interact with the DutchX. Please, read more about the Proxy Pattern for 
 Smart Contracts in this <a href="https://blog.gnosis.pm/solidity-delegateproxy-contracts-e09957d0f201" target="_blank">Solidity DelegateProxy</a> post.
 
-## Services, Bots and CLI
+## Services, API, Bots and CLI
 Another important piece on the DutchX is the [DutchX services](https://github.com/gnosis/dx-services) project.
 
 This project uses the smart contract as a base layer, and build some

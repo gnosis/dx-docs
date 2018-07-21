@@ -5,7 +5,7 @@
     :class: dutchx-logo
 
 
-The **Dutch Exchange (DutchX)** is a fully decentralized exchange, which
+The **Dutch Exchange (DutchX)** is a fully decentralised exchange, which
 allows **everyone** to add any trading token pair.
 
 It uses the `Dutch auction`_ principle, to prevent the problems that
@@ -24,7 +24,7 @@ Some interesting links to learn all about the mechanisms of the DutchX are:
 
 Documentation for the Smart Contracts
 -------------------------------------
-To get a deeper knowdedge about the DutchX mechanisms, and the math behind them,
+To get a deeper knowledge about the DutchX mechanisms, and the math behind them,
 check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentation.pdf>` for the smart contracts.
 
 
@@ -54,26 +54,29 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 .. toctree::
    :maxdepth: 2
    :caption: Reference:
-  
+
    smart-contracts_addresses
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
    Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>
-   
 
-You may be also interested on
+
+Related Github projects
 -----------------------------
-Related github projects:
 
 * **Smart contracts**: https://github.com/gnosis/dx-contracts
 * **Seller interface for DutchX**: https://github.com/gnosis/dx-react
+* **Services, API, Bots and CLI**: https://github.com/gnosis/dx-services
+
+**Examples and guides**:
+* **Examples on how to build on top of the DutchX**: https://github.com/gnosis/dx-examples-dev
 * **Example on using the bots**: https://github.com/gnosis/dx-examples-liquidity-bots
 * **Example on using the read API**: https://github.com/gnosis/dx-examples-api
 * **Example on using the CLI**: https://github.com/gnosis/dx-examples-cli
 
-Contact the DutchX comunity
-===========================
-Find the comunity in: https://gitter.im/gnosis/DutchX
+Contact the DutchX community
+==============================
+Find the community in: https://gitter.im/gnosis/DutchX
 
 .. _Dutch auction: https://en.wikipedia.org/wiki/Dutch_auction
 .. _ERC20: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md

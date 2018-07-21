@@ -1,6 +1,7 @@
 # Use DutchX as an Oracle
-For starting this guide, you should be familiar already on 
-[Build on top of the DutchX](./build-on-top-of-dutchx.html).
+For starting this guide, you should be already familiar with how to
+[Build on top of the DutchX](./build-on-top-of-dutchx.html). Please, complete 
+first that guide before you start with this one.
 
 Once you know how to create a project that depends on the DutchX, and you know
 how to migrate the contracts for local development, we are ready to use the 

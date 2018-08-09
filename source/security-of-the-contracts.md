@@ -13,6 +13,13 @@ The smart contract's code was submitted to:
   * During the construction, it was subjected to constant internal audits, peer
     reviews, and unit testing.
 * **External audit**: A thorough external audit by Solidify ([https://solidified.io/](https://solidified.io/))
+
+  <p align="center">
+    <a href="./_static/docs/Solidified_Audit_Report.pdf">
+    <img width="150px" src="http://dutchx.readthedocs.io/en/latest/_static/Sol_Badge_SlateOnTrans@2x.png" />
+    </a>
+  </p>
+
   * Three auditors reviewed the code in parallel in an isolated review. Then they
     compare the findings and come to a group consensus. Then the final report
     is done, and over some iterations all the risks are mitigated.

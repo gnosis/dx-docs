@@ -88,7 +88,7 @@ We are trying to deposit some tokens into the DutchX, so first we should make
 sure they are in our balance:
 
 ```bash
-./cli balances <your account address here>
+./cli balances --account <your account address here>
 ```
 
 **2. Do the deposit**
@@ -106,7 +106,7 @@ to deposit into the DutchX)
 
 **3. Verify your new balance on the DutchX**
 ```bash
-./cli balances <your account address here>
+./cli balances --account <your account address here>
 ```
 
 
@@ -135,9 +135,15 @@ So the steps would be:
 **1. Clone the the repo and install the dependencies**:
 
 ```bash
+# Clone the repo and cd into the project
 git clone https://github.com/gnosis/dx-contracts.git
 cd dx-contracts
+
+# Install the dependencies
 npm install
+
+# Compile contracts and inject the network info
+npm run restore
 ```
 
 **2. Create a file with the information required for the operation**

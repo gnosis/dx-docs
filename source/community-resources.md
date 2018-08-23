@@ -36,7 +36,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -   [Midas Protocol](https://midasprotocol.io/) - this project currently uses the DutchX as the protocol for their [eazy.exchange](https://eazy.exchange/)
 
-##### Communication
+##### Communication Channels
 
 -   [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx)
 

@@ -2,7 +2,7 @@
 
 The DutchX is not just an exchange, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication  channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
-#### Blog Posts
+##### Blog Posts
 
 -   [Introducing the Gnosis Dutch Exchange](https://blog.gnosis.pm/introducing-the-gnosis-dutch-exchange-53bd3d51f9b2)
 
@@ -24,7 +24,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -   [The Road towards a Fully Decentralized Exchange](https://blog.gnosis.pm/the-dutchx-smart-contracts-are-live-on-the-mainnet-af1446eef199)
 
-#### Videos
+##### Videos
 
 -   [Christiane Ernst, product manager of the DutchX, speaks at DappCon 2018](https://www.youtube.com/watch?v=HrFbN3shoz0&list=PLgPxQehVVkoS6cjI6MU5mmzG82CuiDIQC)
 
@@ -32,11 +32,11 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -   [Christiane Ernst introduces the DutchX at EthCC Paris 2018](https://www.youtube.com/watch?v=7rJ8VwHEOSo)
 
-#### Projects using the DutchX
+##### Projects using the DutchX
 
 -   [Midas Protocol](https://midasprotocol.io/) - this project currently uses the DutchX as the protocol for their [eazy.exchange](https://eazy.exchange/)
 
-#### Communication
+##### Communication
 
 -   [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx)
 
@@ -50,10 +50,10 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -   Our official chat channel is being built.
 
-#### Hackathons
+##### Hackathons
 
 -   Currently defining hackathon parameters.
 
-#### Bounties
+##### Bounties
 
 -   Currently defining bounty programs.

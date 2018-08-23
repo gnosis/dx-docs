@@ -55,8 +55,10 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 -  Upcoming
 	- [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
 
+
 - Previous
 	- No contests have occured yet
+
 
 - [Check these ideas for DutchX use-case inspiration!](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit?usp=sharing)
 

@@ -4,6 +4,8 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Blog Posts
 
+-   [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx)
+
 -   [Introducing the Gnosis Dutch Exchange](https://blog.gnosis.pm/introducing-the-gnosis-dutch-exchange-53bd3d51f9b2)
 
 -   [The Mechanism Design of the Dutch Exchange](https://blog.gnosis.pm/the-mechanism-design-of-the-gnosis-dutch-exchange-4299a045d523)
@@ -38,8 +40,6 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Communication Channels
 
--   [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx)
-
 -   [DutchX Twitter](https://twitter.com/DutchX_)
 
 -   [Gnosis Twitter](https://twitter.com/gnosisPM)
@@ -52,7 +52,13 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Hackathons
 
--   Currently defining hackathon parameters.
+-  Upcoming
+	- [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
+
+- Previous
+	- No contests have occured yet
+
+- [Check these ideas for DutchX use-case inspiration!](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit?usp=sharing)
 
 ##### Bounties
 

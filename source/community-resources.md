@@ -4,7 +4,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Blog Posts
 
--   [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx)
+[DutchX Blog](https://blog.gnosis.pm/tagged/dutchx):
 
 -   [Introducing the Gnosis Dutch Exchange](https://blog.gnosis.pm/introducing-the-gnosis-dutch-exchange-53bd3d51f9b2)
 
@@ -36,15 +36,13 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Projects using the DutchX
 
--   [Midas Protocol](https://midasprotocol.io/) - this project currently uses the DutchX as the protocol for their [eazy.exchange](https://eazy.exchange/)
+-   [Eazy Exchange](https://eazy.exchange/) - an interface built by [Midas](https://midasprotocol.io/), using the DutchX as the protocol (currently on Rinkeby)
 
 -   [DutchX interface on Rinkeby](https://dutchx-rinkeby.d.exchange/)
 
 -   DutchX interface on Mainnet - coming soon! 
 
 ##### Communication Channels
-
--   [DutchX Twitter](https://twitter.com/DutchX_)
 
 -   [Gnosis Twitter](https://twitter.com/gnosisPM)
 
@@ -58,13 +56,14 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -  Upcoming
 	- [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
+	- More information to follow
 
 
 - Previous
 	- No contests have occured yet
 
 
-- Some ideas coming soon!
+- Some ideas and inspiration coming soon!
 
 ##### Bounties
 

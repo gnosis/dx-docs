@@ -1,6 +1,5 @@
 # CLI
-The Command Line Interface it’s a very useful tool for invoking some operations
-in the smart contracts such as:
+The Command Line Interface is a very useful tool to trigger smart contract operations such as:
 * Get the DutchX account **balance** for any account.
 * **Deposit** or **withdraw** funds into/from your DutchX account balance.
 * Check the **state** of a given token pair: Auction index, sell/buy volume,
@@ -18,5 +17,5 @@ The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/
 for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)
 
 Although the CLI is a very useful tool to do some basic interactions with the
-smart contracts, to build tools, bots or services that interact with the
+smart contracts, to build tools, bots, or services that interact with the
 DutchX, it's a better approach to [Build on top of the DutchX](./build-on-top-of-dutchx.html).

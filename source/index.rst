@@ -5,12 +5,11 @@
     :class: dutchx-logo
 
 
-The **Dutch Exchange (DutchX)** is a fully decentralised exchange, which
+The **Dutch Exchange (DutchX)** is a fully decentralized exchange that
 allows **everyone** to add any trading token pair.
 
-It uses the `Dutch auction`_ principle, to prevent the problems that
-other exchanges are experiencing (such as front running) getting a
-fairer ecosystem for everyone to use.
+It uses the `Dutch auction`_ principle to prevent the problems that other exchanges are experiencing (such
+as front running, issues with low liquidity, and third party risk), creating a more fair ecosystem for everyone to use.
 
 There is no restriction besides the fact that tokens must be `ERC20`_
 compliant.

@@ -1,9 +1,9 @@
 # Market Makers
-The DutchX is an open, decentralised trading protocol for ERC20 tokens using
+The DutchX is an open, decentralized trading protocol for ERC20 tokens using
 the Dutch auction mechanism to determine a fair value for the tokens.
 
 Market Makers are a fundamental piece of the DutchX, and they can benefit from
-all the advantages that the DutchX can offer.
+all the advantages that the DutchX offers.
 
 For more information, check out:
 <a href="_static/docs/DutchX_Market_Makers.pdf" download>DutchX for Market Makers</a>

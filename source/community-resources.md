@@ -64,7 +64,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 	- No contests have occured yet
 
 
-- [Check these ideas for DutchX use-case inspiration!](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit?usp=sharing)
+- Some ideas coming soon!
 
 ##### Bounties
 

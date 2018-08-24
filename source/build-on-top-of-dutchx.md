@@ -1,6 +1,6 @@
 # Build on top of the DutchX
-For following this guide, you should be familiar with:
-* Basics about Ethereum network
+To follow this guide, you should be familiar with:
+* Basics of the Ethereum network
 * Truffle projects
 * Node and NPM
 
@@ -16,9 +16,9 @@ The DutchX is available as a
 * Migration code (useful for `development`)
 * Some scripts
 
-So Just follow the steps and create your `cool-app` following the steps
+You can create your `cool-app` following the steps
 described in this project:
 [Build on top of the DutchX](https://github.com/gnosis/dx-examples-dev/tree/master/01_build-of-top-of-dx)
 
-Once you have the guide completed, a good idea is continuing with the guide
+Once you have the guide completed, a good idea is continuing with this guide
 [Use DutchX as an Oracle](./use-dutchx-as-an-oracle.html).

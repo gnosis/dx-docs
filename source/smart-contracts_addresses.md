@@ -10,6 +10,15 @@
   * TokenFRT: [https://rinkeby.etherscan.io/token/0x152af9ad40ccef2060cd14356647ee1773a43437](https://rinkeby.etherscan.io/token/0x152af9ad40ccef2060cd14356647ee1773a43437)
   * TokenOWL (proxy): [https://rinkeby.etherscan.io/token/0xa7d1c04faf998f9161fc9f800a99a809b84cfc9d](https://rinkeby.etherscan.io/token/0xa7d1c04faf998f9161fc9f800a99a809b84cfc9d)
 
+## Kovan
+  * DutchExchange (proxy): [https://kovan.etherscan.io/address/0x4183931cce346feece44eae2cf14d84c3347d779](https://kovan.etherscan.io/address/0x4183931cce346feece44eae2cf14d84c3347d779)
+  * DutchExchange (master): [https://kovan.etherscan.io/address/0xd133d9f2fdce177ae3b3cc2aaa8dfef23414c5aa](https://kovan.etherscan.io/address/0xd133d9f2fdce177ae3b3cc2aaa8dfef23414c5aa)
+  * PriceOracleInterface: [https://kovan.etherscan.io/address/0xdcd22750a182a7a055d069c9f3295f8f3290d6d2](https://kovan.etherscan.io/address/0xdcd22750a182a7a055d069c9f3295f8f3290d6d2)
+  * Medianizer: [https://kovan.etherscan.io/address/0xa944bd4b25c9f186a846fd5668941aa3d3b8425f](https://kovan.etherscan.io/address/0xa944bd4b25c9f186a846fd5668941aa3d3b8425f)
+    * [https://developer.makerdao.com/feeds](https://developer.makerdao.com/feeds)
+    * [https://makerdao.com/feeds](https://makerdao.com/feeds)
+  * TokenFRT: [https://kovan.etherscan.io/token/0x98709b83af325a46edfac2f053a730a2980b3682](https://kovan.etherscan.io/token/0x98709b83af325a46edfac2f053a730a2980b3682)
+  * TokenOWL (proxy): [https://kovan.etherscan.io/token/0xb6f77a34ff81dd13fa68b5774d74541a61047fe8](https://kovan.etherscan.io/token/0xb6f77a34ff81dd13fa68b5774d74541a61047fe8)
 
 ## Mainnet
   * DutchExchange (proxy): [https://etherscan.io/address/0xaf1745c0f8117384dfa5fff40f824057c70f2ed3](https://etherscan.io/address/0xaf1745c0f8117384dfa5fff40f824057c70f2ed3)

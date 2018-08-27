@@ -1,18 +1,18 @@
-# DutchX as an open platform
+# DutchX as an open protocol
 The DutchX is **100% open source** and has been built as a community effort to improve
 the problems that current centralized and decentralized platforms face.
 
 The DutchX is an ecosystem of interfaces, on chain apps, and smart contracts that
 create a common liquidity pool that all users can benefit from.
 
-![Open Platform](./_static/open-platform.png)
+![Open Protocol](./_static/open-platform.png)
 
 ## Smart contracts
 The core of the project is the Smart Contracts, that hold the logic described in
 the [Smart Contract Documentation](./smart-contract-documentation.html), and
 can be found in [https://github.com/gnosis/dx-contracts](https://github.com/gnosis/dx-contracts)
 
-The smart contracts are the base of this open platform, and anyone can build
+The smart contracts are the base of this open protocol, and anyone can build
 tools, applications and interfaces on top of them, making the DutchX a unique and
 fair protocol to exchange tokens.
 

@@ -6,9 +6,9 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx):
 
--   [Introducing the Gnosis Dutch Exchange](https://blog.gnosis.pm/introducing-the-gnosis-dutch-exchange-53bd3d51f9b2)
+-   [Introducing the DutchX](https://blog.gnosis.pm/introducing-the-gnosis-dutch-exchange-53bd3d51f9b2)
 
--   [The Mechanism Design of the Dutch Exchange](https://blog.gnosis.pm/the-mechanism-design-of-the-gnosis-dutch-exchange-4299a045d523)
+-   [The Mechanism Design of the DutchX](https://blog.gnosis.pm/the-mechanism-design-of-the-gnosis-dutch-exchange-4299a045d523)
 
 -   [On all things Tokens](https://blog.gnosis.pm/on-all-things-tokens-1fd977184649)
 

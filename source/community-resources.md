@@ -54,16 +54,17 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 ##### Hackathons
 
--  Upcoming
-	- [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
-	- More information to follow
+###### Upcoming
+- Berlin Blockchain Week - [EthBerlin](https://ethberlin.com/) 7-9th of September 2018
+    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
+    - We will post the recoreded workshop here
+    - We will post the presentation (incl. judging criteria) here
+	
+###### Previous
+- No contests have occured yet
 
 
-- Previous
-	- No contests have occured yet
-
-
-- Some ideas and inspiration coming soon!
+###### A selection of ideas and inspiration is coming soon
 
 ##### Bounties
 

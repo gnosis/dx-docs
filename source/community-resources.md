@@ -44,7 +44,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 Add this logo if you are using the DutchX:
 
-![](https://github.com/gnosis/dx-docs/blob/master/source/_static/Positive.svg)
+<img src="https://github.com/gnosis/dx-docs/blob/master/source/_static/Positive.svg" alt="drawing" width="400"/>
 
 ##### Communication Channels
 

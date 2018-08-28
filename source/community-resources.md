@@ -42,9 +42,9 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 
 -   DutchX interface on Mainnet - coming soon! 
 
-Add this logo if you are using the DutchX:
+Add this cool logo to your site if you built on top of the DutchX:
 
-<img src="https://github.com/gnosis/dx-docs/blob/master/source/_static/Positive.svg" alt="drawing" width="400"/>
+<img src="https://github.com/gnosis/dx-docs/blob/master/source/_static/Positive.svg" alt="drawing" width="350"/>
 
 ##### Communication Channels
 

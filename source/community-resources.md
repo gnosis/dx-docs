@@ -45,7 +45,7 @@ The DutchX is not just an exchange, but an open trading protocol that anyone can
 Add this cool logo to your site if you built on top of the DutchX:
 
   <p align="center">
-    <img src="https://github.com/gnosis/dx-docs/blob/master/source/_static/Positive%20(1).png" width="350" />
+    <img src="/gnosis/dx-docs/blob/master/source/_static/Positive%20(1).png?raw=true" width="350" />
     </a>
   </p>
 

@@ -1,6 +1,6 @@
 ## Community Resources
 
-The DutchX is not just a platform, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication  channels so you can contribute, build your own use case, and stay up to date on our latest news.
+The DutchX is not just an exchange, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication  channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
 ##### Blog Posts
 

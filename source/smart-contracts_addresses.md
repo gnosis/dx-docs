@@ -1,6 +1,6 @@
 # Smart Contracts Addresses
 
-<img src="https://github.com/gnosis/dx-docs/blob/master/source/_static/DutchX%20Smart%20Contract%20Architecture.png" width="600">
+<img src="https://raw.githubusercontent.com/gnosis/dx-docs/master/source/_static/DutchX%20Smart%20Contract%20Architecture.png" width="600">
 
 ## Rinkeby
   * DutchX (proxy): [https://rinkeby.etherscan.io/address/0x4e69969d9270ff55fc7c5043b074d4e45f795587](https://rinkeby.etherscan.io/address/0x4e69969d9270ff55fc7c5043b074d4e45f795587)

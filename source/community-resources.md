@@ -63,8 +63,8 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 ###### Upcoming
 - Berlin Blockchain Week - [EthBerlin](https://ethberlin.com/) 7-9th of September 2018
-    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX bidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
-    - We will post the recoreded workshop here
+    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX buidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
+    - We will post the recorded workshop here
     - We will post the presentation (incl. judging criteria) here
 	
 ###### Previous

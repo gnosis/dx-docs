@@ -2,6 +2,24 @@
 
 The DutchX is not just an exchange, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication  channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
+##### Hackathons
+
+###### Upcoming
+- Berlin Blockchain Week - [EthBerlin](https://ethberlin.com/) 7-9th of September 2018
+    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX buidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
+    - We will post the recorded workshop here
+    - We will post the presentation (incl. judging criteria) here
+	
+###### Previous
+- No contests have occured yet
+
+
+###### A selection of ideas and inspiration is coming soon
+
+##### Bounties
+
+-   Currently defining bounty programs.
+
 ##### Blog Posts
 
 [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx):
@@ -59,20 +77,4 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 -   Our official chat channel is being built.
 
-##### Hackathons
 
-###### Upcoming
-- Berlin Blockchain Week - [EthBerlin](https://ethberlin.com/) 7-9th of September 2018
-    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX buidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
-    - We will post the recorded workshop here
-    - We will post the presentation (incl. judging criteria) here
-	
-###### Previous
-- No contests have occured yet
-
-
-###### A selection of ideas and inspiration is coming soon
-
-##### Bounties
-
--   Currently defining bounty programs.

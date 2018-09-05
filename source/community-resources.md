@@ -10,6 +10,7 @@
 - No contests have occured yet
 
 ## Judging Criteria
+
 **The Idea** (20%)  
 In this categories factors such as use and relevancy will weigh in. Does the idea make sense and is it relevant to the DutchX? Further considerations include whether the idea fits with the DutchX "values" (e.g. fair and decentralized) and some points will go towards originality.
 	

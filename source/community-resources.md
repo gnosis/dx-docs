@@ -29,7 +29,7 @@
 **The WOW-factor** (5%)
 - What does that mean? Bonus points for anything that stood out and was beyond expectations!
 
-*Cannot decide what idea to pursue?*
+*Cannot decide what idea to pursue?*  
 Ultimately, and each of the categories, can be summarised in "how and to what extent does this help the liquidity of the DutchX"? Ask yourselves this when you're struggling to decide from a number of awesome ideas.
 
 ## A selection of ideas and inspiration is coming soon

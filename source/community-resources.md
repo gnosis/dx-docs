@@ -10,24 +10,19 @@
 - No contests have occured yet
 
 ## Judging Criteria
-**The Idea** (20%)
-- What does that mean?  
-In this categories factors such as use and relevancy will factor in. Does the idea make sense and is it relevant to the DutchX? Further considerations include whether the idea fits with the DutchX "values" (e.g. fair and decentralized) and some points will go towards originality.
+**The Idea** (20%)  
+In this categories factors such as use and relevancy will weigh in. Does the idea make sense and is it relevant to the DutchX? Further considerations include whether the idea fits with the DutchX "values" (e.g. fair and decentralized) and some points will go towards originality.
 	
-**Technical difficulty** (35%)
-- What does that mean?  
-This is straight forward. In this category all things "technical" will be considered, such as: level of complexity, how was it implemented and documented; how well is the code written, is the code bug-free and does it go beyond the SDK and documentation that is already provided for you?
+**Technical difficulty** (35%)  
+This is straight forward: In this category all things "technical" will be considered, such as: level of complexity, how was it implemented and documented; how well is the code written, is the code bug-free and does it go beyond the SDK and documentation that is already provided for you?
 	
-**Usability for others** (30%)
-- What does that mean?  
-This category can be either considered for further technical integration or in case you are targeting end-users, for those. Hence, the category includes anything ranging from ease of use, design, intended behaviour, parameterization, re-usability of the code etc.
+**Usability for others** (30%)  
+This category can be either considered for usability fostering further technical integration or in case you are targeting end-users, for those. Hence, the category includes anything ranging from ease of use, design, intended behaviour, parameterization, re-usability of the code etc.
 	
-**Size of potential users** (10%)
-- What does that mean?  
+**Size of potential users** (10%)  
 This category asks two questions: How much liquidity is expected per user (plus how often is it used per user) and what is the potential reach of unique users?
 
-**The WOW-factor** (5%)
-- What does that mean?  
+**The WOW-factor** (5%)  
 Bonus points for anything that stood out and was beyond expectations!
 
 *Cannot decide what idea to pursue?*  
@@ -35,7 +30,7 @@ Ultimately, and each of the categories, can be summarised in "how and to what ex
 
 ## A selection of ideas and inspiration is coming soon
 
-## Community Resources
+# Community Resources
 
 The DutchX is not just another trading platform, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
@@ -77,7 +72,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 
 -   [DutchX interface on Rinkeby](https://dutchx-rinkeby.d.exchange/)
 
--   DutchX interface on Mainnet - coming soon! 
+-   Another interface on Mainnet - coming soon! 
 
 Add this cool logo to your site if you built on top of the DutchX:
 

@@ -2,27 +2,27 @@ Table of content
 
   
 
-[More defined sample ideas](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.m1mn6djbo55)
+[More defined sample ideas](#more-defined-sample-ideas)
 
-[Smart contracts](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.j4fslete466f)
+[Smart contracts](#smart-contracts)
 
-[Front-end](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.29rfxvtozxx)
+[Front-end](#front-end)
 
-[Services](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.z52t3gxqiedb)
+[Services](#services)
 
-[Further ideas - a random collection](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.5xuy7ba88oia)
+[Further ideas](#further-ideas)
 
-[Smart Contracts](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.rnppmboq817s)
+[Smart Contracts](#smart-contracts)
 
-[Front-ends](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.j552bvk7lmp6)
+[Front-ends](#front-ends)
 
-[Services](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.179ntr6q0rpn)
+[Services](#services)
 
-[Ideas for financial instruments](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.cdp6ksyrrfrg)
+[Ideas for financial instruments](#ideas-for-financial-instruments)
 
-[Ideas for larger projects](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.xd29mxtfiav0)
+[Ideas for larger projects](ideas-for-larger-projects)
 
-[Ideas for documentation](https://docs.google.com/document/d/1VmA60mpslbUUU_rCMi9VXWCLWdv9FyPsfBvVMhS4PEQ/edit#heading=h.bde1y11kuni9)
+[Ideas for documentation](#ideas-for-documentation)
 
   
   
@@ -118,7 +118,7 @@ Table of content
 
 ## 
 
-## Further ideas - a random collection
+## Further ideas
 
 ### Smart Contracts
 

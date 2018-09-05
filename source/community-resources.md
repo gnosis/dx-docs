@@ -98,13 +98,9 @@ The DutchX is not just another trading platform, but an open trading protocol th
 
 Add this cool logo to your site if you built on top of the DutchX:
 
-
-  <p align="center">
-
+<p align="center">
     <img src="https://raw.githubusercontent.com/gnosis/dx-docs/master/source/_static/Positive%20(1).png" width="350" />
-
     </a>
-
   </p>
 
 

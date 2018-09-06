@@ -34,6 +34,10 @@ Bonus points for anything that stood out and was beyond expectations!
 
 Ultimately, and each of the categories, can be summarised in "how and to what extent does this help the liquidity of the DutchX"? Ask yourselves this when you're struggling to decide from a number of awesome ideas.
 
+*Struggling to find an idea?*   
+
+Have a look at the side bar: we've included some development ideas. Some are well defined already, some are really more a collection of rough ideas. Find your inspiration there, take it away and make it your own idea or come up with something completely novel.  
+
 # Community Resources
 
 

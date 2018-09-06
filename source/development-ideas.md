@@ -32,7 +32,7 @@
 
 1. “End to end”-participation solution 
 
-- On the DX the user must sign several transactions 
+- On an interface level (the trading platform that allows the user to interact with the DutchX open protocol), the user must sign several transactions 
     - Wrapping ETH 
     - Paying with OWL (if available) 
     - Allowance of token 

@@ -2,28 +2,16 @@
 
 ### Table of contents
 
-  
-
 [More defined sample ideas](#more-defined-sample-ideas)
-
 [Smart contracts](#smart-contracts)
-
 [Front-end](#front-end)
-
 [Services](#services)
-
 [Further ideas](#further-ideas)
-
 [Smart Contracts](#smart-contracts)
-
 [Front-ends](#front-ends)
-
 [Services](#services)
-
 [Ideas for financial instruments](#ideas-for-financial-instruments)
-
 [Ideas for larger projects](ideas-for-larger-projects)
-
 [Ideas for documentation](#ideas-for-documentation)
 
   

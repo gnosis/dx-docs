@@ -56,7 +56,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    community-resources
    smart-contracts_addresses
-   table-of-contents 
+   development-ideas
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
    Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>

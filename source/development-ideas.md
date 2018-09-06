@@ -3,25 +3,30 @@
 ### Table of contents
 
 [More defined sample ideas](#more-defined-sample-ideas)
-[Smart contracts](#smart-contracts)
-[Front-end](#front-end)
-[Services](#services)
-[Further ideas](#further-ideas)
-[Smart Contracts](#smart-contracts)
-[Front-ends](#front-ends)
-[Services](#services)
-[Ideas for financial instruments](#ideas-for-financial-instruments)
-[Ideas for larger projects](ideas-for-larger-projects)
-[Ideas for documentation](#ideas-for-documentation)
 
-  
-  
+[Smart contracts](#smart-contracts)
+
+[Front-end](#front-end)
+
+[Services](#services)
+
+[Further ideas](#further-ideas)
+
+[Smart Contracts](#smart-contracts)
+
+[Front-ends](#front-ends)
+
+[Services](#services)
+
+[Ideas for financial instruments](#ideas-for-financial-instruments)
+
+[Ideas for larger projects](ideas-for-larger-projects)
+
+[Ideas for documentation](#ideas-for-documentation)
 
 ## 
 
 ## More defined sample ideas
-
-  
 
 ### Smart contracts
 
@@ -47,7 +52,6 @@
 - You need to find an exchange with sufficient liquidity and where such an atomic transaction is possible. 
 - Added complexity: If it is not the same token pair, but another transaction in between i.e. A for B, B for C and C for A. 
   
-
 1. Pooling contract to have USD 10’000 starting the auction 
 
 - The rules in the smart contract is such that a listing token pair is done by  
@@ -60,7 +64,6 @@
 - Contract would specify who inputs how much money and then allocates the exchanged funds based on the same percentage  
 - Optional but highly recommended: also collecting funds for the bid side and taking part at a prior specified price. 
   
-
 1. Token BuyBacks (and burn?):  
 
 - A token project might have the need to buy back tokens 
@@ -103,9 +106,6 @@
     - Added feature: Bot could take part on the buy side as well as this should really be ensured for triggering the acution. In that case, naturally, the bot would need the bidToken in funding as well.  
     - Added feature: the bot could take the price feed from another exchange rather than asking for it (if a price feed is available). 
 
-  
-  
-
 ## 
 
 ## Further ideas
@@ -141,7 +141,6 @@
 - Notification bot when a token pair reaches a certain price 
 - Arbitrage bot between the two opposite auctions 
   
-
 ### Ideas for financial instruments
 
 - Decentralized token lending protocol (uses price feed of DutchX and liquidates using the DutchX if collateral falls below a certain amount (proposals have already been handed in) 

@@ -85,7 +85,7 @@
 
 ### Front-end
 
-- Provision of a widget that does data analytics specifically tailored to the need of a seller active on. Two samples of trading interfaces built on top of the DutchX smart contracts are ([https://eazy.exchange/](https://eazy.exchange/) and [https://dutchx-rinkeby.d.exchange/](https://dutchx-rinkeby.d.exchange/)) 
+- Provision of a widget that does data analytics specifically tailored to the need of a seller active on. Two samples of trading interfaces built on top of the DutchX smart contracts are [https://eazy.exchange/](https://eazy.exchange/) and [https://dutchx-rinkeby.d.exchange/](https://dutchx-rinkeby.d.exchange/) 
     - Data analytics may include but are not limited to: 
         - ETH to EUR/USD price feed  
         - Highest volume auctions 
@@ -124,7 +124,7 @@
 
 ### Front-ends 
 
-- Anything that is a graphical display/widgets. Check out some samples here: https://www.tradingview.com/widget/ 
+- Anything that is a graphical display/widgets. Check out some samples here: [https://www.tradingview.com/widget/](https://www.tradingview.com/widget/) 
 - Interface to start the listing process 
 - Deposit and withdraw widget (incl. wrapping and unwrapping ETH)  
     - Currently only deposit and postOrder is done in one and also claim and withdraw.  

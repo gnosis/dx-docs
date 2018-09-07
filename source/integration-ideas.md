@@ -116,8 +116,8 @@
 - Contract that takes out data information from the DutchX - more concrete and historic data. 
 - Creating a price feed out of it to be used in another instance → build a bridge into another projects (sample project for this: [https://github.com/gnosis/dx-examples-dev/tree/master/02_use-dx-as-an-oracle](https://github.com/gnosis/dx-examples-dev/tree/master/02_use-dx-as-an-oracle)) 
 - Arbitrage strategies may differ: 
-    - 1. Funds are needed to match the order first and buy back (or first on the DutchX) 
-    - 2. The token swap is such that the order may be settled on behalf of the user (without needing to put up the funds) 
+    - Funds are needed to match the order first and buy back (or first on the DutchX) 
+    - The token swap is such that the order may be settled on behalf of the user (without needing to put up the funds) 
         - User needs to set allowance with other exchange and DutchX. Ideally contract would also then cancel the other order on the other exchange. 
 
     - Might be an integration into e.g. 0x. 
@@ -132,11 +132,11 @@
 ### Services
 
 - Email (or bot) notification service when an address has claimable funds 
-    - 1. User enters to this website 
-    - 2. User enters email address and wallet address 
-    - 3. "I would like to be notified if there are claimable funds available in connection with this wallet address" (submit) 
-    - 4. First time user receives email to confirm email address and privacy policy (if applicable) 
-    - 5. User has the option to unsubscribe 
+    - User enters to this website 
+    - User enters email address and wallet address 
+    - "I would like to be notified if there are claimable funds available in connection with this wallet address" (submit) 
+    - First time user receives email to confirm email address and privacy policy (if applicable) 
+    - User has the option to unsubscribe 
 
 - Notification bot when a token pair reaches a certain price 
 - Arbitrage bot between the two opposite auctions 

@@ -45,7 +45,7 @@
 - Must overcome gas problem (take fee from user)? 
 - Must overcome problem that the pre-set gas limit in most applications might be too low to do one transaction up to confirmation of order. 
 
-2. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
+1. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
 
 - Arbitrage opportunities exist if there is a price differential on another exchange and on the DutchX 
 - For example, on Exchange Y, the price for A in units of B is 1.5. Once the auction A-B reaches this price, it is worthwhile to buy B on Exchange Y and use it to bid in the A-B auction on the DutchX.  

@@ -1,7 +1,9 @@
 # Hackathons
+*Develop use cases, raise awareness, improve usability, encourage further integration, and ultimately draw liquidity to one global DutchX pool*
 
 ## Upcoming / ongoing
 - Berlin Blockchain Week - [ETHBerlin](https://ethberlin.com/) 7-9th of September 2018
+    - Win 24ETH (5'000€) for a DutchX integration 
     - If you've missed the DutchX Developer Workshop held ahead of ETHBerlin, check out the [recording](https://www.youtube.com/watch?v=ctBRuewslbI) to get up to speed on integration cases 
     
 ### Participation details
@@ -9,7 +11,7 @@
     - Via [Gitcoin](https://gitcoin.co/issue/ethberlin-hackathon/ETHBerlin-Bounties/7/1119)
         - Readme should include team details, idea description and use case
     - **Sunday, September 9th 2018, 12:30CEST**
-    - 5-7min Pitching the idea on Sunday afternoon
+    - 5-7min pitching the idea on Sunday afternoon
     - Can be on local host (Ganache-CLI) or Rinkeby
 - Details
     - **WIN 24ETH** (5'000€)
@@ -17,7 +19,7 @@
     - [ETHBerlin rules](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties) apply 
 - Support?
    - We are here to support you! Come by the Gnosis booth on the 3rd floor. 
-   If you can't find us (and largely on Saturday), we will monitor our [Gitter](https://gitter.im/gnosis/DutchX) for you. 
+   If you can't find us (esp. on Saturday), we will monitor our [Gitter](https://gitter.im/gnosis/DutchX) for you. 
 	
 	
 ## Previous

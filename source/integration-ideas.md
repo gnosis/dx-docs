@@ -1,4 +1,4 @@
-# Development Ideas
+# Integration Ideas
 
 ### Table of contents
 

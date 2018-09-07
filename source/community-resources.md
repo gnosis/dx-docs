@@ -1,10 +1,24 @@
 # Hackathons
 
-## Upcoming
-- Berlin Blockchain Week - [EthBerlin](https://ethberlin.com/) 7-9th of September 2018
-    - Join us at the DutchX Developer Workshop on 6th of September 2018 for an introduction and integration demonstrations:  [EthBerlin DutchX buidl time!](https://www.meetup.com/es-ES/gnosispm/events/253816515/) 
-    - We will post the recorded workshop here
-    - We will post the participation details here
+## Upcoming / ongoing
+- Berlin Blockchain Week - [ETHBerlin](https://ethberlin.com/) 7-9th of September 2018
+    - If you've missed the DutchX Developer Workshop held ahead of ETHBerlin, check out the [recording](https://www.youtube.com/watch?v=ctBRuewslbI) to get up to speed on integration cases 
+    
+### Participation details
+- Submission
+    - Via [Gitcoin](https://gitcoin.co/issue/ethberlin-hackathon/ETHBerlin-Bounties/7/1119)
+        - Readme should include team details, idea description and use case
+    - **Sunday, September 9th 2018, 12:30CEST**
+    - 5-7min Pitching the idea on Sunday afternoon
+    - Can be on local host (Ganache-CLI) or Rinkeby
+- Details
+    - **WIN 24ETH** (5'000€)
+    - It's independent of the ETHBerlin prize and can be announced on top
+    - [ETHBerlin rules](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties) apply 
+- Support?
+   - We are here to support you! Come by the Gnosis booth on the 3rd floor. 
+   If you can't find us (and largely on Saturday), we will monitor our [Gitter](https://gitter.im/gnosis/DutchX) for you. 
+	
 	
 ## Previous
 - No contests have occured yet

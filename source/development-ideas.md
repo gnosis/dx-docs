@@ -30,7 +30,7 @@
 
 ### Smart contracts
 
-1. “End to end”-participation solution 
+#### 1. “End to end”-participation solution 
 
 - On an interface level (the trading platform that allows the user to interact with the DutchX open protocol), the user must sign several transactions 
     - Wrapping ETH 
@@ -45,14 +45,14 @@
 - Must overcome gas problem (take fee from user)? 
 - Must overcome problem that the pre-set gas limit in most applications might be too low to do one transaction up to confirmation of order. 
 
-1. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
+#### 2. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
 
 - Arbitrage opportunities exist if there is a price differential on another exchange and on the DutchX 
 - For example, on Exchange Y, the price for A in units of B is 1.5. Once the auction A-B reaches this price, it is worthwhile to buy B on Exchange Y and use it to bid in the A-B auction on the DutchX.  
 - You need to find an exchange with sufficient liquidity and where such an atomic transaction is possible. 
 - Added complexity: If it is not the same token pair, but another transaction in between i.e. A for B, B for C and C for A. 
   
-3. Pooling contract to have USD 10’000 starting the auction 
+#### 3. Pooling contract to have USD 10’000 starting the auction 
 
 - The rules in the smart contract is such that a listing token pair is done by  
     - i) specifying the NewToken 
@@ -64,7 +64,7 @@
 - Contract would specify who inputs how much money and then allocates the exchanged funds based on the same percentage  
 - Optional but highly recommended: also collecting funds for the bid side and taking part at a prior specified price. 
   
-4. Token BuyBacks (and burn?):  
+#### 4. Token BuyBacks (and burn?):  
 
 - A token project might have the need to buy back tokens 
 - The difficulty thereby are a few: 

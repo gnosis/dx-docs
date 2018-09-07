@@ -18,7 +18,7 @@
     - It's independent of the ETHBerlin prize and can be announced on top
     - [ETHBerlin rules](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties) apply 
 - Support?
-   - We are here to support you! Come by the Gnosis booth on the 3rd floor. 
+   - We are here to support you! Come by the Gnosis booth on the 2rd floor. 
    If you can't find us (esp. on Saturday), we will monitor our [Gitter](https://gitter.im/gnosis/DutchX) for you. 
 	
 	

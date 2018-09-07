@@ -141,7 +141,7 @@ Add this cool logo to your site if you built on top of the DutchX:
 -   [Ethresearch](https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443)
 
 
--   Our official chat channel is being built.
+-   Our official chat channel is being built. For developer questions, check out our [Gitter](https://gitter.im/gnosis/DutchX)
 
 
 ##### Bounties

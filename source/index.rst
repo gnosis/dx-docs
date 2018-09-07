@@ -49,15 +49,19 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Community:
+   
+   hackathons 
+   community-resources
+   development-ideas
 
 .. toctree::
    :maxdepth: 2
    :caption: Reference:
 
-   hackathons 
-   community-resources
    smart-contracts_addresses
-   development-ideas
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
    Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>

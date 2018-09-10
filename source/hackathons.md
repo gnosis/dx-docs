@@ -2,6 +2,10 @@
 *Develop use cases, raise awareness, improve usability, encourage further integration, and ultimately draw liquidity to one global DutchX pool*
 
 ## Upcoming / ongoing
+- Currently none are scheduled. But let us know your awesome ideas anyways!
+
+## Previous
+
 - Berlin Blockchain Week - [ETHBerlin](https://ethberlin.com/) 7-9th of September 2018
     - Win 24ETH (5'000€) for a DutchX integration 
     - If you've missed the DutchX Developer Workshop held ahead of ETHBerlin, check out the [recording](https://www.youtube.com/watch?v=ctBRuewslbI) to get up to speed on integration cases 
@@ -20,11 +24,11 @@
 - Support?
    - We are here to support you! Come by the Gnosis booth on the 2rd floor. 
    If you can't find us (esp. on Saturday), we will monitor our [Gitter](https://gitter.im/gnosis/DutchX) for you. 
-	
-	
-## Previous
-- No contests have occured yet
 
+### The winning team
+- *PoolX*, the winning team wrote a smart contract to pool initial liquidity for the first auction to list a new token to the DutchX Protocol. They also integrated this into a telegram bot for users to take part in the Pool. Super cool!
+	
+	
 ## Judging Criteria
 
 **The Idea** (20%)  

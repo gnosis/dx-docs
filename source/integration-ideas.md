@@ -1,5 +1,7 @@
 # Integration Ideas
 
+Note: We are giving out bounties and ecosystem grants - if you find an idea particulary interesting and it is not part of one of our schemes - feel free to contact us and we can see if it fits our bounty schedule. More information on this will follow in due time.
+
 ### Table of contents
 
 [More defined sample ideas](#more-defined-sample-ideas)

@@ -79,7 +79,7 @@ smart contracts:
   `deposit`. You must use at least the funding amount.
 
 The easiest way to invoke these two operations is to use the `CLI`, so please 
-set it up by following the steps described in the [CLI](./cli.html) page.
+set it up by following the steps described in the [CLI](./dutchx-rinkeby.html) page.
 
 
 **1. Verify that your account has the tokens**
@@ -87,7 +87,7 @@ We are trying to deposit some tokens into the DutchX, so first we should make
 sure they are in our balance:
 
 ```bash
-./cli balances --account <your account address here>
+./dutchx-rinkeby balances --account <your account address here>
 ```
 
 **2. Do the deposit**
@@ -100,12 +100,12 @@ to deposit into the DutchX)
 
 ```bash
 # Wrap, approve and deposit into the DutchX
-./cli deposit 18 WETH
+./dutchx-rinkeby deposit 18 WETH
 ```
 
 **3. Verify your new balance on the DutchX**
 ```bash
-./cli balances --account <your account address here>
+./dutchx-rinkeby balances --account <your account address here>
 ```
 
 
@@ -309,5 +309,5 @@ Execute the command, and make sure:
   balance)
 
 ```bash
-./cli add-token-pair --file ./ABC-WETH.js
+./dutchx-rinkeby add-token-pair --file ./ABC-WETH.js
 ```

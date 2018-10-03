@@ -78,7 +78,7 @@ Related Github projects
 * **Examples on how to build on top of the DutchX**: https://github.com/gnosis/dx-examples-dev
 * **Example on using the bots**: https://github.com/gnosis/dx-examples-liquidity-bots
 * **Example on using the read API**: https://github.com/gnosis/dx-examples-api
-* **Example on using the CLI**: https://github.com/gnosis/dx-examples-cli
+* **Example on using the CLI**: https://github.com/gnosis/dx-cli
 
 Contact the DutchX community
 ==============================

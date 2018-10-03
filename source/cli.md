@@ -11,7 +11,7 @@ start time, estimated closing time, etc.
 It can be used both, in test-nets like `rinkeby`, or in `mainnet`.
 
 The easiest way to use the CLI is to follow the steps described in
-[DutchX Example: How to use the CLI ](https://github.com/gnosis/dx-examples-cli).
+[DutchX Example: How to use the CLI ](https://github.com/gnosis/dx-cli).
 
 The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
 for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)

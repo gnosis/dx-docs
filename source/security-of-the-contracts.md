@@ -7,7 +7,7 @@ profit out of the users.
 
 The result is a fair exchange of tokens where all users play under the same rules.
 
-The smart contract's code was submitted to:
+The smart contracts code was submitted to:
 * **Internal audits**:
   * The code is open source and public for anyone to review.
   * During construction, it was subjected to constant internal audits, peer
@@ -33,7 +33,7 @@ The smart contract's code was submitted to:
   * Check the details in <a href="https://blog.gnosis.pm/gnosis-dutchx-and-initial-owl-generation-bug-bounty-71ba53dfd2db" target="_blank">Gnosis DutchX and Initial OWL Generation Bug Bounty</a> for more information.
 
 The DutchX is a non-custodial trading protocol. Your funds are only held in
-the audited smart contracts, so **no company or organisation holds the funds**,
+the audited smart contracts, so **no company or organization holds the funds**,
 just the audited contracts.
 
 Keep in mind that, as a user of a decentralized application, you are the only

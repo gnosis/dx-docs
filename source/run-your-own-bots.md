@@ -1,6 +1,6 @@
 # Run your own bots on the DutchX
 Bots are series of small applications that run in the background and have a
-scoped task to fulfil.
+scoped task to fulfill.
 
 They interact with the DutchX performing some operations.
 

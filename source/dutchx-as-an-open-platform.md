@@ -53,7 +53,7 @@ pair).
 It can be used in test nets like `rinkeby` or in `mainnet`.
 Learn more about the [CLI](./cli.html) page.
 * **Bots**: The bots are series of small applications that run in the background
-and have a scoped task to fulfil. They interact with the DutchX performing some
+and have a scoped task to fulfill. They interact with the DutchX performing some
 operations. For example the liquidity bots watch some markets and provide
 liquidity, ensuring that auctions run continuously and that prices don't drop below
 market price. Learn more about bots in the following guide.

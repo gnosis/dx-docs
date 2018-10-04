@@ -95,7 +95,7 @@ Once the `CLI` is ready, just execute the deposit operation, make sure:
 * You use the right **network** (`rinkeby` or `mainnet`)
 * You use the right **mnemonic** (the one that has the tokens you want
 to deposit into the DutchX)
-* **NOTE**: the `CLI` will automatically do a `approve` and a `deposit`. Aditionally,
+* **NOTE**: the `CLI` will automatically do a `approve` and a `deposit`. Additionally,
   in the case of `WETH`, it'll wrap `Ether` if you don't have enough balance.
 
 ```bash
@@ -115,7 +115,7 @@ Once you have all the information and you have deposited in the DutchX the fundi
 There are several ways to do this:
 * **Use the `add-token-pair` script**: This is the recommended one, since it
   also performs some validations and shows help messages.
-* **Use truffle consolle**: Since the
+* **Use truffle console**: Since the
   [DutchX Smart Contracts](https://github.com/gnosis/dx-contracts) is a truffle
   project, you can use the console to add the token pair or invoke any other
   logic of the contract.
@@ -153,9 +153,9 @@ npm run restore
 
 **3. Run it first in dry-run mode**:
 
-It'll check if everything is ok for adding the token pair, but it won't execute
+It'll check if everything is OK for adding the token pair, but it won't execute
 the transaction:
-  * Use the mnemnonic of the account that deposited the initial funding.
+  * Use the mnemonic of the account that deposited the initial funding.
   * Use the file you created in the previous step (i.e. `./ABC-WETH.js`)
   * Provide the name of the network in which you want to add the token pair: `mainnet` or `rinkeby`.
   * Don't forget the `--dry-run`
@@ -168,7 +168,7 @@ If everything went smoothly, you should now be able to execute it for real.
 Otherwise, the command will tell you what is the problem and what you need to
 do in order to solve it.
 
-**4. Run the script withouth the dry-run**:
+**4. Run the script without the dry-run**:
 ```bash
 MNEMONIC="your secret mnemonic ..." npm run -- add-token-pairs -f ./ABC-WETH.js --network mainnet
 ```
@@ -191,7 +191,7 @@ npm install
 **2. Enter into the truffle console**
 
 Make sure you:
-  * Use the mnemnonic of the account from which the initial funding was deposited.
+  * Use the mnemonic of the account from which the initial funding was deposited.
   * Provide the name of the network in which you want to add the token pair: `mainnet` or `rinkeby`.
 
 ```bash
@@ -235,7 +235,7 @@ dx.addTokenPair(
   //  https://www.coingecko.com/en/price_charts/raiden-network/eth
   //  1 ETH = 584 RDN
   584, // numerator
-  1    // denominaor
+  1    // denominator
 )
 ```
 
@@ -281,7 +281,7 @@ module.exports = function (deployer, network, accounts) {
           //  https://www.coingecko.com/en/price_charts/raiden-network/eth
           //  1 ETH = 584 RDN
           584, // numerator
-          1    // denominaor
+          1    // denominator
         )
       })
     DutchExchangeProxy

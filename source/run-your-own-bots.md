@@ -22,3 +22,4 @@ For more information, and details on an easy way on how to run them visit:
 You may be also interested in:
 * [DutchX as an open platform](./dutchx-as-an-open-platform.html)
 * [Add a token pair to DutchX](./add-token-pair.html)
+* [Add a price feed for your bots](./add-price-feed.html)

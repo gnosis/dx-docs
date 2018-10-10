@@ -48,12 +48,13 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    use-dutchx-as-an-oracle
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
+   Add a price feed for the bots <add-price-feed>
 
 .. toctree::
    :maxdepth: 2
    :caption: Community:
-   
-   hackathons 
+
+   hackathons
    community-resources
    integration-ideas
 

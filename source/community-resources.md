@@ -39,6 +39,8 @@ The DutchX is not just another trading platform, but an open trading protocol th
 
 -   [The Road towards a Fully Decentralized Exchange](https://blog.gnosis.pm/the-dutchx-smart-contracts-are-live-on-the-mainnet-af1446eef199)
 
+-   [The DutchX Pilot](https://blog.gnosis.pm/the-dutchx-pilot-d8f3e2007ae4)
+
 
 ##### Videos
 
@@ -58,10 +60,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 -   [Eazy Exchange](https://eazy.exchange/) - an interface built by [Midas](https://midas.social/), using the DutchX as the protocol (currently on Rinkeby)
 
 
--   [DutchX interface on Rinkeby](https://dutchx-rinkeby.d.exchange/)
-
-
--   Another interface on Mainnet - coming soon! 
+-   [slow.trade](https://slow.trade) - a graphical interface and trading platform that lets you seamlessly interact with the DutchX decentralised trading protocol.
 
 
 Add this cool logo to your site if you built on top of the DutchX:

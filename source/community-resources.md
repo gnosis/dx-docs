@@ -54,7 +54,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 -   [Christiane Ernst introduces the DutchX at EthCC Paris 2018](https://www.youtube.com/watch?v=7rJ8VwHEOSo)
 
 
-##### Projects using the DutchX
+##### Projects building on the DutchX
 
 
 -   [Eazy Exchange](https://eazy.exchange/) - an interface built by [Midas](https://midas.social/), using the DutchX as the protocol (currently on Rinkeby)

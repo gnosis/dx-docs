@@ -58,6 +58,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    hackathons
    community-resources
    integration-ideas
+   analytics
 
 .. toctree::
    :maxdepth: 2

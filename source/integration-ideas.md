@@ -28,8 +28,6 @@ Please note that some teams are already working on various ideas. We try to upda
 
 [Ideas for documentation](#ideas-for-documentation)
 
-## 
-
 ## More defined sample ideas
 
 ### Smart contracts
@@ -109,8 +107,6 @@ Please note that some teams are already working on various ideas. We try to upda
     - A token project might not want to do this. The bot (or alternatively together with a simple interface) would therefore receive the funding and ask for the price input (both needed to start the auction)
     - Added feature: Bot could take part on the buy side as well as this should really be ensured for triggering the auction. In that case, naturally, the bot would need the bidToken in funding as well.  
     - Added feature: the bot could take the price feed from another exchange rather than asking for it (if a price feed is available).
-
-## 
 
 ## Further ideas
 

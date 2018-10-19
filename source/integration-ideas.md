@@ -2,6 +2,8 @@
 
 Note: We are giving out bounties and ecosystem grants - if you find an idea particularly interesting and it is not part of one of our schemes - feel free to contact us and we can see if it fits our bounty schedule. More information on this will follow in due time.
 
+Please note that some teams are already working on various ideas. We try to update the section on [projects building on top of the DutchX](https://dutchx.readthedocs.io/en/latest/community-resources.html#projects-using-the-dutchx) for you.
+
 ### Table of contents
 
 [More defined sample ideas](#more-defined-sample-ideas)

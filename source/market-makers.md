@@ -14,7 +14,7 @@ You might also be interested in:
   * [DutchX as an open protocol](./dutchx-as-an-open-platform.html)
   * [Run your own bots](./run-your-own-bots.html)
 
-## Looking for Market Makers
+## Looking for Market Makers?
 
 In case you would like to have technical help in listing your token to the DutchX Protocol and run minimal liquidity bots, we have collected a handful of market makers that are able to facilitate this.
 We have been in touch with all of them, have explained the exact mechanism and are confident that they are technically able to interact with the DutchX protocol. We have no contractual relations and do not know what proposal they will make and which services they include. In no particular order, feel free to reach out to:

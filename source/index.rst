@@ -54,6 +54,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :maxdepth: 2
    :caption: Community:
 
+   dao-governance
    hackathons
    community-resources
    integration-ideas

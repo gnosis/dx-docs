@@ -2,6 +2,8 @@
 
 Note: We are giving out bounties and ecosystem grants - if you find an idea particularly interesting and it is not part of one of our schemes - feel free to contact us and we can see if it fits our bounty schedule. More information on this will follow in due time.
 
+Please note that some teams are already working on various ideas. We try to update the section on [projects building on top of the DutchX](https://dutchx.readthedocs.io/en/latest/community-resources.html#projects-using-the-dutchx) for you.
+
 ### Table of contents
 
 [More defined sample ideas](#more-defined-sample-ideas)
@@ -25,8 +27,6 @@ Note: We are giving out bounties and ecosystem grants - if you find an idea part
 [Ideas for larger projects](ideas-for-larger-projects)
 
 [Ideas for documentation](#ideas-for-documentation)
-
-## 
 
 ## More defined sample ideas
 
@@ -107,8 +107,6 @@ Note: We are giving out bounties and ecosystem grants - if you find an idea part
     - A token project might not want to do this. The bot (or alternatively together with a simple interface) would therefore receive the funding and ask for the price input (both needed to start the auction)
     - Added feature: Bot could take part on the buy side as well as this should really be ensured for triggering the auction. In that case, naturally, the bot would need the bidToken in funding as well.  
     - Added feature: the bot could take the price feed from another exchange rather than asking for it (if a price feed is available).
-
-## 
 
 ## Further ideas
 

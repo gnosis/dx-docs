@@ -244,8 +244,8 @@ To add the token pair using migrations, you should first be familiarized on
 how to build on top of the DutchX.
 
 Make sure you have completed these two guides:
-* [Build on top of the DutchX](./build-on-top-of-dutchx.html)
-* [Use DutchX as an Oracle](./use-dutchx-as-an-oracle.html)
+* [Build on top of the DutchX](./dev-truffle.html)
+* [Use DutchX as an Oracle](./dev-onchain-oracle.html)
 
 After those guides, you should be able to create a new migration like this one:
 

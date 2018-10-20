@@ -44,8 +44,9 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :maxdepth: 2
    :caption: Developer guides
 
-   build-on-top-of-dutchx
-   use-dutchx-as-an-oracle
+   Get started: Build on top of DutchX <dev-deposit>
+   Local development + truffle <dev-truffle>
+   Onchain integration <dev-onchain-oracle>
    Add a token pair <add-token-pair>
    Run your own bots <run-your-own-bots>
    Add a price feed for the bots <add-price-feed>

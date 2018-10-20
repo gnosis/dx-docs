@@ -18,4 +18,4 @@ for more information checkout [DutchX as an open platform](./dutchx-as-an-open-p
 
 Although the CLI is a very useful tool to do some basic interactions with the
 smart contracts, to build tools, bots, or services that interact with the
-DutchX, it's a better approach to [Build on top of the DutchX](./build-on-top-of-dutchx.html).
+DutchX, it's a better approach to [Build on top of the DutchX](./dev-truffle.html).

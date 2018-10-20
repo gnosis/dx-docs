@@ -116,7 +116,7 @@ Note: We are giving out bounties and ecosystem grants - if you find an idea part
 
 - Imitating limit order buy having a contract that is funded by the user and buys back at a certain price (floor)
 - Contract that takes out data information from the DutchX - more concrete and historic data.
-- Creating a price feed out of it to be used in another instance → build a bridge into another projects (sample project for this: [https://github.com/gnosis/dx-examples-dev/tree/master/02_use-dx-as-an-oracle](https://github.com/gnosis/dx-examples-dev/tree/master/02_use-dx-as-an-oracle))
+- Creating a price feed out of it to be used in another instance → build a bridge into another projects (sample project for this: [https://github.com/gnosis/dx-examples-dev/tree/master/03_onchain-usage-oracle](https://github.com/gnosis/dx-examples-dev/tree/master/03_onchain-usage-oracle))
 - Arbitrage strategies may differ:
     - Funds are needed to match the order first and buy back (or first on the DutchX)
     - The token swap is such that the order may be settled on behalf of the user (without needing to put up the funds)

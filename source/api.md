@@ -23,7 +23,7 @@ The API is Open Source, so anyone can run it in its own server.
 
 It provides read-only access. For any operation that needs to write in the
 blockchain, you'll need to execute it using your own node (or infura). Checkout
-how to do this by reading [Build on top of the Dutch Exchange](./build-on-top-of-dutchx.html)
+how to do this by reading [Build on top of the Dutch Exchange](./dev-truffle.html)
 
 The API logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
 for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)

@@ -14,7 +14,7 @@ of the deployed [**DutchExchangeProxy.sol**](https://github.com/gnosis/dx-contra
   * Please, read more about the Proxy Pattern for Smart Contracts in
   this <a href="https://blog.gnosis.pm/solidity-delegateproxy-contracts-e09957d0f201" target="_blank">Solidity DelegateProxy</a> post.
 
-Note: If you require help, check out this section on [market makers](https://dutchx.readthedocs.io/en/latest/market-makers.html#looking-for-market-makers).
+> Note: If you require help, check out this section on [market makers](./market-makers.html#looking-for-market-makers).
 
 ## 1. Get the information for adding a token pair
 Let's assume we want to add the `RDN-WETH` token pair.

@@ -12,12 +12,8 @@ If you are a market maker and would like to learn more about the unique DutchX m
 ## Next steps
 You might also be interested in:
   * [Add a token pair to DutchX](./add-token-pair.html)
-<<<<<<< HEAD
   * [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
   * [Bots: Market making](./bots-market-making.html)
-=======
-  * [DutchX as an open protocol](./dutchx-as-an-open-platform.html)
-  * [Run your own bots](./run-your-own-bots.html)
 
 ## Looking for Market Makers?
 
@@ -28,4 +24,3 @@ We have been in touch with all of them, have explained the exact mechanism and a
   * [Keyrock](https://www.prycto.com/): write an [email](info@keyrock.eu) with subject *Market Making for DutchX + [Your Name]*
   * [POINT95 Global Trading Limited](http://www.p95g.com/): write an [email](bd@p95g.com)
   * [Prycto](https://www.prycto.com/): write an [email](DutchX@prycto.com)
->>>>>>> master

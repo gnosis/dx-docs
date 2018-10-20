@@ -9,7 +9,8 @@ The DutchX has a number of inherent benefits for high volume traders. Check out 
 
 If you are a market maker and would like to learn more about the unique DutchX mechanism, get in touch with us! We are looking for competent market makers that might onboard token projects and assist them in their market making.
 
+## Next steps
 You might also be interested in:
   * [Add a token pair to DutchX](./add-token-pair.html)
-  * [DutchX as an open protocol](./dutchx-as-an-open-platform.html)
-  * [Run your own bots](./run-your-own-bots.html)
+  * [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
+  * [Bots: Market making](./bots-market-making.html)

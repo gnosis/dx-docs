@@ -16,7 +16,7 @@ price feeds (exchanges that report the current price):
 Every market can have it's own feed list, and can be configured to use them
 following a strategy. At least one price feed is necessary.
 
-# Price Feed
+## Price Feed
 There are many price feeds already implemented, for example:
 * **Binance**: https://www.binance.com
 * **Bitfinex**: https://www.bitfinex.com/
@@ -30,7 +30,7 @@ https://github.com/gnosis/dx-services/tree/master/src/repositories/PriceRepo/fee
 
 The next section will show you how to add a new price feed.
 
-# Add your own Price Feed
+## Add your own Price Feed
 You can use any price feed available here:
 https://github.com/gnosis/dx-services/tree/master/src/repositories/PriceRepo/feeds
 

@@ -33,7 +33,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    Introduction <self>
    smart-contract-documentation
-   dutchx-as-an-open-platform
+   dutchx-as-an-open-protocol
    market-makers
    api
    cli
@@ -41,15 +41,15 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    contribute
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 0
    :caption: Developer guides
 
-   Get started: Build on top of DutchX <dev-deposit>
+   Get started: Build on top of DutchX <dev-get-started>
    Local development + truffle <dev-truffle>
    Onchain integration <dev-onchain-oracle>
    Add a token pair <add-token-pair>
-   Run your own bots <run-your-own-bots>
-   Add a price feed for the bots <add-price-feed>
+   Bots: Automatic market making <bots-market-making>
+   Bots: Add a price feed for the bots <bots-price-feed>
 
 .. toctree::
    :maxdepth: 2

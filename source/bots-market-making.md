@@ -16,10 +16,14 @@ Bots are implemented in the
 [DutchX Services](https://github.com/gnosis/dx-services) project and are Open
 Source for anyone to use, modify, or improve.
 
-For more information, and details on an easy way on how to run them visit:
+## Run your own bots
+To run your own bots, follow the steps in the guide:
 * [https://github.com/gnosis/dx-examples-liquidity-bots](https://github.com/gnosis/dx-examples-liquidity-bots)
 
+## Next steps
 You may be also interested in:
-* [DutchX as an open platform](./dutchx-as-an-open-platform.html)
-* [Add a token pair to DutchX](./add-token-pair.html)
-* [Add a price feed for your bots](./add-price-feed.html)
+* [Add a price feed for your bots](./bots-price-feed.html)
+* [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
+* [Add a token pair](./add-token-pair.html)
+* [API](./api.html)
+* [CLI](./cli.html)

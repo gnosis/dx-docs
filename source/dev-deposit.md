@@ -42,7 +42,7 @@ this example:
 3. **Deposit 0.1 ETH in DutchX proxy**: If we did the two prior steps, the user
   will have 0.1 WETH more in it's balance.
 
-![Sequence for deposit](./docs/sequence-deposit.png "Sequence for deposit")
+![Sequence for deposit](./_static/sequence-deposit.png "Sequence for deposit")
 
 ## How to do it?
 In [this guided example](https://github.com/gnosis/dx-examples-dev/tree/master/01_basic-web-deposit) you 

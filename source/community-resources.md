@@ -31,7 +31,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 -   [Gnosis DutchX and Initial OWL Generation Bug Bounty](https://blog.gnosis.pm/gnosis-dutchx-and-initial-owl-generation-bug-bounty-71ba53dfd2db)
 
 
--   [The DutchX as an Open Protocol](https://blog.gnosis.pm/the-dutchx-as-an-open-platform-24a65c1ae94c)
+-   [The DutchX as an Open Protocol](https://blog.gnosis.pm/the-dutchx-as-an-open-protocol-24a65c1ae94c)
 
 
 -   [The DutchX Smart Contracts are Live on Mainnet](https://blog.gnosis.pm/the-dutchx-smart-contracts-are-live-on-the-mainnet-af1446eef199)

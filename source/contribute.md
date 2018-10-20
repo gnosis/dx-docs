@@ -10,4 +10,4 @@ and spread the word.
 Meet the community on Github and the [Gitter channel](https://gitter.im/gnosis/DutchX).
 
 Checkout the **Developer Guides** and documents
-[DutchX as an open protocol](dutchx-as-an-open-platform.html).
+[DutchX as an open protocol](dutchx-as-an-open-protocol.html).

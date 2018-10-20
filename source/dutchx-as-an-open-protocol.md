@@ -5,7 +5,7 @@ the problems that current centralized and decentralized platforms face.
 The DutchX is an ecosystem of interfaces, on chain apps, and smart contracts that
 create a common liquidity pool that all users can benefit from.
 
-![Open Protocol](./_static/open-platform.png)
+![Open Protocol](./_static/open-protocol.png)
 
 ## Smart contracts
 The core of the project is the Smart Contracts, that hold the logic described in
@@ -57,7 +57,7 @@ and have a scoped task to fulfill. They interact with the DutchX performing some
 operations. For example the liquidity bots watch some markets and provide
 liquidity, ensuring that auctions run continuously and that prices don't drop below
 market price. Learn more about bots in the following guide.
-[Run your own bots](./run-your-own-bots.html)
+[Run your own bots](./bots-market-making.html)
 
 ## Seller interface
 The seller interface allows users to participate in the

@@ -10,12 +10,17 @@ start time, estimated closing time, etc.
 
 It can be used both, in test-nets like `rinkeby`, or in `mainnet`.
 
-The easiest way to use the CLI is to follow the steps described in
-[DutchX: CLI scripts and usage](https://github.com/gnosis/dx-cli).
+## Run The CLI
+The easiest way to use the CLI is to follow the steps described in:
+* [DutchX: CLI scripts and usage](https://github.com/gnosis/dx-cli).
 
+## Implementation of the CLI
 The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
-for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)
+for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
 
+## Next steps
 Although the CLI is a very useful tool to do some basic interactions with the
 smart contracts, to build tools, bots, or services that interact with the
-DutchX, it's a better approach to [Build on top of the DutchX](./dev-truffle.html).
+DutchX, it's a better approach to follow these guides:
+* [Get started: Build on top of the DutchX](./dev-get-started.html).
+* [Local development + truffle](./dev-truffle.html).

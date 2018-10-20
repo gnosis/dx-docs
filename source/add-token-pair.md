@@ -1,5 +1,5 @@
 # Add a token pair
-The DutchX is an open platform, and as such, anybody can add a token pair to trade.
+The DutchX is an open protocol, and as such, anybody can add a token pair to trade.
 
 Check out these slides to find out more
 about <a href="_static/docs/DutchX_Handbook_New_Tokens.pdf" download>**listing a token on the DutchX**</a>.
@@ -244,8 +244,8 @@ To add the token pair using migrations, you should first be familiarized on
 how to build on top of the DutchX.
 
 Make sure you have completed these two guides:
-* [Build on top of the DutchX](./dev-truffle.html)
-* [Use DutchX as an Oracle](./dev-onchain-oracle.html)
+* [Local Development + Truffle](./dev-truffle.html)
+* [Onchain integration: Oracle](./dev-onchain-oracle.html)
 
 After those guides, you should be able to create a new migration like this one:
 

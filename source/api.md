@@ -21,14 +21,26 @@ You can also use the **TRY** button to test the endpoint:
 
 The API is Open Source, so anyone can run it in its own server.
 
-It provides read-only access. For any operation that needs to write in the
-blockchain, you'll need to execute it using your own node (or infura). Checkout
-how to do this by reading [Build on top of the Dutch Exchange](./dev-truffle.html)
+## Read only API
+The API provides read-only access, because it's not configured with private keys
+and is not involved in any transaction signing. 
 
+It just gets the information from the smart contracts.
+
+## Write operations
+The API don't allow any write operation.
+
+For any operation that needs to write in the blockchain, you'll need to:
+* Interact directly with the contracts: [Build on top of the DutchX](./dev-get-started.html)
+* Run the bots: [Bots: Automatic market making](./bots-market-making.html)
+* Use the CLI: [CLI](./cli.md)
+
+## Implementation of the API
 The API logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
-for more information checkout [DutchX as an open platform](./dutchx-as-an-open-platform.html)
+for more information checkout:
+* [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
 
+## Integration with the API
 For developers, it should be very easy to get information form the API, check
-out these examples
-[DutchX Example: How to use the API](https://github.com/gnosis/dx-examples-api)
-project.
+out these examples:
+* [DutchX Example: How to use the API](https://github.com/gnosis/dx-examples-api)   

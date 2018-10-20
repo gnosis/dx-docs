@@ -1,19 +1,19 @@
 # Deposit tokens
-The DutchX allows to echange ERC20 compatible tokens.
+The DutchX allows to exhange any ERC20 compatible tokens.
 
 In order to post sell orders, buy orders or add token pairs, you first need to 
 deposit the tokens in the DutchX, so it's important you understand how to:
-* Wrap ether
-* Set an allowance for the DutchX
+* Wrap ether (into WETH - Wrapped Ether)
+* Set an allowance of any token for the DutchX
 * Deposit in the DutchX
 
-## WETH
+## WETH (Wrapped Ether)
 Ether is not an ERC20 token, this is why we need to wrap it first.
 
-Technically, this means that we need to **send some ether to the `deposit` function in a token contract called WETH (Wrapped Ether))**:
-* WETH contract: https://rinkeby.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab#code
-* Info about WETH: https://weth.io
-* More info about WETH: https://blog.0xproject.com/canonical-weth-a9aa7d0279dd
+Technically, this means that we need to **send some ether to the `deposit` function in a token contract called WETH (Wrapped Ether)**:
+* WETH contract: [https://rinkeby.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab#code](https://rinkeby.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab#code)
+* Info about WETH: [https://weth.io](https://weth.io)
+* More info about WETH: [https://blog.0xproject.com/canonical-weth-a9aa7d0279dd](https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)
 
 ## Allowance (any ERC20 token)
 Other important thing we should know, is that the `deposit` function in DutchX, 
@@ -33,8 +33,8 @@ When you have balance in the DutchX you'll be able to:
 * Add token pairs
 
 ## Sequence diagram
-This sequence diagram will show you the 3 important operations we will do in 
-this example:
+This sequence diagram will shows how the different contracts and the user 
+interact in order to do a deposit:
 1. **Wrap 0.1 WETH**: Remember Ether is not ERC20 compatible, so we need to do this 
   step (`deposit` function on WETH contract).
 2. **Set allowance, so DutchX proxy can transfer 0.1 WETH**: Otherwise the

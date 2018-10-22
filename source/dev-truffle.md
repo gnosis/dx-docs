@@ -14,4 +14,4 @@ Follow the steps in the guide:
 
 ## Next steps
 Once you have the guide completed, a good idea is continuing with this guide
-[Example 03: Onchain integration - Oracle](./dev-onchain-oracle.html).
+[Example 03: Onchain integration - Use it as an oracle](./dev-onchain-oracle.html).

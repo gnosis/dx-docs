@@ -4,7 +4,13 @@
 The DutchX is not just another trading platform, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
 
-##### Blog Posts
+#### Developer Incentivisation
+
+The DutchX protocol provides a lot of cool features and intrinsic motivation for traders, devs and projects to be integrating. However, to kick-start, we are not only taking part in [hackathons](https://dutchx.readthedocs.io/en/latest/hackathons.html), we have also developed a few incentive programs. Check out:
+- Bounties on Gitcoin (link to follow shortly) 
+- [The Gnosis Ecosystem Fund](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
+
+#### Blog Posts
 
 
 [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx):
@@ -42,7 +48,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 -   [The DutchX Pilot](https://blog.gnosis.pm/the-dutchx-pilot-d8f3e2007ae4)
 
 
-##### Videos
+#### Videos
 
 
 -   [Christiane Ernst, product manager of the DutchX, speaks at DappCon 2018](https://www.youtube.com/watch?v=HrFbN3shoz0&list=PLgPxQehVVkoS6cjI6MU5mmzG82CuiDIQC)
@@ -54,7 +60,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 -   [Christiane Ernst introduces the DutchX at EthCC Paris 2018](https://www.youtube.com/watch?v=7rJ8VwHEOSo)
 
 
-##### Projects building on the DutchX
+#### Projects building on the DutchX
 
 
 -   [Eazy Exchange](https://eazy.exchange/) - an interface built by [Midas](https://midas.social/), using the DutchX as the protocol (currently on Rinkeby)
@@ -71,7 +77,7 @@ Add this cool logo to your site if you built on top of the DutchX:
   </p>
 
 
-##### Communication Channels
+#### Communication Channels
 
 
 -   [Gnosis Twitter](https://twitter.com/gnosisPM)
@@ -84,9 +90,3 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 
 -   Our official chat channel is being built. For developer questions, check out our [Gitter](https://gitter.im/gnosis/DutchX)
-
-
-##### Bounties
-
-
--   Currently defining bounty programs.

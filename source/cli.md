@@ -28,23 +28,22 @@ DutchX, it's a better approach to follow these guides:
 * For other platforms or more details: https://docs.docker.com/install/
 
 **2. Clone the CLI scripts**
-> Alternatively, you can download the
-> [ZIP file](https://github.com/gnosis/dx-cli/archive/master.zip) instead of
-> cloning the git repository.
-
 ```bash
 # Clone repo
 git clone https://github.com/gnosis/dx-cli.git
 cd dx-cli
 ```
+> Alternatively, you can download the
+> [ZIP file](https://github.com/gnosis/dx-cli/archive/master.zip) instead of
+> cloning the git repository.
 
-**3. Create `local.conf` using [local.conf.example](./conf/local.conf.example)**
+**3. Create `local.conf` using [local.conf.example](https://github.com/gnosis/dx-cli/blob/master/conf/local.conf.example)**
 > This step can be omitted if you plan to use the CLI for read-only operations.
 
  **IMPORTANT**: Your mnemonic phrase will be required in order to link your wallet to the DutchX. Make sure you don't share
  this information and that you keep the `local.conf` file that you will create offline. If you don't do this, you risk losing your funds! Never commit this to Github. If you don't know how to get your mnemonic phrase, you probably should not continue.
 
-Go to the folder where you downloaded the repository, create a copy of the [local.conf.example](https://github.com/gnosis/dx-cli/conf/local.conf.example) file
+Go to the folder where you downloaded the repository, create a copy of the [local.conf.example](https://github.com/gnosis/dx-cli/blob/master/conf/local.conf.example) file
  and call the new
 file `local.conf`.
 
@@ -72,9 +71,9 @@ chmod +x dutchx*
 This step is relevant because the DutchX is an open protocol where anyone can list new tokens to trade.
 
 Each network has the following configuration:
-* [network-rinkeby.conf](https://github.com/gnosis/dx-cli/conf/network-rinkeby.conf)
-* [network-kovan.conf](https://github.com/gnosis/dx-cli/conf/network-kovan.conf)
-* [network-mainnet.conf](https://github.com/gnosis/dx-cli/conf/network-mainnet.conf)
+* [network-rinkeby.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-rinkeby.conf)
+* [network-kovan.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-kovan.conf)
+* [network-mainnet.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-mainnet.conf)
 
 Check out the complete list of tokens listed on the `DutchX` here:
 * **Rinkeby**:
@@ -98,16 +97,18 @@ Run the `help` command to get a list of all available commands:
 ./dutchx-mainnet -h
 ```
 
-## Start Trading
+## Start trading
+#### Disclaimer
 Reliance on the CLI is at your own risk and your full responsibility. We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise. We will not be liable for loss of profits, sales, business, or revenue, business interruption, anticipated savings, business opportunity, goodwill or reputation or any indirect or consequential loss or damage.
+
 ### DutchX trading process
 To be able to trade, you have to provide your own `mnemonic`. Please,
-**[Step 3 in the Configure the CLI]**(https://github.com/gnosis/dx-cli#get-started-with-the-cli).
+[Step 3 in the How to run the CLI](https://dutchx.readthedocs.io/en/latest/cli.html#how-to-run-the-cli).
 
 Trading on the DutchX requires you to send your tokens to a smart contract, where the trading occurs.
 The whole trading process looks as the following image:
 
-<img src="./docs/images/cli-trading-process.png" width="600" height="400">
+<img src="http://dutchx.readthedocs.io/en/latest/_static/cli-trading-process.png" width="600" height="400">
 
 
 
@@ -139,7 +140,7 @@ As you can see, there are two types of balance for every listed token:
 * `Balance in DX` indicates the balance that has been deposited in the DutchX smart contract and is ready to trade. Lets now
 go through the steps in the image one-by-one.
 
-##### Send tokens
+#### Send tokens
 This method is not part of the DX, but it's handy for testing.
 
 It will send tokens ERC20 from one account to another.
@@ -149,7 +150,7 @@ It will send tokens ERC20 from one account to another.
 ./dutchx-rinkeby send 0.8 RDN 0x627306090abab3a6e1400e9345bc60c78a8bef57
 ```
 
-##### 1. Deposit tokens
+#### 1. Deposit tokens
  Use the following command to deposit tokens you want to trade:
 
 ```bash
@@ -158,7 +159,7 @@ It will send tokens ERC20 from one account to another.
 
 > **NOTE**: Since ETH is not an ERC-20, the DutchX will automatically call the wrapped Ether smart contract and wrap your Ether.
 
-##### 2. Trade on the DutchX
+#### 2. Trade on the DutchX
 
 You can now take part in the running auction as a bidder in the current auction, or post a sell order for the coming one.
 
@@ -187,7 +188,7 @@ After picking the pair you want to trade and checking the state of a given aucti
 
 > **NOTE**: For the sell command, you currently need to specify the index of the upcoming auction in which you want to sell your tokens. To ensure that it is the next auction which start, check the state again, see which one is running and add 1 to the auction index. The 361 noted in the command above is an example only.
 
-##### 3. Claim the tokens from the auction you took part in
+#### 3. Claim the tokens from the auction you took part in
 
 In order to see the resulting balance after trading in `Balance in DX`, you must execute the following commands:
 
@@ -207,7 +208,7 @@ their receiving tokens (once they bid) anytime during the auction and can claim 
 
 We recommend bidders to claim tokens once the auction has ended in order to avoid unnecessary gas costs.
 
-##### 4. Withrdaw tokens from the DutchX smart contract
+#### 4. Withrdaw tokens from the DutchX smart contract
 
 This is the final step if you would like to have your tokens back in your wallet. It simply sends tokens from your `Balance in DX` to your `Balance of user`
 
@@ -217,7 +218,7 @@ This is the final step if you would like to have your tokens back in your wallet
 
 We recommend users that plan on trading often in the DutchX to leave their tokens in the smart contract in order to avoid unnecessary gas costs.
 
-## Useful commands
+### Useful commands
 
 We have so far covered the process of executing trades on the DutchX, but there are several additional commands that will give important information and facilitate the process.
 

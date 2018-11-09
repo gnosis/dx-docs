@@ -10,7 +10,8 @@ start time, estimated closing time, etc.
 
 It can be used both, in test-nets like `rinkeby`, or in `mainnet`.
 
-## Implementation of the CLI
+**Implementation of the CLI**
+
 The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
 for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
 
@@ -92,9 +93,11 @@ Run the `help` command to get a list of all available commands:
 
 ## Start trading
 **Disclaimer**
+
 Reliance on the CLI is at your own risk and your full responsibility. We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise. We will not be liable for loss of profits, sales, business, or revenue, business interruption, anticipated savings, business opportunity, goodwill or reputation or any indirect or consequential loss or damage.
 
 **DutchX trading process**
+
 To be able to trade, you have to provide your own `mnemonic`. Please,
 [Step 3 in the How to run the CLI](https://dutchx.readthedocs.io/en/latest/cli.html#how-to-run-the-cli).
 
@@ -201,7 +204,7 @@ This is the final step if you would like to have your tokens back in your wallet
 
 We recommend users that plan on trading often in the DutchX to leave their tokens in the smart contract in order to avoid unnecessary gas costs.
 
-### Useful commands
+## Useful commands
 
 We have so far covered the process of executing trades on the DutchX, but there are several additional commands that will give important information and facilitate the process.
 

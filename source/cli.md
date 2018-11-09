@@ -14,13 +14,6 @@ It can be used both, in test-nets like `rinkeby`, or in `mainnet`.
 The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
 for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
 
-## Next steps
-Although the CLI is a very useful tool to do some basic interactions with the
-smart contracts, to build tools, bots, or services that interact with the
-DutchX, it's a better approach to follow these guides:
-* [Get started: Build on top of the DutchX](./dev-get-started.html).
-* [Local development + truffle](./dev-truffle.html).
-
 ## How to run the CLI
 **1. Install docker**
 * Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
@@ -98,10 +91,10 @@ Run the `help` command to get a list of all available commands:
 ```
 
 ## Start trading
-#### Disclaimer
+**Disclaimer**
 Reliance on the CLI is at your own risk and your full responsibility. We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise. We will not be liable for loss of profits, sales, business, or revenue, business interruption, anticipated savings, business opportunity, goodwill or reputation or any indirect or consequential loss or damage.
 
-### DutchX trading process
+**DutchX trading process**
 To be able to trade, you have to provide your own `mnemonic`. Please,
 [Step 3 in the How to run the CLI](https://dutchx.readthedocs.io/en/latest/cli.html#how-to-run-the-cli).
 
@@ -139,16 +132,6 @@ As you can see, there are two types of balance for every listed token:
 
 * `Balance in DX` indicates the balance that has been deposited in the DutchX smart contract and is ready to trade. Lets now
 go through the steps in the image one-by-one.
-
-#### Send tokens
-This method is not part of the DX, but it's handy for testing.
-
-It will send tokens ERC20 from one account to another.
-
-```bash
-# Send 0.8 RDN to a given account
-./dutchx-rinkeby send 0.8 RDN 0x627306090abab3a6e1400e9345bc60c78a8bef57
-```
 
 #### 1. Deposit tokens
  Use the following command to deposit tokens you want to trade:

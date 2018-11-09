@@ -7,7 +7,7 @@ The DutchX is not just another trading platform, but an open trading protocol th
 #### Developer Incentivisation
 
 The DutchX protocol provides a lot of cool features and intrinsic motivation for traders, devs and projects to be integrating. However, to kick-start, we are not only taking part in [hackathons](https://dutchx.readthedocs.io/en/latest/hackathons.html), we have also developed a few incentive programs. Check out:
-- Bounties on Gitcoin (link to follow shortly) 
+- [Bounties on Gitcoin](https://gitcoin.co/profile/GnosisEcosystemFund) - note that only some are DutchX related.
 - [The Gnosis Ecosystem Fund](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
 
 #### Blog Posts

@@ -50,6 +50,7 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 
 #### Videos
 
+-   [Christiane Ernst, DutchX PM, and Angel Rodriguez, DutchX tech lead, present the DutchX at Web3.0](https://www.youtube.com/watch?v=tnERUmnyNzk)
 
 -   [Christiane Ernst, product manager of the DutchX, speaks at DappCon 2018](https://www.youtube.com/watch?v=HrFbN3shoz0&list=PLgPxQehVVkoS6cjI6MU5mmzG82CuiDIQC)
 

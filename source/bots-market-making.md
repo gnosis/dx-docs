@@ -21,7 +21,7 @@ In this guide we will show how to run the DutchX bots to ensure liquidity for an
 ERC20 token pair list.
 
 To make it easier, we provide a `Docker` image with all the **bots** and the
-[**CLI**](https://dutchx.readthedocs.io/en/latest/cli.html).
+[**CLI**](./cli.html).
 
 Follow through this document to run your own bots and learn how to operate on
 the DutchX.
@@ -34,11 +34,11 @@ If you follow through, you'll get:
     * To check the state of the auctions
     * To interact with the DX: Claim, buy, sell, etc.
 
-An easy way to run the bots is to use [dx-cli](https://github.com/gnosis/dx-cli)
+An easy way to run the bots is to use [dx-tools](https://github.com/gnosis/dx-tools)
 
 ### 1. Create the config file for the bots
 Create a config file for the bots, like the one in
-[conf/bots-conf.js](https://github.com/gnosis/dx-cli/blob/master/conf/bots-conf.js), where:
+[conf/bots-conf.js](https://github.com/gnosis/dx-tools/blob/master/conf/bots-conf.js), where:
 
 * `MARKETS`: List of the ERC20 token pairs you want the bots to watch.
   * Format: `<token1>-<token2>[,<tokenN>-<tokenM>]*`
@@ -59,7 +59,9 @@ Create a config file for the bots, like the one in
   * **notifications**: The notification system to be used by the bot. For now only `slack` is available
 * `SELL_LIQUIDITY_BOTS`: Same parameters as `BUY_LIQUIDITY_BOTS` except the don't need **rules**
 
-WARNING: If you create a new file for your configuration make sure you update [base-command](./base-command#L24) in order to use your own configuration.
+WARNING: If you create a new file for your configuration make sure you update
+[base-bots.sh](https://github.com/gnosis/dx-tools/blob/master/util/base-bots.sh#L13)
+in order to use your own configuration.
 
 
 ### 2. Create the run script
@@ -130,7 +132,7 @@ Once you have the **bot account**, your **secret mnemonic** and the
 
 > The easiest way is to use the **DutchX CLI**.
 >
-> Check out the **Deposit** section in [https://github.com/gnosis/dx-cli](https://github.com/gnosis/dx-cli)
+> Check out the **Deposit** section in [this guide](./cli.html#deposit-tokens)
 
 # DutchX CLI (Command Line Interface)
 In the docker image, it's also available a CLI, with some basic operations for
@@ -140,7 +142,7 @@ You can use it for getting the state of a token pair, or to trade in an auction
 among other things.
 
 > Checkout the CLI documentation to learn how to use it.
-> * [https://github.com/gnosis/dx-cli](https://github.com/gnosis/dx-cli)
+> * [Trading commands for the CLI](./cli.html#start-trading)
 
 This sample project also provides a simple [CLI script](./cli) you can use.
 
@@ -155,11 +157,11 @@ auctions.
 
 We would get something similar to:
 
-![alt text](./docs/img/state-of-auction.png "State of an auction")
+![alt text](./_static/state-of-auction.png "State of an auction")
 
 
 > For other methods, or to learn how to use the CLI go to:
-> * [DutchX Cli page](./docs/cli.md)
+> * [DutchX Cli page](./cli.html)
 
 ## DutchX Bots
 There are 3 bots:
@@ -169,18 +171,13 @@ There are 3 bots:
 * `CheckBakanceBot`
 
 Find out more about them in:
-* [DutchX Bots page](./docs/bots.md)
+* [DutchX Bots page](./bots-types.html)
 
 ## Debug
 To increase the debug level, you can change the bot script to run with
 `run bots-dev` instead of `run bots`.
 
 > Don't forget to change it back for the production script.
-
-
-
-
-
 
 
 ## Next steps

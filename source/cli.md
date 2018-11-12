@@ -24,20 +24,20 @@ for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-p
 **2. Clone the CLI scripts**
 ```bash
 # Clone repo
-git clone https://github.com/gnosis/dx-cli.git
-cd dx-cli
+git clone https://github.com/gnosis/dx-tools.git
+cd dx-tools
 ```
 > Alternatively, you can download the
-> [ZIP file](https://github.com/gnosis/dx-cli/archive/master.zip) instead of
+> [ZIP file](https://github.com/gnosis/dx-tools/archive/master.zip) instead of
 > cloning the git repository.
 
-**3. Create `local.conf` using [local.conf.example](https://github.com/gnosis/dx-cli/blob/master/conf/local.conf.example)**
+**3. Create `local.conf` using [local.conf.example](https://github.com/gnosis/dx-tools/blob/master/conf/local.conf.example)**
 > This step can be omitted if you plan to use the CLI for read-only operations.
 
  **IMPORTANT**: Your mnemonic phrase will be required in order to link your wallet to the DutchX. Make sure you don't share
  this information and that you keep the `local.conf` file that you will create offline. If you don't do this, you risk losing your funds! Never commit this to Github. If you don't know how to get your mnemonic phrase, you probably should not continue.
 
-Go to the folder where you downloaded the repository, create a copy of the [local.conf.example](https://github.com/gnosis/dx-cli/blob/master/conf/local.conf.example) file
+Go to the folder where you downloaded the repository, create a copy of the [local.conf.example](https://github.com/gnosis/dx-tools/blob/master/conf/local.conf.example) file
  and call the new
 file `local.conf`.
 
@@ -65,9 +65,9 @@ chmod +x dutchx*
 This step is relevant because the DutchX is an open protocol where anyone can list new tokens to trade.
 
 Each network has the following configuration:
-* [network-rinkeby.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-rinkeby.conf)
-* [network-kovan.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-kovan.conf)
-* [network-mainnet.conf](https://github.com/gnosis/dx-cli/blob/master/conf/network-mainnet.conf)
+* [network-rinkeby.conf](https://github.com/gnosis/dx-tools/blob/master/conf/network-rinkeby.conf)
+* [network-kovan.conf](https://github.com/gnosis/dx-tools/blob/master/conf/network-kovan.conf)
+* [network-mainnet.conf](https://github.com/gnosis/dx-tools/blob/master/conf/network-mainnet.conf)
 
 Check out the complete list of tokens listed on the `DutchX` here:
 * **Rinkeby**:

@@ -82,6 +82,7 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 -   [DutchX Telegram Group](https://t.me/joinchat/B7O4-FR2OPPYQvl6RvjkwQ)
 
+
 -   [Gnosis Twitter](https://twitter.com/gnosisPM)
 
 

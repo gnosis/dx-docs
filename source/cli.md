@@ -1,5 +1,5 @@
 # CLI
-The Command Line Interface is a very useful tool to trigger smart contract operations such as:
+The Command Line Interface is a very useful tool to trigger smart contract operations such as the following:
 * Get the DutchX account **balance** for any account.
 * **Deposit** or **withdraw** funds into/from your DutchX account balance.
 * Check the **state** of a given token pair: Auction index, sell/buy volume,
@@ -8,7 +8,7 @@ start time, estimated closing time, etc.
 * Claim back your tokens once the auction has cleared.
 * ..and many other useful operations.
 
-It can be used both, in test-nets like `rinkeby`, or in `mainnet`.
+It can be used both on testnets like `rinkeby`, or on `mainnet`.
 
 **Implementation of the CLI**
 
@@ -44,7 +44,7 @@ Go to the folder where you downloaded the repository, create a copy of the [loca
  and call the new
 file `local.conf`.
 
-Edit the `DEFAULT_MNEMONIC` and add your own secret mnemonic that will be used to sign
+Edit the `DEFAULT_MNEMONIC` and add your own secret mnemonic, which is the one from the account that will be used to sign
 the transactions.
 
 Additionally, in this file you can add any custom configuration. Note that by
@@ -101,8 +101,7 @@ Reliance on the CLI is at your own risk and your full responsibility. We will no
 
 **DutchX trading process**
 
-To be able to trade, you have to provide your own `mnemonic`. Please,
-[Step 3 in the How to run the CLI](https://dutchx.readthedocs.io/en/latest/cli.html#how-to-run-the-cli).
+To be able to trade, you have to add your own `mnemonic` phrase to the `config.file`, as stated on step 3 above.
 
 Trading on the DutchX requires you to send your tokens to a smart contract, where the trading occurs.
 The whole trading process looks as the following image:
@@ -193,7 +192,7 @@ In order to see the resulting balance after trading in `Balance in DX`, you must
 ```
 
 It is important to remember that sellers can only claim their receiving tokens once the auction has finished. Bidders can claim
-their receiving tokens (once they bid) anytime during the auction and can claim any additional increments in the future.
+the sell tokens they aqcuire (once they bid) anytime during the auction and can claim any additional increments in the future.
 
 We recommend bidders to claim tokens once the auction has ended in order to avoid unnecessary gas costs.
 

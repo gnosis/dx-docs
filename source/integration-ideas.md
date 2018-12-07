@@ -56,6 +56,8 @@ Please note that some teams are already working on various ideas. We try to upda
 
 ##### 3. Pooling contract to have USD 10’000 starting the auction
 
+Note: This idea has been picked and is actively pursued.
+
 - The rules in the smart contract is such that a listing token pair is done by  
     - i) specifying the NewToken
     - ii) Funding the auction with the equivalent of 10kUSD in ETH
@@ -67,6 +69,8 @@ Please note that some teams are already working on various ideas. We try to upda
 - Optional but highly recommended: also collecting funds for the bid side and taking part at a prior specified price.
 
 ##### 4. Token BuyBacks (and burn?):  
+
+Note: Check first what has been done as part of this [bounty](https://github.com/GnosisEcosystemFund/Gnosis-Bounties-/pull/4) before you proceed with a similar idea.
 
 - A token project might have the need to buy back tokens
 - The difficulties thereby could be:
@@ -121,6 +125,8 @@ Please note that some teams are already working on various ideas. We try to upda
         - User needs to set allowance with other exchange and DutchX. Ideally contract would also then cancel the other order on the other exchange.
 
     - Might be an integration into e.g. 0x.
+- OTC trades are usually not done over an exchange, which is the whole point of it. However, these deals are typically for low-liquidity tokens, which is ideal for a DutchX application. Would be cool to see a smart contract pre-commitment for OTC deals.
+- Smart contract that allows tokens to be traded which are not available as a pair on the DutchX (e.g. via WETH as all listed tokens have to be available with ETH). E.g. user would like to trade A vs. B but only A-WETH and B-WETH is available. Smart contract can be designed to automate A for WETH and then WETH for B. 
 
 ### Front-ends
 
@@ -145,6 +151,7 @@ Please note that some teams are already working on various ideas. We try to upda
 
 - Decentralized token lending protocol (uses price feed of DutchX and liquidates using the DutchX if collateral falls below a certain amount (proposals have already been handed in)
 - A “top 10”-token Fund on the DutchX. Always invests 10% into each of the 10 highest priced tokens. Those token fund tokens can be purchase via the DutchX also
+
 
 ### Ideas for larger projects
 

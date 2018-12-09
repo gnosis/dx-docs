@@ -16,6 +16,8 @@ of the deployed [**DutchExchangeProxy.sol**](https://github.com/gnosis/dx-contra
 
 > Note: If you require help, check out this section on [market makers](./market-makers.html#looking-for-market-makers).
 
+**Note:** if you would like to have a token listed on a graphical user interface *on Rinkeby only*, please check [this information](https://github.com/gnosis/dx-react/blob/master/ADD_TOKEN_REQUEST_TEMPLATE.md).
+
 ## 1. Get the information for adding a token pair
 Let's assume we want to add the `RDN-WETH` token pair.
 

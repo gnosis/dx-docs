@@ -44,7 +44,7 @@ Please note that some teams are already working on various ideas. We try to upda
 - It would make sense to have a contract where the user can send ETH (specifically for an auction pair) and the contract does everything automatically and even sends back the exchanged funds to the user’s address
 - Smart contract must know how much comes from which address and allocate the exchanged token to this one.  
 - Must overcome problem that the DutchX contract needs to be requested to do claim and withdraw
-- Must overcome gas problem (take fee from user)?
+- Must overcome gas problem (take liquidity contribution from user)?
 - Must overcome problem that the pre-set gas limit in most applications might be too low to do one transaction up to confirmation of order.
 
 ##### 2. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
@@ -95,7 +95,7 @@ Note: Check first what has been done as part of this [bounty](https://github.com
     - Data analytics may include but are not limited to:
         - ETH to EUR/USD price feed  
         - Highest volume auctions
-        - Fees part of the sellVolume
+        - Liquidity contributions as part of the sellVolume
         - Last available price overview
         - Countdown for next auction to start (approximation only)
 

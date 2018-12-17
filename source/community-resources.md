@@ -25,7 +25,7 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 -   [On all things Tokens](https://blog.gnosis.pm/on-all-things-tokens-1fd977184649)
 
 
--   [The Fee Model](https://blog.gnosis.pm/the-fee-model-7419285bf03f)
+-   [The Liquidity Contributions Model](https://blog.gnosis.pm/the-fee-model-7419285bf03f)
 
 
 -   [The Main Benefits of the DutchX Mechanism](https://blog.gnosis.pm/the-main-benefits-of-the-dutchx-mechanism-6fc2ef6ee8b4)

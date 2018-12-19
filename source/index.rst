@@ -49,7 +49,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Onchain integration <dev-onchain-oracle>
    Deposit tokens <dev-deposit>
    Add a token pair <add-token-pair>
-   Bots: Automatic market making <bots-market-making>
+   Bots: Automated minimal liquidity <bots-market-making>
    Bots: Types <bots-types>
    Bots: Add a price feed for the bots <bots-price-feed>
 

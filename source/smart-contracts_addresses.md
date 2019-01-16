@@ -1,6 +1,6 @@
 # Smart Contracts Addresses
 
-<img src="https://raw.githubusercontent.com/gnosis/dx-docs/master/source/_static/DutchX%20Smart%20Contract%20Architecture.png" width="800">
+<img src="https://raw.githubusercontent.com/gnosis/dx-docs/master/source/_static/DutchX%20Smart%20Contract%20Architecture_final.png" width="800">
 
 ## Mainnet
   * DutchX (proxy): [https://etherscan.io/address/0xaf1745c0f8117384dfa5fff40f824057c70f2ed3](https://etherscan.io/address/0xaf1745c0f8117384dfa5fff40f824057c70f2ed3)

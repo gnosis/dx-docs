@@ -45,7 +45,11 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 
 -   [The Road towards a Fully Decentralized Exchange](https://blog.gnosis.pm/the-dutchx-smart-contracts-are-live-on-the-mainnet-af1446eef199)
 
+
 -   [The DutchX Pilot](https://blog.gnosis.pm/the-dutchx-pilot-d8f3e2007ae4)
+
+
+-   [The DutchX — Take Part in the Arbitrage Opportunity](https://blog.gnosis.pm/the-dutchx-take-part-in-the-arbitrage-opportunity-eeacc20ef6f)
 
 
 #### Videos

@@ -23,7 +23,7 @@ for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-p
 
 **2. Clone the CLI scripts**
 
-Open the Command Promopt or Terminal, and type in the following:
+Open the Command Prompt or Terminal, and type in the following:
 
 ```bash
 # Clone repo

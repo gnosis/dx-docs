@@ -162,7 +162,7 @@ This sample project also provides a simple [CLI script](./cli) you can use.
 There's a basic command in the CLI that is very helpful to get the state of the
 auctions.
 
-**Example: Get the state of the WETH-RDN aution**
+**Example: Get the state of the WETH-RDN auction**
 ```bash
 ./cli state WETH-RDN
 ```

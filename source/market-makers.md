@@ -5,7 +5,7 @@ the Dutch auction mechanism to determine a fair value for the tokens.
 The mechanisms used on the DutchX differ to orderbook-based exchanges.
 The DutchX has a number of inherent benefits for high volume traders. Check out some details in this slide deck:
 
-<a href="_static/docs/DutchXmarketmakersupdated.pdf" download>**DutchX for Market Makers**</a>
+<a href="_static/docs/DutchX_Market%20Maker_to%20share_ReadTheDocs_update%20Jan2019.pdf" download>**DutchX for Market Makers**</a>
 
 If you are a market maker and would like to learn more about the unique DutchX mechanism, get in touch with us! We are looking for competent market makers that might onboard token projects and assist them in their market making.
 

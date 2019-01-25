@@ -1,8 +1,6 @@
 # Add a token pair
 The DutchX is an open protocol, and as such, anybody can add a token pair to trade.
 
-Check out these slides to find out more
-about <a href="_static/docs/DutchX_Handbook_New_Tokens.pdf" download>**listing a token on the DutchX**</a>.
 
 There are several ways to add a token pair to the DutchX. All of them end up
 using the `addTokenPair` function in the

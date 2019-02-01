@@ -22,7 +22,6 @@ You might also be interested in:
 In case you would like to have technical help in listing your token to the DutchX Protocol and run minimal liquidity bots, we have collected a handful of market makers that are able to facilitate this.
 We have been in touch with all of them, have explained the exact mechanism and are confident that they are technically able to interact with the DutchX protocol. We have no contractual relations and do not know what proposal they will make and which services they include. In no particular order, feel free to reach out to:
 
-  * [Dexterity Capital](https://dexterity.capital/): write an email to dutchx@dexterity.capital
   * [Keyrock](https://keyrock.eu/): write an to info@keyrock.eu with subject *Market Making for DutchX + [Your Name]*
   * [POINT95 Global Trading Limited](http://www.p95g.com/): write an email to bd@p95g.com
   * [Prycto](https://www.prycto.com/): write an email to DutchX@prycto.com

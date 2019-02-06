@@ -40,5 +40,5 @@ For more tech-savvy users of the DutchX protocol, instructions to using the comm
 
 ## Application programming interface (API)
 Check out the API [here](https://dutchx.readthedocs.io/en/latest/api.html), available for both mainnet and rinkeby.
-This is a read-only (REST) version and returns a number of auction details. It is directly linked to the blockchain (other than token symbol, which shouldn’t be used for query: always use a token address!).  
+This is a read-only (REST) version and returns a number of auction details. It is directly linked to the blockchain (other than token symbol, which shouldn’t be used for query: always use a token address!).   
 *The application programming interface is token-agnostic.*  

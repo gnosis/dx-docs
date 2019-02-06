@@ -12,7 +12,7 @@ The medianzier smart contract, however, might be very useful for other applicati
 It takes the median of the last 9 auctions of that token pair on the DutchX, if they have run consecutively (i.e. constant liquidity is important), else it will not return a price feed.  
 - This price feed also only works for token with ETH  
 - There are two functions: getPrice and getPriceCustom
-    - getPrice only works for whitelisted tokens
+    - getPrice only works for [whitelisted tokens](https://dutchx.readthedocs.io/en/latest/basic-mechanism.html#whitelist)
     - getPriceCutstom allows customization (for other tokens, e.g.).  
     
 Check out the [code](https://github.com/gnosis/dx-price-oracle/tree/master).

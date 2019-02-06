@@ -38,6 +38,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :caption: Documents
 
    Introduction <self>
+   Basic Mechanism <basic-mechanism>
    smart-contract-documentation
    dutchx-as-an-open-protocol
    market-makers

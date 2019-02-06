@@ -59,20 +59,6 @@ liquidity, ensuring that auctions run continuously and that prices don't drop be
 market price. Learn more about bots in the following guide.
 [Run your own bots](./bots-market-making.html)
 
-## Seller interface
-The seller interface allows users to participate in the
-auctions in a simple way. It can be found here: [https://github.com/gnosis/dx-react](https://github.com/gnosis/dx-react).
-
-To use it, you just need to install the [Metamask](https://metamask.io/)
-plugin. You will also need to hold the tokens you want to trade in
-that account.
-
-Checkout the [**DutchX Web DEMO in Rinkeby**](https://dutchx-rinkeby.d.exchange/).
-
-This interface can be used by anyone as a base to build alternative ones, a
-buyer interface, or just to host it in any server. So feel free to contribute to
-the DutchX ecosystem.
-
 ## Contribute
 The community is what makes the DutchX great.
 

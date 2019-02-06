@@ -4,35 +4,11 @@ Note: We are giving out bounties and ecosystem grants - if you find an idea part
 
 Please note that some teams are already working on various ideas. We try to update the section on [projects building on top of the DutchX](https://dutchx.readthedocs.io/en/latest/community-resources.html#projects-using-the-dutchx) for you.
 
-### Table of contents
-
-[More defined sample ideas](#more-defined-sample-ideas)
-
-[Smart contracts](#smart-contracts)
-
-[Front-end](#front-end)
-
-[Services](#services)
-
-[Further ideas](#further-ideas)
-
-[Smart Contracts](#smart-contracts)
-
-[Front-ends](#front-ends)
-
-[Services](#services)
-
-[Ideas for financial instruments](#ideas-for-financial-instruments)
-
-[Ideas for larger projects](ideas-for-larger-projects)
-
-[Ideas for documentation](#ideas-for-documentation)
-
 ## More defined sample ideas
 
 ### Smart contracts
 
-##### 1. “End to end”-participation solution
+##### “End to end”-participation solution
 
 - On an interface level (the trading platform that allows the user to interact with the DutchX open protocol), the user must sign several transactions
     - Wrapping ETH
@@ -47,14 +23,14 @@ Please note that some teams are already working on various ideas. We try to upda
 - Must overcome gas problem (take liquidity contribution from user)?
 - Must overcome problem that the pre-set gas limit in most applications might be too low to do one transaction up to confirmation of order.
 
-##### 2. An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
+##### An arbitrage bot which can act as a bridge between the DutchX and another exchange and does a transaction atomically (i.e. one transaction that buys on another exchange and takes part with the funding on the DutchX)  
 
 - Arbitrage opportunities exist if there is a price differential on another exchange and on the DutchX
 - For example, on Exchange Y, the price for A in units of B is 1.5. Once the auction A-B reaches this price, it is worthwhile to buy B on Exchange Y and use it to bid in the A-B auction on the DutchX.  
 - You need to find an exchange with sufficient liquidity and where such an atomic transaction is possible.
 - Added complexity: If it is not the same token pair, but another transaction in between i.e. A for B, B for C and C for A.
 
-##### 3. Pooling contract to have USD 10’000 starting the auction
+##### Pooling contract to have USD 10’000 starting the auction
 
 Note: This idea has been picked and is actively pursued.
 
@@ -68,7 +44,7 @@ Note: This idea has been picked and is actively pursued.
 - Contract would specify who inputs how much money and then allocates the exchanged funds based on the same percentage  
 - Optional but highly recommended: also collecting funds for the bid side and taking part at a prior specified price.
 
-##### 4. Token BuyBacks (and burn?):  
+##### Token BuyBacks (and burn?):  
 
 Note: Check first what has been done as part of this [bounty](https://github.com/GnosisEcosystemFund/Gnosis-Bounties-/pull/4) before you proceed with a similar idea.
 
@@ -88,6 +64,14 @@ Note: Check first what has been done as part of this [bounty](https://github.com
     - Amount would need to be pre-submitted
 
 - A sample of a buy-and-burn need could be this one: https://research.aragon.org/t/thoughts-on-aragon-network-treasury-governance-and-reserves/180
+
+##### The DutchX as an alternative to OTCs?
+OTCs (over-the-counter) trades are trades that are executed in other ways than via traditional exchanges.
+Usually two parties execute a trade with one another by being matched via a dealer and oftentimes it is larger orders that are being executed. OTC are particularly common for illiquid markets. 
+There are some risk attached to OTC trades such as the lack of (reliable) information and likely high bid-ask spreads that make it difficult to trade profitably.  
+The DutchX could solve this problem by offering an alternative to OTCs:  
+By having a set of smart contracts where large orders are added (and automatically scheduled in set auctions), plus a public forum where this is announced, could lead to much better prices (and the pre-commitment and announcement should help within illiquid markets.
+
 
 ### Front-end
 

@@ -40,7 +40,9 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Introduction <self>
    Basic Mechanism <basic-mechanism>
    smart-contract-documentation
+   Price Oracle <price-oracle>
    dutchx-as-an-open-protocol
+   The dxDAO <dxDAO>
    market-makers
    Interfaces <interfaces>
    api

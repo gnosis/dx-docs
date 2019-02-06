@@ -2,15 +2,16 @@
 *Develop use cases, raise awareness, improve usability, encourage further integration, and ultimately draw liquidity to one global DutchX pool*
 
 ## Upcoming / ongoing
+*none to report at the moment*
+
+## Previous
 - [UK university Competition 21-23 of November 2018](https://www.futureofblockchain.co.uk/gnosis)
     - Challenge 1: Build an inferfae between our latest prediction markets to the realitio contracts.
     - Challenge 2: Create an alternative front end or client for the Gnosis Safe. Check information for both challenges in the link above! 
     
 - [DutchX/Difusion Workshop and Hackathon 8-9 of December 2018](https://www.eventbrite.com/e/free-decentralised-exchange-dfusiondutchx-workshop-and-hackathon-tickets-52363205758)
     - Thanks to the great help of [Work on Blockchain](https://workonblockchain.com), we are hosting a DutchX/Dfusion workshop and Hackathon beginning of December. Warm up your Dev skills and build your Dapp on top of the DutchX.
-
-## Previous
-
+   
 - Berlin Blockchain Week - [ETHBerlin](https://ethberlin.com/) 7-9th of September 2018
     - Win 24ETH (5'000€) for a DutchX integration
     - If you've missed the DutchX Developer Workshop held ahead of ETHBerlin, check out the [recording](https://www.youtube.com/watch?v=ctBRuewslbI) to get up to speed on integration cases

@@ -15,8 +15,8 @@ check out the:
 The smart contracts are avaliable in:
 
 * DutchX Smart Contract project: `@gnosis/dx-contracts`_
-* DutxhX Master Contract: `DutchExchange.sol`_
-* DutxhX Proxy Contract: `DutchExchangeProxy.sol`_
+* DutchX Master Contract: `DutchExchange.sol`_
+* DutchX Proxy Contract: `DutchExchangeProxy.sol`_
 
 Check out `DutchX as an open protocol`_ for more information.
 

@@ -12,8 +12,7 @@ It can be used both on testnets like `rinkeby`, or on `mainnet`.
 
 **Implementation of the CLI**
 
-The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services),
-for more information checkout [DutchX as an open protocol](./dutchx-as-an-open-protocol.html)
+The CLI logic is implemented in the [DutchX Services](https://github.com/gnosis/dx-services).
 
 ## How to run the CLI
 **1. Install docker**

@@ -45,8 +45,6 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Interfaces <interfaces>
    api
    cli
-   security-of-the-contracts
-   contribute
 
 .. toctree::
    :maxdepth: 0
@@ -68,6 +66,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    hackathons
    community-resources
    integration-ideas
+   contribute
    analytics
 
 .. toctree::
@@ -75,6 +74,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :caption: Reference:
 
    smart-contracts_addresses
+   security-of-the-contracts
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
    Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>

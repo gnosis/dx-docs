@@ -42,6 +42,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    smart-contract-documentation
    dutchx-as-an-open-protocol
    market-makers
+   Interfaces <interfaces>
    api
    cli
    security-of-the-contracts

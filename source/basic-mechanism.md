@@ -32,11 +32,13 @@ anything below 0.01% of Magnolia held --> 0.5% of liquidity contribution.
 Magnolia (MGN) tokens lower the default liquidity contribution on the DutchX Protocol.  
 MGN are automatically generated and credited to users: 1 MGN is credited for trading 1 ETH worth of any whitelisted token pair (and of course trading any fraction of ETH generates the same fraction of MGN).
 MGN are locked by default into a smart contract for which the user’s address is associated with a particular balance.  
-A user may unlock all Magnolia associated with an address at once and after 24 hours have passed, these tokens may be transferred to another address. The new holder must then lock their tokens again (or a subset thereof) in order to use the Magnolia balance for liquidity contribution reduction. 
+A user may unlock all Magnolia associated with an address at once and after 24 hours have passed, these tokens may be transferred to another address. The new holder must then lock their tokens again (or a subset thereof) in order to use the Magnolia balance for liquidity contribution reduction.  
 
 ## Whitelist
 Whitelisted tokens are those that have the potential to generate Magnolia when traded in a whitelisted pair. The idea of whitelisted tokens is that no token can be added to the DutchX Protocol with the mere intention to create Magnolia and benefit from liquidity contributions.
 Whitelisting will - in future - be decided by the DAO.  
 This is the complete list of the [currently whitelisted tokens](https://github.com/gnosis/dx-contracts/blob/release/2.0/test/resources/approve-tokens/dxDAO_approved_tokens.js) (as per February 2019).  
 They were selected based on a legal assessment of token characteristics, which suggest that legislation of major jurisdictions regulating securities, financial instruments or similar and/or mandating customer due diligence procedures do not apply to them at this point in time for the purposes of the DutchX protocol.
-Regardless of being whitelisted, tokens will still first need to be added to the protocol before trading is possible. 
+Regardless of being whitelisted, tokens will still first need to be added to the protocol before trading is possible.  
+ 
+Note that whitelisted tokens are not the same as **listed** and **traded** tokens. A whitelisted token has the potential to create Magnolia tokens (used for reduction of liquidity contribution) if traded in a whitelisted pair. Tokens can be listed for trading on the DutchX protocol, albeit not whitelisted (and hence trades do not generate Magnolia); on the flip side, tokens could be whitelisted, however not listed/traded on the DutchX protocol.

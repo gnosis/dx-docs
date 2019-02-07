@@ -23,6 +23,15 @@ It will ensure it as soon as both of the opposite auctions clear for a token pai
 It will fund the one with the highest funding, so it has to fill with less worth
 of tokens.
 
+### Sell Liquidity Bot configuration
+* `SELL_BOT_MAIN`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+  * **checkTimeInMilliseconds**: the time between bot checking to sell liquidity  
+
 ## Buy Liquidity Bot
 This bot will make sure the auction closes when we reach the market price.
 
@@ -40,6 +49,7 @@ Right now the buy bot can check in any of these exchanges:
 * **Bitfinex**: https://www.bitfinex.com/
 * **HitBTC**: https://hitbtc.com/
 * **Huobi**: https://www.huobi.com
+* **IDEX**: https://idex.market/
 * **Kraken**: http://kraken.com
 * **Liquid**: https://www.liquid.com/
 
@@ -50,6 +60,23 @@ If you consider that none of these exchanges fits to your needs you can make a
 pull request and add a new one. Check here
 [how to add a price feed](https://dutchx.readthedocs.io/en/latest/bots-price-feed.html)
 
+### Buy Liquidity Bot configuration
+* `BUY_BOT_MAIN`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **rules**: The rules to indicate the bot when to do buys (read next section)
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+  * **checkTimeInMilliseconds**: the time between bot checking to buy liquidity  
+
+### Buy Liquidity Bot price repository
+* `PRICE_REPO`:
+  * **factory**: The factory to create the repository. You can create your own repository if you want!
+  * **priceFeedStrategiesDefault**: The default price feed strategy object (read next section)
+  * **priceFeedStrategies**: The price feed strategy object for each token pair (read next section)
+  * **priceFeeds**: The price feed factory. You can implement your own
+  * **strategies**: The strategies factory. You can create your own
 
 **Strategies for getting the price - Sequence**
 
@@ -58,12 +85,12 @@ strategies could be implemented for future versions.
 
 For example, we could configure the bots with the following strategies:
 ```js
-const EXCHANGE_PRICE_FEED_STRATEGIES_DEFAULT = {
+priceFeedStrategiesDefault: {
   strategy: 'sequence',
   feeds: ['binance', 'huobi', 'kraken', 'bitfinex']
-}
+},
 
-const EXCHANGE_PRICE_FEED_STRATEGIES = {
+priceFeedStrategies: {
   'WETH-OMG': {
     strategy: 'sequence',
     feeds: ['binance', 'huobi', 'bitfinex']
@@ -83,6 +110,26 @@ unresponsive, it will try to get the price from the second one, and so on.
 
 The idea is to pick the order using first the most trusted exchanges, for
 example we could use the trade volume to help us decide.
+
+You can select other strategies or priceFeeds. First they should be added to the
+bots git repository and then you can add them by configuration. Check here [how to add a price feed](https://dutchx.readthedocs.io/en/latest/bots-price-feed.html)
+```js
+priceFeeds: {
+  binance: {
+    factory: 'src/repositories/PriceRepo/feeds/PriceRepoBinance'
+  },
+  kraken: {
+    factory: 'src/repositories/PriceRepo/feeds/PriceRepoKraken',
+    url: 'https://api.kraken.com',
+    version: '0'
+  }
+},
+strategies: {
+  sequence: {
+    factory: 'src/repositories/PriceRepo/strategies/sequence'
+  }
+}
+```
 
 **Buy liquidity rules**
 
@@ -141,7 +188,7 @@ const BUY_LIQUIDITY_RULES = [
 ]
 ```
 
-## CheckBalanceBot
+## Balance Check Bot
 The liquidity bots are very useful, but in order to operate, they need to have
 enough tokens to perform the bids and asks, and also some Ether so they can
 pay the gas costs for the transactions.
@@ -152,14 +199,51 @@ warning message when we are below the defined threshold.
 > In the future, we will provide a way to send the notification using Slack or
 > mail.
 
+### Balance Check Bot configuration
+* `BALANCE_CHECK_BOT`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **tokens**: A list selecting the desired tokens to follow (ex. ['WETH', 'RDN'])
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+  * **minimumAmountForEther**: the minimum amount of Ether we want the bot to hold
+  * **minimumAmountInUsdForToken**: the minimum amount of any other token in USD
+
 **Balance thresholds**
 
 For example, the rules could be, notify if we are below:
-* `$5000` worth of any tokens
 * `0.4 Ether`
+* `$5000` worth of any tokens
 
 So we would have this configuration:
 ```js
-const MINIMUM_AMOUNT_IN_USD_FOR_TOKENS = 5000 // $5000
-const MINIMUM_AMOUNT_FOR_ETHER = 0.4 * 1e18 // 0.4 Ether
+minimumAmountForEther: 0.4, // 0.4 Ether
+minimumAmountInUsdForToken: 5000 // $5000
 ````
+
+## High Sell Volume Bot
+
+## Deposit Bot
+This bot will check periodically your account balances and will automatically
+deposit tokens into the DutchX. This is very handful when a bot is running out
+of funding. You just have to send the tokens to the bot account and the deposit
+bot will handle the rest.
+
+### Deposit Bot configuration
+* `DEPOSIT_BOT`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **tokens**: A list selecting the desired tokens to follow and deposit (ex. ['WETH', 'RDN'])
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+  * **inactivityPeriods**: a list of from-to time periods in which the bot will not deposit funds (useful when you want to withdraw)
+  * **checkTimeInMilliseconds**: the time between bot checking to deposit funds  
+
+## Watch Events Bot
+This bot can watch for events in market auctions to operate immediately once an auction
+has closed.
+
+* `WATCH_EVENTS_BOT`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))

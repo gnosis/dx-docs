@@ -41,7 +41,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Basic Mechanism <basic-mechanism>
    smart-contract-documentation
    Price Oracle <price-oracle>
-   Add Token to Trade <add-token-to-trade>
+   List a token to trade <add-token-to-trade>
    dutchx-as-an-open-protocol
    The dxDAO <dxDAO>
    market-makers

@@ -53,14 +53,14 @@ Create a config file for the bots, like the one in
 * `MAIN_BOT_ACCOUNT`:
   * Select the main bot account (account index of the ones generated from the `MNEMONIC`)
   * The main bot account that will be used to generate reports
-* `BUY_LIQUIDITY_BOTS`:
-  * **name**: The name to display in notifications and messages
-  * **markets**: An object selecting the markets to watch (explained above)
-  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
-  * **rules**: The rules to indicate the bot when to do buys
-  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
-* `SELL_LIQUIDITY_BOTS`: Same parameters as `BUY_LIQUIDITY_BOTS` except the don't need **rules**
-
+* `BOTS`: a list of bots to be created. Can contain one or more of the following. Any bot can be disabled by not adding it to this list.
+  * `BUY_BOT`: [Configuration for buying bot](./bot-types.html#)
+  * `SELL_BOT`: [Configuration for selling bot](./bot-types.html#)
+  * `BALANCE_CHECK_BOT`: [Configuration for balance check bot](./bot-types.html#)
+  * `HIGH_SELL_VOLUME_BOT`: [Configuration for high sell volume bot](./bot-types.html#)
+  * `WATCH_EVENTS_BOT`: [Configuration for watch events bot](./bot-types.html#)
+  * `DEPOSIT_BOT`: [Configuration for deposit Bot](./bot-types.html#)
+* `PRICE_REPO`: You can configure which external price feeds to use. You can get more information [here](./bot-types.html#)
 WARNING: If you create a new file for your configuration make sure you update
 [base-bots.sh](https://github.com/gnosis/dx-tools/blob/master/util/base-bots.sh#L13)
 in order to use your own configuration.
@@ -176,11 +176,14 @@ We would get something similar to:
 > * [DutchX Cli page](./cli.html)
 
 ## DutchX Bots
-There are 3 bots:
+There are 6 bots:
 
 * `SellLiquidityBot`
 * `BuyLiquidityBot`
-* `CheckBakanceBot`
+* `BalanceCheckBot`
+* `HighSellVolumeBot`
+* `WatchEventsBot`
+* `DepositBot`
 
 Find out more about them in:
 * [DutchX Bots page](./bots-types.html)

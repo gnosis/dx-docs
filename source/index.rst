@@ -54,7 +54,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    Get started: Build on top of DutchX <dev-get-started>
    Local development + truffle <dev-truffle>
-   Onchain integration <dev-onchain-oracle>
+   On-chain integration <dev-onchain-oracle>
    Deposit tokens <dev-deposit>
    Add a token pair <add-token-pair>
    Bots: Automated minimal liquidity <bots-market-making>

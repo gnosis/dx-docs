@@ -8,15 +8,10 @@ Once you know how to create a project that depends on the DutchX, and you know
 how to migrate the contracts for local development, you are ready to use the 
 contract from our project.
 
-One simple use-case of the DutchX is as an onchain price oracle.
+One simple use-case of the DutchX is as an on-chain price oracle.  
+
+**Don't forget to check out the [Price Oracle](https://dutchx.readthedocs.io/en/latest/price-oracle.html) section for an explanation of the two different price oracles available.**
 
 Learn how to get the price for any token pair from the DutchX following the 
 steps described in this project:
 * [Example 03: Onchain integration - Use it as an oracle](https://github.com/gnosis/dx-examples-dev/tree/master/03_onchain-integration-oracle)
-
-## Next steps
-You may be also interested in:
-* [Add a token pair](./add-token-pair.html)
-* [Bots: Automatic market making](./bots-market-making.html)
-* [API](./api.html)
-* [CLI](./cli.html)

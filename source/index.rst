@@ -35,7 +35,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
 .. toctree::
    :maxdepth: 0
-   :caption: Documents
+   :caption: Documents:
 
    Introduction <self>
    Basic Mechanism <basic-mechanism>
@@ -50,7 +50,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
 .. toctree::
    :maxdepth: 0
-   :caption: Developer guides
+   :caption: Developer guides:
 
    Get started: Build on top of DutchX <dev-get-started>
    Local development + truffle <dev-truffle>

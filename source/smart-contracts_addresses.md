@@ -70,3 +70,24 @@
     * [https://makerdao.com/feeds](https://makerdao.com/feeds)
   * TokenFRT - MGN: [https://kovan.etherscan.io/token/0x98709b83af325a46edfac2f053a730a2980b3682](https://kovan.etherscan.io/token/0x98709b83af325a46edfac2f053a730a2980b3682)
   * TokenOWL (proxy): [https://kovan.etherscan.io/token/0xb6f77a34ff81dd13fa68b5774d74541a61047fe8](https://kovan.etherscan.io/token/0xb6f77a34ff81dd13fa68b5774d74541a61047fe8)
+
+# Changes from DutchX 1.0 to 2.0
+  
+Please see this list for a comprehensive overview of the changes made from the DutchX 1.0 to the DutchX 2.0 smart contracts with each corresponding pull request:
+
+- [Liquidity contribution goes down to 0.1%](https://github.com/gnosis/dx-contracts/pull/60)
+- [Magnolia tokens can only be unlocked at once](https://github.com/gnosis/dx-contracts/pull/59)
+- [Both sides of the auction each need a min. of $1,000 to start](https://github.com/gnosis/dx-contracts/pull/62)
+- [Closing theoretically closed auctions when posting sellOrders](https://github.com/gnosis/dx-contracts/pull/65)
+- [Claim and withdraw function for all auction indices together](https://github.com/gnosis/dx-contracts/pull/66)
+- [Proxy contracts for the Magnolia tokens](https://github.com/gnosis/dx-contracts/pull/71)
+- [Fix re-entry vulnerability](https://github.com/gnosis/dx-contracts/pull/55)
+- [Extract functionality out of the main contract](https://github.com/gnosis/dx-contracts/pull/58)
+- [Adapt migrations to Truffle 5](https://github.com/gnosis/dx-contracts/pull/58)
+- [Remove auctioneer check for upgrading the Price Oracle and Master Contract](https://github.com/gnosis/dx-contracts/pull/70)
+- [Add linter for Solidity](https://github.com/gnosis/dx-contracts/pull/77)
+- [Extract some getter functions from DutchX](https://github.com/gnosis/dx-contracts/pull/82)
+- [Upgrade to Solidity 0.5](https://github.com/gnosis/dx-contracts/pull/75)
+- [Make price oracle interface Read-Only](https://github.com/gnosis/dx-contracts/pull/76)
+- [Add clearing times](https://github.com/gnosis/dx-contracts/pull/72)
+- [Solve BadTokenProblem](https://github.com/gnosis/dx-contracts/pull/74)

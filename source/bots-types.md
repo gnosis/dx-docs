@@ -66,7 +66,7 @@ pull request and add a new one. Check here
 * `BUY_BOT_MAIN`:
   * **name**: The name to display in notifications and messages
   * **factory**: The factory to create the bot. You can create your own bot if you want!
-  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html#create-the-config-file-for-the-bots))
   * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
   * **rules**: The rules to indicate the bot when to do buys (read next section)
   * **notifications**: The notification system to be used by the bot. For now only `slack` is available

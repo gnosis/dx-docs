@@ -29,7 +29,7 @@ of tokens.
 * `SELL_BOT_MAIN`:
   * **name**: The name to display in notifications and messages
   * **factory**: The factory to create the bot. You can create your own bot if you want!
-  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html#create-the-config-file-for-the-bots))
   * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
   * **notifications**: The notification system to be used by the bot. For now only `slack` is available
   * **checkTimeInMilliseconds**: the time between bot checking to sell liquidity  
@@ -233,7 +233,7 @@ is bought.
 * `HIGH_SELL_VOLUME_BOT`:
   * **name**: The name to display in notifications and messages
   * **factory**: The factory to create the bot. You can create your own bot if you want!
-  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html#create-the-config-file-for-the-bots))
   * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
   * **notifications**: The notification system to be used by the bot. For now only `slack` is available
 
@@ -261,4 +261,4 @@ has closed.
 * `WATCH_EVENTS_BOT`:
   * **name**: The name to display in notifications and messages
   * **factory**: The factory to create the bot. You can create your own bot if you want!
-  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html#create-the-config-file-for-the-bots))

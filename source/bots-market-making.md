@@ -56,14 +56,14 @@ Create a config file for the bots, like the one in
 * `MAIN_BOT_ACCOUNT`:
   * Select the main bot account (account index of the ones generated from the `MNEMONIC`)
   * The main bot account that will be used to generate reports
-* `PRICE_REPO`: You can configure which external price feeds to use. You can get more information [here](./bot-types.html#buy-liquidity-bot-price-repository)
+* `PRICE_REPO`: You can configure which external price feeds to use. You can get more information [here](./bots-types.html#buy-liquidity-bot-price-repository)
 * `BOTS`: a list of bots to be created. Can contain one or more of the following. Any bot can be disabled by not adding it to this list.
-  * `BUY_BOT`: [Configuration for buying bot](./bot-types.html#buy-liquidity-bot-configuration)
-  * `SELL_BOT`: [Configuration for selling bot](./bot-types.html#sell-liquidity-bot-configuration)
-  * `BALANCE_CHECK_BOT`: [Configuration for balance check bot](./bot-types.html#balance-check-bot-configuration)
-  * `HIGH_SELL_VOLUME_BOT`: [Configuration for high sell volume bot](./bot-types.html#high-sell-volume-bot-configuration)
-  * `WATCH_EVENTS_BOT`: [Configuration for watch events bot](./bot-types.html#watch-events-bot)
-  * `DEPOSIT_BOT`: [Configuration for deposit Bot](./bot-types.html#deposit-bot-configuration)
+  * `BUY_BOT`: [Configuration for buying bot](./bots-types.html#buy-liquidity-bot-configuration)
+  * `SELL_BOT`: [Configuration for selling bot](./bots-types.html#sell-liquidity-bot-configuration)
+  * `BALANCE_CHECK_BOT`: [Configuration for balance check bot](./bots-types.html#balance-check-bot-configuration)
+  * `HIGH_SELL_VOLUME_BOT`: [Configuration for high sell volume bot](./bots-types.html#high-sell-volume-bot-configuration)
+  * `WATCH_EVENTS_BOT`: [Configuration for watch events bot](./bots-types.html#watch-events-bot)
+  * `DEPOSIT_BOT`: [Configuration for deposit Bot](./bots-types.html#deposit-bot-configuration)
 
 WARNING: When creating a new configuration file you may name it as you wish,
 but make sure you update

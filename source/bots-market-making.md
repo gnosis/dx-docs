@@ -40,7 +40,7 @@ An easy way to run the bots is to use [dx-tools](https://github.com/gnosis/dx-to
 ### 1. Create the config file for the bots
 
 Create a config file for the bots, like the one in
-[conf/bots-conf.js](https://github.com/gnosis/dx-tools/blob/master/conf/bots-conf.js), where:
+[conf/bots-conf.js.example](https://github.com/gnosis/dx-tools/blob/master/conf/bots-conf.js.example), where:
 
 * `MARKETS`: List of the ERC20 token pairs you want the bots to watch.
   * Format: `<token1>-<token2>[,<tokenN>-<tokenM>]*`
@@ -53,6 +53,7 @@ Create a config file for the bots, like the one in
 * `MAIN_BOT_ACCOUNT`:
   * Select the main bot account (account index of the ones generated from the `MNEMONIC`)
   * The main bot account that will be used to generate reports
+* `PRICE_REPO`: You can configure which external price feeds to use. You can get more information [here](./bot-types.html#)
 * `BOTS`: a list of bots to be created. Can contain one or more of the following. Any bot can be disabled by not adding it to this list.
   * `BUY_BOT`: [Configuration for buying bot](./bot-types.html#)
   * `SELL_BOT`: [Configuration for selling bot](./bot-types.html#)
@@ -60,8 +61,9 @@ Create a config file for the bots, like the one in
   * `HIGH_SELL_VOLUME_BOT`: [Configuration for high sell volume bot](./bot-types.html#)
   * `WATCH_EVENTS_BOT`: [Configuration for watch events bot](./bot-types.html#)
   * `DEPOSIT_BOT`: [Configuration for deposit Bot](./bot-types.html#)
-* `PRICE_REPO`: You can configure which external price feeds to use. You can get more information [here](./bot-types.html#)
-WARNING: If you create a new file for your configuration make sure you update
+
+WARNING: When creating a new configuration file you may name it as you wish,
+but make sure you update
 [base-bots.sh](https://github.com/gnosis/dx-tools/blob/master/util/base-bots.sh#L13)
 in order to use your own configuration.
 

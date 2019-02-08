@@ -5,6 +5,8 @@ Every bot is created with one goal, so once they are up, the will try to do
 their jobs.
 
 ## Sell Liquidity Bot
+> This bot requires WATCH_EVENTS_BOT to be configured and tracking the same MARKETS
+
 This bot will make sure we meet the minimum liquidity required
 by the smart contract for the auction to start.
 
@@ -222,6 +224,19 @@ minimumAmountInUsdForToken: 5000 // $5000
 ````
 
 ## High Sell Volume Bot
+This bot will check the markets you select and will send a log notification if
+any of the markets volume is over your account balance. This is very handful if
+you want to ensure liquidity to a market and want to make sure that all liquidity
+is bought.
+
+### High Sell Volume Bot configuration
+* `HIGH_SELL_VOLUME_BOT`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html##create-the-config-file-for-the-bots))
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+
 
 ## Deposit Bot
 This bot will check periodically your account balances and will automatically

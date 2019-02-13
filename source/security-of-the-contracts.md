@@ -41,6 +41,7 @@ An external audit by three auditors of [Solidified](https://solidified.io/) was 
 
   * Two auditors of Solidified (the same auditors as for the prior audit) reviewed the code.
   * Check out the <a href="./_static/docs/DutchX_2.0_Audit Report.pdf">Solidify Audit Report</a>.
+  * Also check out this [audit report](https://github.com/gnosis/dx-price-oracle/blob/develop/docs/audit_report/Solidified_Audit_Report.pdf) of the [price oracle](https://dutchx.readthedocs.io/en/latest/price-oracle.html)
 
 ### Bug bounties
   * On top of the audits, a Bug bounty program was created. It offers generous

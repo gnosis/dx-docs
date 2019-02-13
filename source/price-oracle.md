@@ -13,6 +13,6 @@ It takes the median of the last 9 auctions of that token pair on the DutchX, if 
 - This price feed also only works for token with ETH  
 - There are two functions: getPrice and getPriceCustom
     - getPrice only works for [whitelisted tokens](https://dutchx.readthedocs.io/en/latest/basic-mechanism.html#whitelist)
-    - getPriceCutstom allows customization (for other tokens, e.g.).  
+    - getPriceCutstom allows customization (for other tokens).  
     
 Check out the [code](https://github.com/gnosis/dx-price-oracle/tree/master).

@@ -10,7 +10,7 @@ Catch up on the topic:
   
 - Join the public telegram channel [here](https://t.me/dxDAO)
 
-**[Stake for your vote](https://dxdao.daostack.io) from February 18th to March 20th.**
+**[Stake for your vote](https://dxdao.daostack.io) - timeline will be confirmed**
 
 - Learn on how to take part here *(coming)*
 - Read the dxDAO whitepaper *(coming)*

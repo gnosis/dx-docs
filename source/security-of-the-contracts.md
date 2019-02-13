@@ -16,15 +16,15 @@ The smart contracts code was submitted to:
     
 ### External audit
 
-**DutchX 1.0**
-
-An external audit by three auditors of [Solidified](https://solidified.io/) was conducted:
-
   <p align="center">
     <a href="./_static/docs/DutchX_1.0_Audit Report.pdf">
     <img width="150px" src="http://dutchx.readthedocs.io/en/latest/_static/Sol_Badge_SlateOnTrans@2x.png" />
     </a>
   </p>
+
+**DutchX 1.0**
+
+An external audit by three auditors of [Solidified](https://solidified.io/) was conducted.
 
   * Three auditors reviewed the code in parallel in an isolated review. Then they
     compared the findings and came to a group consensus. After some minor iterations all the risks are mitigated.
@@ -33,15 +33,9 @@ An external audit by three auditors of [Solidified](https://solidified.io/) was 
 
 **DutchX 2.0**
 
-  <p align="center">
-    <a href="./_static/docs/DutchX_2.0_Audit Report.pdf">
-    <img width="150px" src="http://dutchx.readthedocs.io/en/latest/_static/Sol_Badge_SlateOnTrans@2x.png" />
-    </a>
-  </p>
-
   * Two auditors of Solidified (the same auditors as for the prior audit) reviewed the code.
   * Check out the <a href="./_static/docs/DutchX_2.0_Audit Report.pdf">Solidify Audit Report</a>.
-  * Also check out this [audit report](https://github.com/gnosis/dx-price-oracle/blob/develop/docs/audit_report/Solidified_Audit_Report.pdf) of the [price oracle](https://dutchx.readthedocs.io/en/latest/price-oracle.html)
+  * Also check out this Solidified [audit report](https://github.com/gnosis/dx-price-oracle/blob/develop/docs/audit_report/Solidified_Audit_Report.pdf) of the [price oracle](https://dutchx.readthedocs.io/en/latest/price-oracle.html)
 
 ### Bug bounties
   * On top of the audits, a Bug bounty program was created. It offers generous

@@ -24,6 +24,7 @@ The slow.trade team has a Mainnet interface available at [slow.trade](https://sl
 On slow.trade, the user is facilitated to take part as a seller, i.e. to deposit a token into an auction. The interface is extremely simple and a user can already take part by depositing at any point in time - the deposit gets automatically put into the next running auction. Slow.trade is - on purpose - kept simple, with little additional information. 
 It is recommended for users that do not have a price perception: no strategy is needed to take part!  
 Slow.trade is additionally useful for any user as it displays the Magnolia balance attached to a user’s address (which cannot be seen in the wallet as it is locked in a separate contract).  
+The project is open source, with this [Github](https://github.com/gnosis/dx-react).  
 *The team decides on which tokens to list on their interface (which may be only a subset of those tradable (of which only some might be whitelisted))*.
 
 ## Bidder interface

@@ -328,7 +328,9 @@ To use the CLI:
 
 **1. Create a file like the one described in add-token-pair script section**
 
-For example `./ABC-WETH.js`
+You can use
+[this file](https://github.com/gnosis/dx-tools/blob/master/resources/add-token-pair/RDN-WETH.js.example)
+as a template. It's important that you create your new file in the same folder.
 
 **2. Execute the add-token-pair operation**
 
@@ -338,5 +340,5 @@ Execute the command, and make sure:
   balance)
 
 ```bash
-./dutchx-rinkeby add-token-pair --file ./ABC-WETH.js
+./dutchx-rinkeby add-token-pair --file /resources/add-token-pair/ABC-WETH.js
 ```

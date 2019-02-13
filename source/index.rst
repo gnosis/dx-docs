@@ -79,7 +79,6 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    smart-contracts_addresses
    security-of-the-contracts
    Github: Smart Contracts <https://github.com/gnosis/dx-contracts>
-   Github: Seller Web <https://github.com/gnosis/dx-react>
    Github: API, Bots, CLI, services <https://github.com/gnosis/dx-services>
 
 

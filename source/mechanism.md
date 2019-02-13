@@ -55,25 +55,48 @@ In version DutchX 2.0, OWL is part of the DutchX Protocol:
 - OWL is an ERC20 token. Check it out on [Etherscan](https://etherscan.io/token/0x1a5f9352af8af974bfc03399e3767df6370d82e4).
 - It is a token that given GNO its utility and is creating by GNO holders locking down GNO (for a period of time).
 - There has been one initial instance of creating OWL, with more to follow. Read this [communication](https://blog.gnosis.pm/generate-your-first-owl-using-gno-2205eb098f8) about it.
-- At the moment, there is no generation ongoing. Further OWL generation will be publically announced.
 
 ### What is OWL used for on the DutchX?
 - Useres *may* use OWL to settle half of their liquidity contribution. The rest is settled in the token they are taking part in.
 - This does not affect liquidity contribution reduction. The reduction happens first, *then* half may be settled in OWL
 - 1 OWL is treated as an equivalent of 1USD worth of fees.
-- The OWL used will not go to any party but will instead be burnt (consumed)
+- The OWL used will not go to **any party** but will instead be burnt (consumed).
 
-### How do I use it on the DutchX?
-- OWL is completely optional to use. You must set an allowance for the smart contract.
-- OWL are, however, not needed to participate as a seller or bidder on the DutchX; their use is completely voluntary.
+### How is it used on the DutchX?
+- OWL is completely optional to use. You must set an allowance for the smart contract for OWL. 
+- OWL is then deducted automatically (available using the same address you are trading from).
+- OWL are, however, not needed to participate as a seller or bidder on the DutchX; its use is completely voluntary.
 
-### Why would I want to use OWL?
-- You might have OWL anyways as you used your GNO to generate it.
+### Why would one want to use OWL?
+- You might have OWL as you used your GNO to generate it.
 - You might be able to acquire it for less than 1USD worth and would hence reduce your liquidity contribution!
 
-### How do I get OWL?
-- See above, there was an initial generation. 
-- Stay tuned for further generations. For this, you would need GNO.
+### How does one get OWL?
+- See above, there was an initial generation. There is no generation ongoing.
+- Stay tuned for further generation announcement on public channels. For this, one needs GNO.
 - OWL may be traded on secondary markets or OTC.
 
 ## Auctioneer Powers
+
+### What are auctioneer powers?
+On smart contract level, the DutchX has a number of clearly defined modifiable parameters that can be changed. The auctioneer has the powers over the following (complete list):
+
+- Changing the threshold to add tokens to the DutchX protocol
+- Chainging the threshold to start auctions
+- De- & whitelisting of tokens that generate Magnolia
+- Setting a new external ETH/USD price feed
+- Setting a new entity able to modify the contract parameters (the ‘auctioneer’), and
+- Updating the DutchX contract logic *(change only executed with a 30day time lag)*.
+
+### Why are auctioneer powers needed?
+The DutchX was designed to be a fully-decentralized trading protocol. This means that changes to the DutchX protocol must also be decided in a decentralized fashion.  
+
+Specifically, however, there are two reasons that make upgrade by hard-forks only (the alternative to an owner) not very user friendly:
+1) Some parameters need more frequent updating (such as the whitelisting mentioned)
+2) One of the value propositions of the DutchX is to be one global liquidity pool. If there was not a possibility to upgrade the master logic, one would risk splitting liquidity with every upgrade.
+
+### Who holds auctioneer powers to DutchX 1.0?
+In the first version of the DutchX smart contracts, these auctioneer powers were relinquished. This meant that **neither Gnosis nor anyone else**, had the ability to alter the contracts parameters or logic.
+
+### Who holds auctioneer powers to DutchX 2.0?
+The primary aim with this  deployment is to provide the dxDAO (when it is ready) with the auctioneer powers of the DutchX. Until then, projects can already start integrating on this final version as the DutchX 2.0 will remain unaltered. Tokens will be whitelisted before the hand-over.

@@ -39,6 +39,7 @@ An easy way to run the bots is to use [dx-tools](https://github.com/gnosis/dx-to
 
 ### 0. Requirements
 Before being able to run the bots you will need to:
+
 **1. Install Docker**
 * Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
 * Mac OS: https://store.docker.com/editions/community/docker-ce-desktop-mac

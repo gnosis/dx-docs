@@ -1,20 +1,47 @@
 # Add a token pair
 The DutchX is an open protocol, and as such, anybody can add a token pair to trade.
 
-
 There are several ways to add a token pair to the DutchX. All of them end up
 using the `addTokenPair` function in the
 [**DutchExchange.sol**](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol)
 contract.
+* **Important** we don't interact directly with this contract, as it is described
+  next, all interactions must be done through a proxy.
+* The deployed contract is in [https://etherscan.io/address/0x2bae491b065032a76be1db9e9ecf5738afae203e#code](https://etherscan.io/address/0x2bae491b065032a76be1db9e9ecf5738afae203e#code)
 
 To invoke the `addTokenPair` operation, we need to do it through the address
 of the deployed [**DutchExchangeProxy.sol**](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol)
+  * The address for the proxy is: [https://etherscan.io/address/0xb9812e2fa995ec53b5b6df34d21f9304762c5497](https://etherscan.io/address/0xb9812e2fa995ec53b5b6df34d21f9304762c5497)
+  * All the other address can be found in: [https://dutchx.readthedocs.io/en/latest/smart-contracts_addresses.html](https://dutchx.readthedocs.io/en/latest/smart-contracts_addresses.html)
   * Please, read more about the Proxy Pattern for Smart Contracts in
   this <a href="https://blog.gnosis.pm/solidity-delegateproxy-contracts-e09957d0f201" target="_blank">Solidity DelegateProxy</a> post.
 
-> Note: If you require help, check out this section on [market makers](./market-makers.html#looking-for-market-makers).
-
 **Note:** if you would like to have a token listed on a graphical user interface *on Rinkeby only*, please check [this information](https://github.com/gnosis/dx-react/blob/master/ADD_TOKEN_REQUEST_TEMPLATE.md).
+
+## SUMMARY of the process of adding a token
+> **IMPORTANT**: Before you add a token
+>   * It is recomended to add it in Rinkeby first (See 
+>     [Rinkeby contract addresses](https://dutchx.readthedocs.io/en/latest/smart-contracts_addresses.html#rinkeby))
+>   * Make sure there's market makers and arbitrage bots before adding a market 
+>     (See [Run your own bots on the DutchX](https://dutchx.readthedocs.io/en/latest/bots-market-making.html))
+>   * You can do this process manually, interacting directly with the contracts, 
+>     however, we provide a CLI and truffle scripts that will make it simpler and they
+>     will do some validations before sending the transaction.
+>   * If you require help, check out this section on 
+>     [market makers](./market-makers.html#looking-for-market-makers).
+
+To add a token pair, follow this steps:
+* Make sure you have the address of the [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
+  token and `$10.000` worth of [WETH](https://weth.io/) (it'll be used for 
+  the first auction, so you'll get it back after is cleared)
+* Set an allowance for the DutchX (proxy), so it can take the required amount of
+  WETH when you call the deposit function (call `approve` function in WETH contract)
+* Deposit the WETH into your DutchX balance (call the `deposit` function in the DutchX proxy)
+* Add token pair (call the `addTokenPair` function in the DutchX proxy)
+* Make sure now your token is listed, for example using the API [https://dutchx.d.exchange/api/v1/markets](https://dutchx.d.exchange/api/v1/markets)
+* 🎉Celebrate
+  * 🔈Spread the work so sellers/bidders participate in the new market 
+  * 📈 Run bots and arbitrage bots to ensure there's a market
 
 ## 1. Get the information for adding a token pair
 Let's assume we want to add the `RDN-WETH` token pair.

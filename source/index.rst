@@ -38,7 +38,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    :caption: Documents:
 
    Introduction <self>
-   Basic Mechanism <basic-mechanism>
+   Mechanism <mechanism>
    smart-contract-documentation
    Price Oracle <price-oracle>
    List a token to trade <add-token-to-trade>

@@ -20,19 +20,19 @@ of the deployed [**DutchExchangeProxy.sol**](https://github.com/gnosis/dx-contra
 
 ## SUMMARY of the process of adding a token
 > **IMPORTANT**: Before you add a token
->   * It is recomended to add it in Rinkeby first (See 
+>   * It is recomended to add it in Rinkeby first (See
 >     [Rinkeby contract addresses](https://dutchx.readthedocs.io/en/latest/smart-contracts_addresses.html#rinkeby))
->   * Make sure there's market makers and arbitrage bots before adding a market 
+>   * Make sure there's market makers and arbitrage bots before adding a market
 >     (See [Run your own bots on the DutchX](https://dutchx.readthedocs.io/en/latest/bots-market-making.html))
->   * You can do this process manually, interacting directly with the contracts, 
+>   * You can do this process manually, interacting directly with the contracts,
 >     however, we provide a CLI and truffle scripts that will make it simpler and they
 >     will do some validations before sending the transaction.
->   * If you require help, check out this section on 
+>   * If you require help, check out this section on
 >     [market makers](./market-makers.html#looking-for-market-makers).
 
 To add a token pair, follow this steps:
 * Make sure you have the address of the [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
-  token and `$10.000` worth of [WETH](https://weth.io/) (it'll be used for 
+  token and `$10.000` worth of [WETH](https://weth.io/) (it'll be used for
   the first auction, so you'll get it back after is cleared)
 * Set an allowance for the DutchX (proxy), so it can take the required amount of
   WETH when you call the deposit function (call `approve` function in WETH contract)
@@ -40,7 +40,7 @@ To add a token pair, follow this steps:
 * Add token pair (call the `addTokenPair` function in the DutchX proxy)
 * Make sure now your token is listed, for example using the API [https://dutchx.d.exchange/api/v1/markets](https://dutchx.d.exchange/api/v1/markets)
 * 🎉Celebrate
-  * 🔈Spread the work so sellers/bidders participate in the new market 
+  * 🔈Spread the work so sellers/bidders participate in the new market
   * 📈 Run bots and arbitrage bots to ensure there's a market
 
 ## 1. Get the information for adding a token pair
@@ -175,8 +175,7 @@ npm run restore
 
 **2. Create a file with the information required for the operation**
   * Read the required information in the previous section
-  * You can use [01_RDN-WETH.js](https://github.com/gnosis/dx-contracts/blob/master/test/resources/add-token-pair/mainnet/01_RDN-WETH.js)
-    and [WETH_RDN.js](https://github.com/gnosis/dx-contracts/blob/master/test/resources/add-token-pair/mainnet/WETH_RDN.js)
+  * You can use [WETH_RDN.js](https://github.com/gnosis/dx-contracts/blob/master/test/resources/add-token-pair/mainnet/WETH_RDN.js)
     as an example on how to provide the information.
   * Save your config file in the current directory, for example `ABC-WETH.js`
 
@@ -196,6 +195,9 @@ MNEMONIC="your secret mnemonic ..." npm run -- add-token-pairs -f ./ABC-WETH.js 
 If everything went smoothly, you should now be able to execute it for real.
 Otherwise, the command will tell you what is the problem and what you need to
 do in order to solve it.
+
+> Please make sure that you provide the correct route to your token pair file.
+> This route should be relative to project root `dx-contracts`
 
 **4. Run the script without the dry-run**:
 ```bash

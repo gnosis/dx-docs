@@ -12,4 +12,4 @@ Meet the community on Github and the [Gitter channel](https://gitter.im/gnosis/D
 Checkout the **Developer Guides** and documents
 [DutchX as an open protocol](dutchx-as-an-open-protocol.html).
 
-Join the public [DutchX telegram channel](https://t.me/dutchxprotocol)
+Join the public [DutchX telegram channel](https://t.me/dutchxprotocol).

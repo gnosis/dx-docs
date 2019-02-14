@@ -9,7 +9,7 @@ The user will also receive the share of their MGN that was generated using their
 - The contract is set to run a certain amount of time (one for WETH-Token and one for Token-WETH)
 - The contract uses all funds to continuously take part (with all funds) in the sell side of the auction
 - The contract claims back the receiving token after an auction has finished and takes part in the sell side of the opposite auction
-- This process continues until the pre-defined time has been reached and an even number of auctions have  benn run
+- This process continues until the pre-defined time has been reached and an even number of auctions have  been run
 - [Magnolia](https://dutchx.readthedocs.io/en/latest/mechanism.html#magnolia) is generated based on the rules of the DutchX (the pair has to be [whitelisted](https://dutchx.readthedocs.io/en/latest/mechanism.html#whitelist))
 
 ### Users' actions

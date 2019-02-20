@@ -1,4 +1,4 @@
-# MGN pooling contract
+# ERC20 pooling contract for MGN
 
 ### Purpose of the contract
 The MGN pooling contract works on top of the DutchX trading protocol. The purpose is for anyone to be able to participate easily in trades on the DutchX in order to generate Magnolia. 

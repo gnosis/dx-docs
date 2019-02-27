@@ -83,7 +83,8 @@ Create a config file for the bots, like the one in
   * `BALANCE_CHECK_BOT`: [Configuration for balance check bot](./bots-types.html#balance-check-bot-configuration)
   * `HIGH_SELL_VOLUME_BOT`: [Configuration for high sell volume bot](./bots-types.html#high-sell-volume-bot-configuration)
   * `WATCH_EVENTS_BOT`: [Configuration for watch events bot](./bots-types.html#watch-events-bot)
-  * `DEPOSIT_BOT`: [Configuration for deposit Bot](./bots-types.html#deposit-bot-configuration)
+  * `DEPOSIT_BOT`: [Configuration for deposit bot](./bots-types.html#deposit-bot-configuration)
+  * `CLAIM_BOT`: [Configuration for claim bot](./bot-types.html#claim-bot-configuration)
 
 WARNING: When creating a new configuration file you may name it as you wish,
 but make sure you update

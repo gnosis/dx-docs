@@ -254,6 +254,21 @@ bot will handle the rest.
   * **inactivityPeriods**: a list of from-to time periods in which the bot will not deposit funds (useful when you want to withdraw)
   * **checkTimeInMilliseconds**: the time between bot checking to deposit funds  
 
+## Claim Bot
+This bot will check periodically for unclaimed balances in the configured markets
+and will automatically claim all of them. This is useful so the bot can recover
+on his own funds used on previous auctions.
+
+### Claim Bot configuration
+* `CLAIM_BOT`:
+  * **name**: The name to display in notifications and messages
+  * **factory**: The factory to create the bot. You can create your own bot if you want!
+  * **markets**: An object selecting the markets to watch (as explained [here](./bots-market-making.html#create-the-config-file-for-the-bots))
+  * **accountIndex**: The accountIndex from the accounts generated from the `MNEMONIC` that is going to be used by this bot
+  * **notifications**: The notification system to be used by the bot. For now only `slack` is available
+  * **autoClaimAuctions**: the number of previous auctions you want the bot to check (ex. 90 will correspond to aprox 3 weeks of auctions if around 4 auctions each day)
+  * **cronSchedule**: You can select using crontab style a time schedule for the claim. You can check [here](https://crontab.guru/#0_02,06,10,14,18,22_*_*_*) if you have doubts.
+
 ## Watch Events Bot
 This bot can watch for events in market auctions to operate immediately once an auction
 has closed.

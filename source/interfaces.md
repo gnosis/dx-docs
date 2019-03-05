@@ -28,7 +28,7 @@ The project is open source, with this [Github](https://github.com/gnosis/dx-reac
 *The team decides on which tokens to list on their interface (which may be only a subset of those tradable (of which only some might be whitelisted))*.
 
 ## Bidder interface
-The bidder interface is available at [fairdex.net](https://fairdex.net/) *(note: likely available from 11 February onwards)*. Switch between Mainnet and Rinkeby with your wallet provider. This interface reflects more relevant data for bidders in particular:  
+The bidder interface is available at [fairdex.net](https://fairdex.net/). Switch between Mainnet and Rinkeby with your wallet provider. This interface reflects more relevant data for bidders in particular:  
 Participating as a bidder requires more active participation (though made super simple via this interface). For one, bidders need to be active in moment of time that the price reflects their willingness to pay.  
 In fact, this is the best strategy for participation: participation at a higher price, the bidder is at risk to overpay and participation below, the bidder is at risk to not be able to take part in the auction. This is the ideal strategy due to the fact that in the end - at auction closing - all bidders pay the same final (lowest) price! Rather than getting anything back, the bidder obtains more of the token that he/she purchased. This in turn means: upon participation, the bidder knows the minimum amount that he/she will receive.  
 On top of this, actually, the user can claim already this amount (and then any additional amounts and the remainder also upon closing of the auction). Hence, a bidder has instant liquidity, where this is important.  

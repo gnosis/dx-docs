@@ -242,6 +242,7 @@ There are several prices you can call depending on your needs:
 
 It can prove useful to check information of previous auctions and trades in the past. You can display the information
 of cleared auctions and filter it by dates using the following commands:
+> For valid date formats we use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 ```bash
 # Get today's auctions
@@ -257,10 +258,10 @@ of cleared auctions and filter it by dates using the following commands:
 ./dutchx-rinkeby auctions --period last-week
 
 # Get auctions from a specified date range
-./dutchx-rinkeby auctions --from-date=25-05-2018 --to-date=26-05-2018
+./dutchx-rinkeby auctions --from-date=2018-05-25 --to-date=2018-05-26
 
 # Export auctions from a given date range to a .csv file
-./dutchx-rinkeby auctions --from-date=25-05-2018 --to-date=26-05-2018 --file=auctions.csv
+./dutchx-rinkeby auctions --from-date=2018-05-25 --to-date=2018-05-26 --file=auctions.csv
 ```
 
 As mentioned previously, you can also get the history of previous trades. Use the following commands:
@@ -279,7 +280,7 @@ As mentioned previously, you can also get the history of previous trades. Use th
 ./dutchx-rinkeby trades --period last-week
 
 # Get auctions between two dates
-./dutchx-rinkeby trades --from-date=25-05-2018 --to-date=26-05-2018
+./dutchx-rinkeby trades --from-date=2018-05-25 --to-date=2018-05-26
 ```
 
 Additionally, you can apply any of this filters:
@@ -312,5 +313,5 @@ Additionally, you can apply any of this filters:
 ./dutchx-rinkeby trades --period today --auction-index 24
 
 # Export the result to a file
-./dutchx-rinkeby trades --from-date=25-05-2018 --to-date=26-05-2018 --file=auctions.csv
+./dutchx-rinkeby trades --from-date=2018-05-25 --to-date=2018-05-26 --file=auctions.csv
 ```

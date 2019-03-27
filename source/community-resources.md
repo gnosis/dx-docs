@@ -36,8 +36,14 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 
 -   [The DutchX — Take Part in the Arbitrage Opportunity](https://blog.gnosis.pm/the-dutchx-take-part-in-the-arbitrage-opportunity-eeacc20ef6f)
 
+-   [DutchX Smart Contracts 2.0 Bug Bounty](https://blog.gnosis.pm/dutchx-smart-contracts-2-0-bug-bounty-861ad756de52)
+
+-   [New DutchX Smart Contracts are Now Live](https://blog.gnosis.pm/new-dutchx-smart-contracts-are-now-live-665d83f31930)
+
 
 #### Videos
+
+-   [Christiane Ernst, DutchX PM presents the DutchX and dxDAO at EthCC Paris 2019](https://www.youtube.com/watch?v=JduIYf3s9Mc&t=1218s)
 
 -   [Christiane Ernst, DutchX PM, and Angel Rodriguez, DutchX tech lead, present the DutchX at Web3.0](https://www.youtube.com/watch?v=tnERUmnyNzk)
 

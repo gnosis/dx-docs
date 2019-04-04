@@ -32,7 +32,7 @@ of the deployed [**DutchExchangeProxy.sol**](https://github.com/gnosis/dx-contra
 
 To add a token pair, follow this steps:
 * Make sure you have the address of the [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
-  token and `$10.000` worth of [WETH](https://weth.io/) (it'll be used for
+  token and `$1,000` worth of [WETH](https://weth.io/) (it'll be used for
   the first auction, so you'll get it back after is cleared)
 * Set an allowance for the DutchX (proxy), so it can take the required amount of
   WETH when you call the deposit function (call `approve` function in WETH contract)
@@ -72,10 +72,10 @@ To add a token pair you will need the following information:
       mathematical explanation, check out the
       [Smart Contract Documentation](smart-contract-documentation.html).
 * **Funding for first token** (in Weis): For example `18 WETH` (more than
-    `10.000$`, note we use `584 ETH/RDN` as the price)
+    `1,000$`, note we use `584 ETH/RDN` as the price)
   * This is the amount you are going to deposit for the first auction of the token pair.
   * It's important to know that, in order to add a token, you should surplus the
-    **minimum threshold for adding a token pair** (`10.000$` of the token). For
+    **minimum threshold for adding a token pair** (`$1,000` of the token). For
     the calculation of the worth in USD of your tokens, the DutchX will use two
     things:
       * **The price you provide**: This is the price you claim your token is

@@ -30,13 +30,13 @@ Please note that some teams are already working on various ideas. We try to upda
 - You need to find an exchange with sufficient liquidity and where such an atomic transaction is possible.
 - Added complexity: If it is not the same token pair, but another transaction in between i.e. A for B, B for C and C for A.
 
-##### Pooling contract to have USD 10’000 starting the auction
+##### Pooling contract to list a token
 
 Note: This idea has been picked and is actively pursued.
 
 - The rules in the smart contract is such that a listing token pair is done by  
     - i) specifying the NewToken
-    - ii) Funding the auction with the equivalent of 10kUSD in ETH
+    - ii) Funding the auction
     - iii) setting the price
     - After 6h, the auction will start
 

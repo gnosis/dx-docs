@@ -32,5 +32,5 @@ As the purpose is easy participation for a user, only three actions have to be c
 ### Code and audit
 - MGN-Pooling smart contract [Github Repo](https://github.com/gnosis/dx-mgn-pool)
 - Script of [automated participation bot](https://github.com/gnosis/dx-mgn-pool/tree/master/scripts)  
-- *Interface Repo to follow*  
-- *Audit report to follow*
+- [Interface Repo](https://github.com/gnosis/dx-mgn-pool-react)
+- [Audit report](https://github.com/g0-group/Audits/blob/master/DX-MGN-POOL.md)

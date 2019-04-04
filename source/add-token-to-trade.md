@@ -8,7 +8,7 @@ Some information that you might find relevant when thinking about adding a token
 
 ## The theory to list
 - A new token always has to be added as a pair with WETH
-  - For this, the first auction that is initiated has to be funded with an equivalent of USD10k worth of WETH
+  - For this, the first auction that is initiated has to be funded with an equivalent of 1k USD worth of WETH
   - The initiator has to set a price for WETH-NewToken; the auction will start at twice this price
     - There is an incentive to set the correct price: if it is too low, the initiator sells their WETH below marketprice. if it is too high, the auction will run longer.
    - The auction starts after 6 hours 
@@ -43,7 +43,7 @@ Some information that you might find relevant when thinking about adding a token
 - Each token has to be first added as a pair with WETH
 - Two tokens that are already available with WETH on the DutchX, may be initiated with one another
 - For this, no price setting is needed (as both are available with WETH)
-- For the listing of a pair that is not WETH, the accumulated sell Volume amount of both opposite auctions has to equal USD 10k
+- For the listing of a pair that is not WETH, the accumulated sell Volume amount of both opposite auctions has to equal 1K USD.
 
 ## Technical steps
 - Read the code [here](https://github.com/gnosis/dx-contracts/blob/1fc99740a86a1635c9bf856a370b16295915b76d/contracts/DutchExchange.sol#L347)

@@ -15,4 +15,6 @@ It takes the median of the last 9 auctions of that token pair on the DutchX, if 
     - getPrice only works for [whitelisted tokens](https://dutchx.readthedocs.io/en/latest/basic-mechanism.html#whitelist)
     - getPriceCutstom allows customization (for other tokens).  
     
+Check out the [API endpoint](https://dutchx.d.exchange/api/docs/#!/Prices/getOraclePrice).
+
 Check out the [code](https://github.com/gnosis/dx-price-oracle/tree/master).

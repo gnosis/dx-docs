@@ -46,6 +46,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    The dxDAO <dxDAO>
    market-makers
    Interfaces <interfaces>
+   Pooling for MGN <ERC20-pool-for-MGN>
    api
    cli
 
@@ -61,6 +62,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Bots: Automated minimal liquidity <bots-market-making>
    Bots: Types <bots-types>
    Bots: Add a price feed for the bots <bots-price-feed>
+   Bots: Arbitrage to Uniswap <uniswap-arbitrage>
 
 .. toctree::
    :maxdepth: 2

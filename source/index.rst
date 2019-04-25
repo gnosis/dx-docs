@@ -61,6 +61,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Add a token pair <add-token-pair>
    Bots: Automated minimal liquidity <bots-market-making>
    Bots: Types <bots-types>
+   Bots: Security <bots-security>
    Bots: Add a price feed for the bots <bots-price-feed>
    Bots: Arbitrage to Uniswap <uniswap-arbitrage>
 

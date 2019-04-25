@@ -17,7 +17,7 @@ The DutchX uses a [proxy contract](https://github.com/gnosis/dx-contracts/blob/m
 
 Uniswap has one main [Factory contract](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy) which keeps track of all Uniswap Exchanges and is used to make new ones as well. Each Uniswap Exchange is a copy of the [Exchange template](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_exchange.vy) and contains a single pair of ERC-20 tokens or a pair between an ERC-20 and Ether (most are of the latter type). Similar to the DutchX, these contracts contain the ability to buy or sell an asset in a single transaction making our atomic swap of assets between the exchanges possible.
 
-Our [Arbitrage Contract](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/Arbitrage.sol) needs to reference the DutchX proxy address as well as the Uniswap Factory Address. To save gas these are hard-coded for [Rinkeby](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageRinkeby.sol) and [Mainnet](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageMainnet.sol), but left as constructor arguments for [local development](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageLocal.sol). The main arbitrage contract comes with some abilities to manage balances on the DutchX as well as the ability to execute arbitrage opportunities. 
+Our [Arbitrage Contract](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/Arbitrage.sol) needs to reference the DutchX proxy address as well as the Uniswap Factory Address. To save gas these are hard-coded for [Rinkeby](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageRinkeby.sol) and [Mainnet](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageMainnet.sol), but left as constructor arguments for [local development](https://github.com/gnosis/dx-uniswap-arbitrage/blob/master/contracts/ArbitrageLocal.sol). The main arbitrage contract comes with some abilities to manage balances on the DutchX as well as the ability to execute arbitrage opportunities.
 
 If a specific token is cheaper on the DutchX with relation to Ether it would initially be bought from the DutchX and sold for Ether on Uniswap; This is called a `dutchOpportunity`. If a specific token is cheaper on Uniswap it would be purchased with Ether and sold on the DutchX for Ether; this is called a `uniswapOpportunity`. Each method will execute the subsequent buys and sells on the respective exchanges in a single transaction. At the end of the transaction the total amount of profit gained is confirmed. If the methods were executed when there was in fact no opportunity for an arbitrage, this will be detected and the transaction is reverted. The only potential loss is in the gas used to check the opportunity. That is why the bots used to determine when to execute are important in saving the loss of unnecessary gas expenditures.
 
@@ -39,7 +39,7 @@ contract Arbitrage is Ownable {
     /// @dev Only owner can transfer any Ether currently in the contract to the owner address.
     /// @param amount The amount of Ether to withdraw
     function transferEther(uint amount) external onlyOwner;
-    
+
     /// @dev Only owner function to withdraw WETH from the DutchX, convert it to Ether and keep it in contract
     /// @param amount The amount of WETH to withdraw and convert.
     function withdrawEther(uint amount) external onlyOwner;
@@ -54,16 +54,15 @@ contract Arbitrage is Ownable {
     /// @return Returns the amount actually withdrawn from the DutchX
     function withdrawToken(address token, uint amount) external onlyOwner returns (uint);
 
-    /// @dev Only owner can claim a token from an auction on the DutchX
-    /// @param token The token address that is being claimed.
-    /// @param dutchAuctionIndex The auction index of the token to be claimed.
-    /// @return Returns the amount actually claimed from the DutchX
-    function claimBuyerFunds(address token, uint dutchAuctionIndex) external onlyOwner returns (uint);
-
     /// @dev Only owner can transfer tokens to the owner that belong to this contract
     /// @param token The token address that is being transferred.
     /// @param amount The amount of token to transfer.
     function transferToken(address token, uint amount) external onlyOwner;
+
+    /// @dev Only owner can approve tokens to be used by the DutchX
+    /// @param token The token address to be approved for use
+    /// @param allowance The amount of tokens that should be approved
+    function approveToken(address token, uint allowance) external onlyOwner;
 
     /// @dev Only owner can deposit token to the DutchX
     /// @param token The token address that is being deposited.
@@ -75,7 +74,7 @@ contract Arbitrage is Ownable {
     /// @param amount The amount of token to deposit.
     function _depositToken(address token, uint amount) internal;
 
-    /// @dev Executes a trade opportunity on dutchX. Assumes that there is a balance of WETH already on the dutchX 
+    /// @dev Executes a trade opportunity on DutchX. Assumes that there is a balance of WETH already on the DutchX
     /// @param arbToken Address of the token that should be arbitraged.
     /// @param amount Amount of Ether to use in arbitrage.
     /// @return Returns if transaction can be executed.
@@ -86,7 +85,7 @@ contract Arbitrage is Ownable {
     /// @param amount Amount of Ether to use in arbitrage.
     /// @return Returns if transaction can be executed.
     function uniswapOpportunity(address arbToken, uint256 amount) external onlyOwner;
-    
+
 }
 ```
 
@@ -98,61 +97,60 @@ In order to calculate whether there currently exists an arbitrage opportunity th
 With regard to the arbitrage CLI the following commands are available:
 
 ```bash
-arbClaimBuyerFunds <token> <auctionId>
-  Claim buyer funds from an auction on the dutchX
+deposit-ether <amount> [--arbitrage-contract address]
+  Deposit any Ether in the contract to the DutchX as WETH
 
-arbDepositEther <amount>
-  Deposit any Ether in the contract to the dx as WETH
+deposit-token <amount> <token> [--arbitrage-contract address]
+  Deposit any token in the contract to the DutchX
 
-arbDepositToken <amount> <token>
-  Deposit any token in the contract to the dx
-
-arbDutchOpportunity <token> <amount>
+dutch-opportunity <token> <amount> [--arbitrage-contract address]
   Execute a Dutch Opportunity transaction with Arbitrage contract
 
-arbGetBalance [token]
+get-balance [token] [--arbitrage-contract address]
   Get the arbitrage contract balance of any token (blank token for Ether)
 
-arbManualTrigger <token>
+manual-trigger <token> [--arbitrage-contract address] [--minimum-usd-profit profit]
   Attempt an arbitrage
-  
-arbTransferEther <amount>
-  Transfer Arbitrage contract Eth to contract owner (amount = 0 transfers total balance)
 
-arbTransferOwnership <address>
+transfer-ether <amount> [--arbitrage-contract address]
+  Transfer Arbitrage contract ETH to contract owner (amount = 0 transfers total balance)
+
+transfer-ownership <arbitrage-address> <new-owner-address>
   Transfer ownership of the Arbitrage contract
 
-arbTransferToken <amount> <token>
+transfer-token <amount> <token> [--arbitrage-contract address]
   Transfer Arbitrage contract token balance to contract owner
 
-arbUniswapOpportunity <token> <amount>
-  Execute a Uniswap Opportunity transaction with Arbitrage contract
+uniswap-opportunity <token> <amount> [--arbitrage-contract address]
+  Execute an Uniswap Opportunity transaction with Arbitrage contract
 
-arbWithdrawEther <amount>
-  Withdraw WETH from dutchX and convert to Ether
+withdraw-ether <amount> [--arbitrage-contract address]
+  Withdraw WETH from DutchX and convert to Ether
 
-arbWithdrawToken <amount> <token>
-  Withdraw token from dutchX
-  
-arbWithdrawTransferEther <amount>
-  Withdraw WETH from dutchX, convert to Ether and transfer to owner address
+withdraw-token <amount> <token> [--arbitrage-contract address]
+  Withdraw token from DutchX
+
+withdraw-transfer-ether <amount> [--arbitrage-contract address]
+  Withdraw WETH from DutchX, convert to Ether and transfer to owner address
 ```
 
 With regard to the bots the following config could be used for checking arbitrage between Ether and Raiden as well as Ether and Omisego:
 
 ```
- {
-    name: 'ArbitrageBot',
-    botAddress: '0x123',
-    markets: [
-      { tokenA: 'WETH', tokenB: 'RDN' },
-      { tokenA: 'WETH', tokenB: 'OMG' }
-    ],
-    rules: null,
-    notifications:   notifications: [{
-      type: 'slack',
-      channel: '' // If none provided uses SLACK_CHANNEL_BOT_TRANSACTIONS
-    }]
-  }
+{
+  name: 'Arbitrage bot',
+  factory: 'src/bots/ArbitrageBot',
+  botAddress: '0x123',
+  markets: [
+    { tokenA: 'WETH', tokenB: 'RDN' },
+    { tokenA: 'WETH', tokenB: 'OMG' }
+  ],
+  arbitrageContractAddress: '0x234',
+  minimumProfitInUsd: 5, // $5
+  notifications: [{
+    type: 'slack',
+    channel: 'CABG321'
+  }],
+  checkTimeInMilliseconds: 60 * 1000 // 60s
+}
 ```
-

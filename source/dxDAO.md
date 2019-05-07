@@ -12,6 +12,6 @@ Catch up on the topic:
 - Join the public telegram channel [here](https://t.me/dxDAO)
 
 **[Stake for your vote](https://dxdao.daostack.io) - timeline will be confirmed**
-
 - Learn on how to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
 - Read the dxDAO whitepaper *(coming)*
+- Stake using MEW/Mycrypto or any other ABI tools [following this guide](dxdao-abi-participation)

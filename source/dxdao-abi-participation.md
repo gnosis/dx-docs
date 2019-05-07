@@ -1,0 +1,111 @@
+# Participating in the dxDAO staking period directly using ABI tools
+
+If you are using a smart contract multisig or some other contract to participate in the dxDAO, maybe your only way to go is creating the transactions "manually", here you will find how to do it so.
+
+This guide expects that you already read all materials linked in [the previous section](dxDAO) and that you have understanding of the different staking percentages, ways to participate.
+
+## 1. Staking Ether.
+In this method you will participate using Ether directly, not WETH.
+The Smart Contract used is https://etherscan.io/address/0x27ab21626d6c887f4e197ee7759acb360b1f75a5#code and you can find there the code and also the ABI, just below the smart contract code.
+
+![Open Protocol](./_static/copy-abi.png)
+
+The Ether staking contract has two main methods: lock and release. You need to first lock your ETH for a period of time X and when that period is over, release the ETH to your account.
+
+This is the lock method: 
+```js
+lock(uint256 _period, bytes32 _agreementHash)
+```
+There are two parameters:
+* Period: The amount of time to lock the ETH in the contract (in seconds).
+* AgreementHash: The hash of the dxDAO agreement document.
+
+There is a 3rd parameter that is implicit in the transaction, the ETH sent.
+
+So, for staking with ETH, choose your favourite tool to create the transactions ([MEW](https://www.myetherwallet.com/), [Mycrypto](https://mycrypto.com/), [Gnosis Multisig](https://wallet.gnosis.pm/#/wallets)) and initiate a new smart contract interaction.
+
+* **MEW**: Access my wallet > Contract > Interact with contract.
+* **Mycrypto**: Tools > Interact with Contracts 
+* **Gnosis Multisig**: Click on your Multisig > Multisig transactions add.
+
+### Steps
+1. In the to/destination field, enter to DxLockEth4Rep smartcontract address.
+
+2. Paste the ABI
+
+3. A dropdown appears with all the smart contract methods.
+
+4. Select the method `lock``
+
+5. Enter desired period (in seconds)
+Some example periods are:
+   * 1 day: 86400
+   * 1 week: 604800
+   * 30 days: 18144000
+6. Enter the hash of the agreement document. (Link to post where it's shown)
+
+7. Enter the ETH value for the locking.
+
+8. Sign and submit transaction.
+
+After compleating these steps and the transactions is mined, you are now part of the staking of dxDAO, but will want to get back your Ether when the staking period is over, for that you will the a parameter called lockingId. You can get this, by clicking on the transaction receipt and going to the events section in Etherscan. 
+
+![Open Protocol](./_static/event-lockingid.png)
+
+In this screenshot, you can see lockingId is the indexed topic with index 2, that's `0xda52...`
+
+When your locking period is over, you will be able to release the ETH through the release function.
+```js
+release(address _beneficiary, bytes32 _lockingId)
+```
+* **beneficiary**: The ethereum address that will receive your ETH.
+* **lockingId**: The ID for the locking, you obtained in the event detailed above.
+
+
+Follow the same steps as before 1-3.
+
+4. Select method `release`
+
+5. Enter beneficiary, usually your account address/multisig.
+
+6. Enter the locking ID.
+
+7. Sign and send transaction.
+
+8. ETH should be in your beneficiary address now if the locking period was over.
+
+## 2. Register MGN
+Magnolia (MGN) holders can also obtain dxDAO reputation by registering for MGN staking. For this, you need to call the DxLockMgnForRep contract and register the address that holds or will hold MGN at the end of the stacking period. After the staking period is over, you can redeem the dxDAO reputation tokens an ethereum address you pass as parameter.
+
+The two functions involved are:
+1. `register(bytes32 _agreementHash)`
+2. `claim(address _beneficiary, bytes32 _agreementHash)`
+
+### Steps
+1. Enter as to/destination the smart contract address of DxLockMgnForRep.
+2. Paste the ABI.
+3. Select method `register``
+4. Enter the dxDAO Document Agreement Hash
+5. Sign and send transaction.
+
+Now if the transaction was succesful the wallet you used will take part in the staking with MGN.
+
+After the staking period is over, you can claim your REP, follow same step 1-2.
+
+3. Select method `claim`
+4. Enter benificiary, usally your same account/multisig.
+5. Enter the dxDAO Document Agreement Hash
+6. Sign and send transaction.
+
+If the transaction was succesful, you should have the Reputation tokens in the beneficiary ethereum address.
+
+## 3. Staking Tokens.
+For participating in the staking using Tokens, first you need to use a token that is accepted in the dxDAO. After that, an ERC20 token approval has to be made to allow the staking contract (DxLockWhitelisted4Rep) to lock your tokens. Finally, last but not least, trigger the locking function. 
+
+The functions involved in the process are:
+1. `lock(uint256 _amount, uint256 _period, address _token, bytes32 _agreementHash)`
+    * amount: Amount of tokens used in the locking (note that should be the full value/wei)
+    * period: Duration of locking in seconds.
+    * token: ERC20 token address.
+    * agreementHash: dxDAO agreement document hash.
+2. `release(address _beneficiary, bytes32 _lockingId)`

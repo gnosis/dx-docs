@@ -14,4 +14,4 @@ Catch up on the topic:
 **[Stake for your vote](https://dxdao.daostack.io) - timeline will be confirmed**
 
 - Learn on how to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
-- Read the dxDAO whitepaper *(coming)*
+- Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao-whitepaper-v1.pdf)

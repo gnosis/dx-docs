@@ -1,6 +1,8 @@
 # Add a token pair
 The DutchX is an open protocol, and as such, anybody can add a token pair to trade.
 
+**IMPORTANT NOTE** Make sure the token you are adding is in fact an ERC20 token - the protocol does not double check. Only ERC20 tokens are tradable!
+
 There are several ways to add a token pair to the DutchX. All of them end up
 using the `addTokenPair` function in the
 [**DutchExchange.sol**](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol)

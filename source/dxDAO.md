@@ -12,7 +12,7 @@ The dxDAO will be a community-governed DAO with total control over the DutchX tr
 - Join the public telegram channel - meet the community & ask questions [here](https://t.me/dxDAO)
 - Take part in the discussion [here](https://daotalk.org/c/daos/dx-dao)
 
-## Catch up on the topic:
+## Catch up on the topic
 
 - [Epicenter Podcast](https://www.youtube.com/watch?v=YPh-XDaQG5I)
 - [Update on the Bug Bounty](https://blog.gnosis.pm/security-update-on-the-dxdao-bug-bounty-52cec0f02cde)

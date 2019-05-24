@@ -1,15 +1,16 @@
 # dxDAO
-The dxDAO will be a community-governed DAO with total control over the DutchX trading protocol. Anyone can participate in what will be the first ever fully decentralized trading protocol.  
+The dxDAO will be a community-governed DAO with total control over the DutchX trading protocol. Anyone can participate in what will be the first ever fully decentralized trading protocol. The dxDAO is not a Gnosis DAO. No reputation has been pre-allocated and Gnosis will not participate in this initial reputation distribution.  
 
 **[Stake for your vote](https://dxdao.daostack.io) - starting 29th of May 2019 12noon GMT**
 
 - Learn about how to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
 - [Tips and Tricks](https://daotalk.org/t/tips-and-tricks-for-dxdao-participation/568) for the dxDAO participation
 - Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao-whitepaper-v1.pdf)
-- Read the participation agreement (link will follow)
+- Read the [participation agreement](https://gateway.ipfs.io/ipfs/QmYannFYzK78ndnJDUrVAuUjzNvonvA7YRn26vvUZC5HX6)
 
 ## Social
 - Join the public telegram channel - meet the community & ask questions [here](https://t.me/dxDAO)
+- Follow the [dxDAO on Twitter](https://twitter.com/_dx_dao)
 - Take part in the discussion [here](https://daotalk.org/c/daos/dx-dao)
 
 ## Catch up on the topic

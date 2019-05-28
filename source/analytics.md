@@ -1,4 +1,4 @@
-# DutchX Analytics
+# Analytics & Alerts
 
 Where can you gather information on what's happening on the DutchX Protocol Level on the Ethereum blockchain?
 

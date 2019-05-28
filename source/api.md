@@ -21,6 +21,8 @@ You can also use the **TRY** button to test the endpoint:
 
 The API is Open Source, so anyone can run it in its own server.
 
+Also, this very cool **Subgraph** is available: [https://thegraph.com/explorer/subgraph/infinitestyles/dutchx](https://thegraph.com/explorer/subgraph/infinitestyles/dutchx)
+
 ## Read only API
 The API provides read-only access, because it's not configured with private keys
 and is not involved in any transaction signing. 

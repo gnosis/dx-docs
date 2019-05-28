@@ -131,3 +131,15 @@ The locking generates an Ethereum event where the lockingID can be seen and used
 6. Sign and send transaction.
 
 ## 4. GEN Auctions.
+The 4th method to get Reputation in the dxDAO during the staking period is to participate in the GEN auction that will take place. For that end, you need to hold GEN and allow the Auction4Reputation contract to use your GEN tokens.
+
+The functions involved in the process are:
+1. `bid(uint256 _amount, uint256 _auctionId)`
+
+# Steps:
+1. Enter as to/destination the smart contract address of Auction4Reputation.
+2. Paste the ABI.
+3. Select method `bid`
+4. Enter amount of GEN with decimal offset: e.g 1 Token of GEN -> 1e18 GEN
+5. Enter the auctionId you want to participate in. Check what's the current one in the dxDAO website.
+6. Sign and send transaction.

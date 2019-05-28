@@ -23,3 +23,7 @@ The dxDAO will be a community-governed DAO with total control over the DutchX tr
 - [2019 is the Year of the DAO](https://blog.gnosis.pm/2019-is-the-year-of-the-dao-5a428f90fb55)
 - dxDAO is based on [DAOstack's](https://daostack.io/) governance framework 
 - Check out another DAOstack DAO, the [Genesis Alpha](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830) 
+
+## Miscellaneous
+
+- [Verify the Participation Agreement](https://pastebin.com/t2EPcCNz)

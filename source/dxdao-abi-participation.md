@@ -109,3 +109,25 @@ The functions involved in the process are:
     * token: ERC20 token address.
     * agreementHash: dxDAO agreement document hash.
 2. `release(address _beneficiary, bytes32 _lockingId)`
+
+### Steps:
+1. Enter as to/destination the smart contract address of DxLockWhitelisted4Rep.
+2. Paste the ABI.
+3. Select method `lock`
+4. Enter amount of tokens with decimals as offset: e.g 1 DAI -> 1e18 DAI
+5. Enter the period of locking in seconds. (Same as stacking ETH)
+6. Enter the token you want to use for locking (Only tokens with enough liquidity are allowed to be used for staking, please verify before hand in the main dxDAO stacking interface that the token you want to use is going to work)
+7. Enter the dxDAO Document Agreement Hash
+8. Sign and send transaction.
+
+The locking generates an Ethereum event where the lockingID can be seen and used for the release of the tokens, after the locking period you set is over.
+
+#### For releasing: 
+1. Enter as to/destination the smart contract address of DxLockWhitelisted4Rep.
+2. Paste the ABI.
+3. Select method `release`
+4. Enter beneficiary address. Usually the same address you used for locking.
+5. Enter the dxDAO Document Agreement Hash
+6. Sign and send transaction.
+
+## 4. GEN Auctions.

@@ -31,3 +31,7 @@ The dxDAO will be a community-governed DAO with total control over the DutchX tr
 ## Miscellaneous
 
 - *[Verify the Participation Agreement]*
+- [ETH Lock Link to Etherscan](https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5)
+- [Token Lock Link to Etherscan](https://etherscan.io/address/0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6)
+- [MGN Registration Link to Etherscan](https://etherscan.io/address/0x2e6fae82c77e1d6433ccaaaf90281523b99d0d0a)
+- [GEN Auction Link to Etherscan](https://etherscan.io/address/0x4d8db062defa0254d00a44aa1602c30594e47b12)

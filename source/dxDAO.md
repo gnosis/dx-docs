@@ -6,7 +6,7 @@ The dxDAO will be a community-governed DAO with total control over the DutchX tr
 - Learn about how to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
 - [Tips and Tricks](https://daotalk.org/t/tips-and-tricks-for-dxdao-participation/568) for the dxDAO participation
 - Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao-whitepaper-v1.pdf)
-- Read the [participation agreement](https://gateway.ipfs.io/ipfs/QmYannFYzK78ndnJDUrVAuUjzNvonvA7YRn26vvUZC5HX6)
+- Read the [participation agreement]()
 
 ## Social
 - Join the public telegram channel - meet the community & ask questions [here](https://t.me/dxDAO)

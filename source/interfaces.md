@@ -1,5 +1,11 @@
 # Interfaces
 
+### TL;DR
+- Graphical User Interface for Sellers [slow.trade](https://slow.trade/#/)
+- Graphical User Interface for Bidders [fairdex.net](https://fairdex.net/)
+- [CLI](https://dutchx.readthedocs.io/en/latest/cli.html)
+- [API](https://dutchx.readthedocs.io/en/latest/api.html)
+
 ### DutchX as an open protocol
 The DutchX is **100% open source** and has been built as a community effort to improve
 the problems that current centralized and decentralized platforms face.

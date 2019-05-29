@@ -26,4 +26,4 @@ The dxDAO will be a community-governed DAO with total control over the DutchX tr
 
 ## Miscellaneous
 
-- [Verify the Participation Agreement](https://pastebin.com/t2EPcCNz)
+- *[Verify the Participation Agreement]*

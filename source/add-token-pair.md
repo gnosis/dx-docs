@@ -1,7 +1,13 @@
 # Add a token pair
 The DutchX is an open protocol, and as such, anybody can add a token pair to trade.
 
-**IMPORTANT NOTE** Make sure the token you are adding is in fact an ERC20 token - the protocol does not double check. Only ERC20 tokens are tradable!
+**IMPORTANT NOTES** 
+* Make sure the token you are adding is in fact an ERC20 token - the protocol does not double check. Only ERC20 tokens are tradable!
+* Make sure you are aware that the DutchX price at Smart Contract level of a given token pair `Token A - Token B` is
+`Token A in wei / Token B in wei`. Normally, the tokens have 18 decimals, so the 
+price at protocol level is the same number as a user might expect. 
+But *it's not the case if the token have a different number of decimals*.
+When we list the token, we should express the price in how much wei of token B I get for one wei of token A.
 
 There are several ways to add a token pair to the DutchX. All of them end up
 using the `addTokenPair` function in the

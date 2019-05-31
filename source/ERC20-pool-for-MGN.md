@@ -4,7 +4,7 @@
 *Please note that due to the mechanism design of the DutchX MGN Pool, it is expected that when participating in the DutchX MGN Pool the remaining number of the deposited tokens, which may be reclaimed following the end of the trading period, will be significantly lower than the initially deposited number of tokens and may in fact be nil (0). It is therefore advised to only participate in the DutchX MGN Pool, if one wishes to accrue MGN and values such accrued MGN sufficiently high to justify the significant risk of losing all tokens initially deposited into the DutchX MGN Pool.*
 
 ### Available interface
-Hosted from the slow.trade team **[here](https://mgn-pool.slow.trade/)**   
+Hosted from the slow.trade team **[here](https://mgn-pool.slow.trade/)**</br>
 Read the corresponding **[Walkthrough](https://medium.com/@slow_trade/how-to-use-the-dutchx-mgn-pool-interface-e151efe7094b)**
 
 ### Purpose of the contract

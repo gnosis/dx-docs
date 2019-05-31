@@ -12,7 +12,7 @@ Contract Addresses:
 
 ## 1. Staking Ether.
 In this method you will participate using Ether directly, not WETH.
-The Smart Contract used is https://etherscan.io/address/0x27ab21626d6c887f4e197ee7759acb360b1f75a5#code and you can find there the code and also the ABI, just below the smart contract code.
+The Smart Contract used is https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5#contracts and you can find there the code and also the ABI, just below the smart contract code.
 
 ![Open Protocol](./_static/copy-abi.png)
 

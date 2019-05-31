@@ -40,6 +40,8 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 
 -   [New DutchX Smart Contracts are Now Live](https://blog.gnosis.pm/new-dutchx-smart-contracts-are-now-live-665d83f31930)
 
+-   [DutchX Token Listing Reward](https://blog.gnosis.pm/dutchx-token-listing-reward-ece1036d1099)
+
 
 #### Videos
 
@@ -58,9 +60,9 @@ The DutchX protocol provides a lot of cool features and intrinsic motivation for
 
 -   [Eazy Exchange](https://eazy.exchange/) - an interface built by [Midas](https://midas.social/), using the DutchX as the protocol (currently on Rinkeby)
 
--   [slow.trade](https://slow.trade) - a graphical interface and trading platform that lets you seamlessly interact with the DutchX decentralised trading protocol.
+-   [slow.trade](https://slow.trade) - a graphical interface and trading platform that lets you seamlessly interact with the DutchX decentralised trading protocol as a **Seller**.
 
-- A bidder interface is coming soon.
+-   [FairDex](https://fairdex.net/) - a graphical interface and trading platform that lets you seamlessly interact with the DutchX decentralised trading protocol as a **Bidder**.
 
 Add this cool logo to your site if you built on top of the DutchX:
 
@@ -80,6 +82,4 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 -   [Ethresearch](https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443)
 
--   [Official Riot Channel](https://chat.gnosis.pm/#/room/#dutchx:matrix.gnosis.pm) 
-
--   For developer questions, check out our [Gitter](https://gitter.im/gnosis/DutchX)
+-   **For developer questions, check out our [Gitter](https://gitter.im/gnosis/DutchX)**

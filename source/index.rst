@@ -49,6 +49,7 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    Pooling for MGN <ERC20-pool-for-MGN>
    api
    cli
+   analytics
 
 .. toctree::
    :maxdepth: 0
@@ -73,7 +74,6 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
    community-resources
    integration-ideas
    contribute
-   analytics
 
 .. toctree::
    :maxdepth: 2

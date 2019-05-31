@@ -63,8 +63,8 @@ Create a config file for the bots, like the one in
 [conf/bots-conf.js.example](https://github.com/gnosis/dx-tools/blob/master/conf/bots-conf.js.example), where:
 
 * `MARKETS`: List of the ERC20 token pairs you want the bots to watch.
-  * Format: `<token1>-<token2>[,<tokenN>-<tokenM>]*`
-  * Example: `WETH-RDN,WETH-OMG`
+  * Format: `[{ tokenA: <token1>, tokenB: <token2> }, { tokenA: <tokenN>, tokenB: <tokenM> }]*`
+  * Example: `[{ tokenA: WETH, tokenB: RDN },{ tokenA: WETH, tokenB: OMG }]`
   * It's important that for every distinct token provided, you also provide the
   address, the can be passed either in the config file you are creating or as ENV_VAR.
   If you add them to the config file **REMEMBER** to add them to the module.exports section.

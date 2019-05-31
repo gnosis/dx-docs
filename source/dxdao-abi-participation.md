@@ -4,6 +4,12 @@ If you are using a smart contract multisig or some other contract to participate
 
 This guide expects that you already read all materials linked in [the previous section](dxDAO) and that you have understanding of the different staking percentages, ways to participate.
 
+Contract Addresses:
+* [DxLockEth4Rep](https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5#contracts): 0x4564BFe303900178578769b2D76B1a13533E5fd5
+* [DxLockWhitelisted4Rep](https://etherscan.io/address/0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6#contracts): 0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6
+* [DxLockMgnForRep](https://etherscan.io/address/0x2e6fae82c77e1d6433ccaaaf90281523b99d0d0a#contracts): 0x2E6FaE82c77e1D6433CCaAaF90281523b99D0D0a
+* [DxGenAuction4Rep](https://etherscan.io/address/0x4d8db062defa0254d00a44aa1602c30594e47b12#contracts): 0x4D8DB062dEFa0254d00a44aA1602C30594e47B12
+
 ## 1. Staking Ether.
 In this method you will participate using Ether directly, not WETH.
 The Smart Contract used is https://etherscan.io/address/0x27ab21626d6c887f4e197ee7759acb360b1f75a5#code and you can find there the code and also the ABI, just below the smart contract code.

@@ -64,7 +64,14 @@ In version DutchX 2.0, OWL is part of the DutchX Protocol:
 - 1 OWL is treated as an equivalent of 1USD worth of fees.
 - The OWL used will not go to **any party** but will instead be burnt (consumed).   
 
-*An example: 1) user takes part with 100A 2) liquidity contribution is calculated, e.g. 0.3% 3) total fees are 0.3A 4) user chooses to settle half in OWL 5) calculation of 0.3A into ETH then into USD (e.g. 0.6USD) 6) 0.3 OWL is deducted (1USD = 1OWL) 7) remainder of 0.3USD (=0.15 A) is taken from the order 8) 99.85A is placed for the user as his/her order. Note that 0.3OWL are burnt and 0.15A go into the next auction as an extra sellVolume*
+*An example: 1) user takes part with 100A 
+2) liquidity contribution is calculated, e.g. 0.3% 
+3) total fees are 0.3A 
+4) user chooses to settle half in OWL 
+5) calculation of 0.3A into ETH then into USD (e.g. 0.6USD) 
+6) 0.3 OWL is deducted (1USD = 1OWL) 
+7) remainder of 0.3USD (=0.15 A) is taken from the order 
+8) 99.85A is placed for the user as his/her order. Note that 0.3OWL are burnt and 0.15A go into the next auction as an extra sellVolume*
 
 ### How is it used on the DutchX?
 - OWL is completely optional to use. You must set an allowance for the smart contract for OWL.

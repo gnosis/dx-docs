@@ -64,7 +64,8 @@ In version DutchX 2.0, OWL is part of the DutchX Protocol:
 - 1 OWL is treated as an equivalent of 1USD worth of fees.
 - The OWL used will not go to **any party** but will instead be burnt (consumed).   
 
-*An example: 1) user takes part with 100A<br/>
+*An example:<br/>
+1) user takes part with 100A<br/>
 2) liquidity contribution is calculated, e.g. 0.3%<br/> 
 3) total fees are 0.3A<br/>
 4) user chooses to settle half in OWL<br/>

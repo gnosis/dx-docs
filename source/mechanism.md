@@ -1,15 +1,15 @@
 # Decentralized trading protocol for ERC20 tokens
 
-The DutchX switches between two states (for each token pair):<br/>
-(1) the batching before an auction starts (for sellers to deposit their tokens), and<br/>
-(2) the running Dutch auction (when bidders are active).
+The DutchX has two phases (for each token pair):<br/>
+(1) the batching before an auction starts (for sellers to deposit their tokens)<br/>
+(2) and the running Dutch auction (when bidders are active).
 
-Sellers can submit the tokens they would like to sell at any point in time. Those will automatically be placed into the next available auction — no tokens can be submitted into the running auction.  
+Sellers can submit the tokens they would like to sell at any point in time. These tokens will automatically be placed into the next available auction as no tokens can be submitted into the running auction.  
 
 Bidders are only active during the running of an auction.  
 
 There is always only one auction per token pair running (with opposite auctions running simultaneously). All auctions run independent of one another.<br/>  
-When an auction for a token-pairing starts, the initial price is set at twice the final closing price of the previous auction (of the same pairing). From this initial price, the price falls according to a decreasing function. During the auction, when bidders are active, they submit their bid at any point in time at that current price (remember: the price function is decreasing). The bidders are guaranteed the minimum amount of tokens at the price point at which they took part. Bidders can submit bids until the auction closes (where bidVolume x price = sellVolume). Note that all bidders receive the same final and therefore lowest price. Bidders should therefore take part where the current price of the auction reflects their maximum willingness to pay.
+When an auction for a given token pair begins, the initial price is set at twice the final closing price of the previous auction (of the same pairing). From this initial price, the price falls according to a decreasing function. During the auction bidders can submit their bid at any point in time at that current price (remember: the price function is decreasing). The bidders are guaranteed the minimum amount of tokens at the price point at which they took part. Bidders can submit bids until the auction closes (where bidVolume x price = sellVolume). Note that all bidders receive the same final and therefore lowest price. Bidders should therefore take part where the current price of the auction reflects their maximum willingness to pay.
 Since bidders will only pay the final market clearing price, which is either at their bid or lower, they have an economic incentive to submit the bid at their highest willingness to pay.
 
 Check the section on [**interfaces**](https://dutchx.readthedocs.io/en/latest/interfaces.html) for ways to participate.  
@@ -17,7 +17,7 @@ Check the section on [**interfaces**](https://dutchx.readthedocs.io/en/latest/in
 ## Liquidity contribution
 On the DutchX Protocol, liquidity contribution is levied on users in place of traditional fees.<br/>
 **These do not go to anyone** (not to Gnosis, or any other party):<br/>
-Liquidity contribution is committed to the next running auction for the respective auction pair and are thus *redistributed to all users of the DutchX protocol*! It incentivises volume and use of the protocol.<br/>
+Rather, the liquidity contribution is committed to the next running auction for the respective auction pair and are thus *redistributed to all users of the DutchX protocol*! This mechanism helps boost volume and use of the protocol.<br/>
 
 Your individual liqudity contribution depends on your amount of Magnolia token held as a percentage of the entire Magnolia market (it is a step function):<br/>  
 =>10% of Magnolia held --> 0.1% liquidity contribution<br/>  
@@ -32,18 +32,18 @@ anything below 0.01% of Magnolia held --> 0.5% of liquidity contribution.
 Magnolia (MGN) tokens are intrinsic to the DutchX and lower the default liquidity contribution on the DutchX Protocol.<br/>  
 MGN are automatically generated and credited to users: 1 MGN is credited for trading 1 ETH worth of any whitelisted token pair (and of course trading any fraction of ETH generates the same fraction of MGN).<br/>
 MGN are locked by default into a smart contract for which the user’s address is associated with a particular balance.<br/>  
-A user may unlock all Magnolia associated with an address at once and after 24 hours have passed, these tokens may be transferred to another address. The new holder must then lock their tokens again (or a subset thereof) in order to use the Magnolia balance for liquidity contribution reduction.<br/>  
-Magnolia are inflationary, which should incentivise an early adoption and continuous use of the DutchX protocol.<br/>  
+A user may unlock all Magnolia associated with an address at once and after 24 hours have passed, these tokens may be transferred to another address. The new holder must then lock their tokens again (or a portion thereof) in order to use the Magnolia balance for liquidity contribution reduction.<br/>  
+Magnolia are inflationary, which should incentivise early adoption and continuous use of the DutchX protocol.<br/>  
 Magnolia are not needed to participate as a seller or bidder on the DutchX.
 
 ## Whitelist
-Whitelisted tokens are those that generate Magnolia when traded in a whitelisted pair. Not whitelisted tokens can still be traded (if added to the DutchX protocol), but will not generate Magnolia! The idea of whitelisted tokens is to maintain MGN's benefit: no token  should be traded with the sole intention to create Magnolia and benefit from liquidity contributions (and others' liquidity contribution to be hence reduced).<br/>
-Whitelisting will - in future - be decided by [the dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html).<br/>  
+Whitelisted tokens are tokens that generate Magnolia when traded in a whitelisted pair. Non-whitelisted tokens can still be traded (if added to the DutchX protocol), but will not generate Magnolia! The idea of whitelisted tokens is to maintain MGN's benefit: no token should be traded with the sole intention to create Magnolia and benefit from liquidity contributions (and others' liquidity contribution to be hence reduced).<br/>
+Whitelisting will - in the future - be determined by [the dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html).<br/>  
 During the Vote Staking Period, Gnosis will whitelist any tokens that are added to the protocol, which have a reasonable pricefeed AND are part of this [suggested whitelist](https://github.com/gnosis/dx-contracts/blob/master/test/resources/approve-tokens/dxDAO_approved_tokens.js).<br/>  
 This list was put together based on a legal assessment of token characteristics, which suggest that legislation of major jurisdictions regulating securities, financial instruments or similar and/or mandating customer due diligence procedures do not apply to them at this point in time for the purposes of the DutchX protocol.<br/>
 Regardless of being whitelisted, tokens will still first need to be added to the protocol before trading is possible.  
 
-Note that whitelisted tokens are not the same as **listed** and **traded** tokens. A whitelisted token has the potential to create Magnolia tokens (used for reduction of liquidity contribution) if traded in a whitelisted pair. Tokens can be listed for trading on the DutchX protocol, albeit not whitelisted (and hence trades do not generate Magnolia); on the flip side, tokens could in future also be whitelisted by the dxDAO, however not listed/traded on the DutchX protocol.
+Note that whitelisted tokens are not the same as **listed** and **traded** tokens. A whitelisted token has the potential to create Magnolia tokens (used for reduction of liquidity contribution) if traded in a whitelisted pair. Tokens can be listed for trading on the DutchX protocol, albeit not whitelisted (and hence trades do not generate Magnolia); on the flip side, tokens could in the future also be whitelisted by the dxDAO, however not listed/traded on the DutchX protocol.
 
 - Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getWhitelistedTokens) on actually whitelisted tokens.
 - Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getTokens) on added tokens to the DutchX protocol.
@@ -59,8 +59,8 @@ In version DutchX 2.0, OWL is part of the DutchX Protocol:
 - Read this [blog post](https://blog.gnosis.pm/owl-token-use-cases-6094027ecb37) on all the various use cases.
 
 ### What is OWL used for on the DutchX?
-- Useres *may* use OWL to settle half of their liquidity contribution. The rest is settled in the token they are taking part in.
-- This does not affect liquidity contribution reduction. The reduction happens first, *then* half may be settled in OWL.
+- Users *may* use OWL to settle half of their liquidity contribution. The rest is settled in the token they are taking part in.
+- This does not affect the reduction of your liquidity contribution. The reduction happens first, *then* half may be settled in OWL.
 - 1 OWL is treated as an equivalent of 1USD worth of fees.
 - The OWL used will not go to **any party** but will instead be burnt (consumed).   
 
@@ -103,4 +103,4 @@ Specifically, however, there are two reasons that make upgrade by hard-forks onl
 In the first version of the DutchX smart contracts, these auctioneer powers were relinquished. This meant that **neither Gnosis nor anyone else**, had the ability to alter the contracts parameters or logic.
 
 ### Who holds auctioneer powers to DutchX 2.0?
-The primary aim with this  deployment is to provide the [dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html) with the auctioneer powers of the DutchX. Until then, projects can already start integrating on this final version as the DutchX 2.0 will remain unaltered.
+The primary aim with this deployment is to provide the [dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html) with the auctioneer powers of the DutchX. Until then, projects can already start integrating on this final version as the DutchX 2.0 will remain unaltered.

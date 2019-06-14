@@ -8,10 +8,10 @@
 The **DutchX** is a fully decentralized trading protocol that
 allows **anyone** to add any trading token pair.
 
-It uses the `Dutch auction`_ principle to prevent the problems that other exchanges are experiencing (such
-as front running, issues with low liquidity, and third party risk), creating a more fair ecosystem for everyone to use.
+It uses the `Dutch auction`_ principle to prevent the problems that exchanges are experiencing (such
+as front running, issues with low liquidity, and third party risk), thereby creating a more fair ecosystem for everyone to use.
 
-There is no restriction besides the fact that tokens must be `ERC20`_
+There is no restriction besides the fact that tokens traded on the DutchX must be `ERC20`_
 compliant.
 
 .. raw:: html
@@ -22,7 +22,7 @@ compliant.
 
 Learn more about DutchX
 -----------------------
-Some interesting links to learn all about the mechanisms of the DutchX are:
+Here are some interesting links to learn all about the mechanisms of the DutchX:
 
 * **Small introduction to the features of DutchX**: https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443
 * **Blog with information about DutchX**: https://blog.gnosis.pm/tagged/dutchx

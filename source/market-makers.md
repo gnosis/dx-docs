@@ -11,11 +11,11 @@ If you are a market maker and would like to learn more about the unique DutchX m
 
 Check out this post: [The DutchX — Take Part in the Arbitrage Opportunity](https://blog.gnosis.pm/the-dutchx-take-part-in-the-arbitrage-opportunity-eeacc20ef6f)  
 
-Also check out some of the guides part of this documentation.
+Also check out some of the guides in this documentation.
 
 ## Looking for Market Makers?
 
-In case you would like to have technical help in listing your token to the DutchX Protocol and run minimal liquidity bots, we have collected a handful of market makers that are able to facilitate this.
+In case you would like technical help in listing your token to the DutchX Protocol and run minimal liquidity bots, we have collected a handful of market makers that are able to facilitate this.
 We have been in touch with all of them, have explained the exact mechanism and are confident that they are technically able to interact with the DutchX protocol. We have no contractual relations and do not know what proposal they will make and which services they include. In no particular order, feel free to reach out to:
 
   * [Keyrock](https://keyrock.eu/): write an to info@keyrock.eu with subject *Market Making for DutchX + [Your Name]*

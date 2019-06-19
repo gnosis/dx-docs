@@ -3,10 +3,10 @@ Some information that you might find relevant when thinking about adding a token
 - It is completely permissionless and decentralized: anyone can add a token pair based on the same rules of the smart contract
 - No central entity decides on which tokens become tradable!
 - It is completely free (gas costs, of course, incur)
-- A token that is available to trade on the DutchX, does not imply that there is enough liquidity to actually be traded
+- If a token  is available to trade on the DutchX it does not necessairly imply that there is enough liquidity to actually be traded
 - A token that is available to trade is not the same as a [*whitelisted*](https://dutchx.readthedocs.io/en/latest/basic-mechanism.html#whitelist) token
 
-## The theory to list
+## The theory to the list
 - A new token always has to be added as a pair with WETH
   - For this, the first auction that is initiated has to be funded with an equivalent of 1k USD worth of WETH
   - The initiator has to set a price for WETH-NewToken; the auction will start at twice this price
@@ -14,7 +14,7 @@ Some information that you might find relevant when thinking about adding a token
    - The auction starts after 6 hours 
    - No need to add two sides
    - Someone should be ready to bid 
-   - Adding is for free: the funding is not "invested" or "lost", it is merely exchanged
+   - Adding is free: the funding is not "invested" or "lost", it is merely exchanged
    - After this, auction can run as defined in the smartc contracts:
       - Opposite auctions start and run at the same time (i.e. A-WETH (sellToken is A, buyToken is WETH) & WETH-A (sellToken is WETH, buyToken is A))
      - There is always only one auction running at the same time for a particular pair
@@ -32,7 +32,7 @@ Some information that you might find relevant when thinking about adding a token
 - There are [several interfaces](https://dutchx.readthedocs.io/en/latest/interfaces.html) available for technical and non-technical traders
 
 ## Liquidity
-**Please be aware: Having listed, does not mean that the token is traded. For this - of course - liquidity is needed.** 
+**Please be aware: Having listed, does not mean that the token is traded. For this - of course - sufficient liquidity is needed.** 
 - It is recommended that the lister initially also ensures that there is enough liquidity for the listed token pair
 - It is a two-sided market place and for the network effects to work, the market has to function first
 - There are two relatively easy options available right now:
@@ -40,10 +40,10 @@ Some information that you might find relevant when thinking about adding a token
   - [Check out the section about market makers](https://dutchx.readthedocs.io/en/latest/market-makers.html)
 
 ## Availabilty of different pairs
-- Each token has to be first added as a pair with WETH
+- Each token has to first be added as a pair with WETH
 - Two tokens that are already available with WETH on the DutchX, may be initiated with one another
 - For this, no price setting is needed (as both are available with WETH)
-- For the listing of a pair that is not WETH, the accumulated sell Volume amount of both opposite auctions has to equal 1K USD.
+- For the listing of a pair that is not WETH, the accumulated sell Volume amount of both opposite auctions has to be at least 1K USD.
 
 ## Technical steps
 - Read the code [here](https://github.com/gnosis/dx-contracts/blob/1fc99740a86a1635c9bf856a370b16295915b76d/contracts/DutchExchange.sol#L347)

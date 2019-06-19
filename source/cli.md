@@ -103,7 +103,7 @@ Reliance on the CLI is at your own risk and your full responsibility. We will no
 To be able to trade, you have to add your own `mnemonic` phrase to the `config.file`, as stated on step 3 above.
 
 Trading on the DutchX requires you to send your tokens to a smart contract, where the trading occurs.
-The whole trading process looks as the following image:
+The whole trading process takes place as shown in the following image:
 
 <img src="http://dutchx.readthedocs.io/en/latest/_static/cli-trading-process.png" width="600" height="400">
 
@@ -193,7 +193,7 @@ In order to see the resulting balance after trading in `Balance in DX`, you must
 It is important to remember that sellers can only claim their receiving tokens once the auction has finished. Bidders can claim
 the sell tokens they aqcuire (once they bid) anytime during the auction and can claim any additional increments in the future.
 
-We recommend bidders to claim tokens once the auction has ended in order to avoid unnecessary gas costs.
+We recommend that bidders claim tokens once the auction has ended in order to avoid unnecessary gas costs.
 
 #### 4. Withrdaw tokens from the DutchX smart contract
 
@@ -207,7 +207,7 @@ We recommend users that plan on trading often in the DutchX to leave their token
 
 ## Useful commands
 
-We have so far covered the process of executing trades on the DutchX, but there are several additional commands that will give important information and facilitate the process.
+So far we have covered the process of executing trades on the DutchX, but there are several additional commands that will give important information and facilitate the process.
 
 We will do a rundown on some useful commands, starting by reminding you the command to view all commands :)
 
@@ -283,7 +283,7 @@ As mentioned previously, you can also get the history of previous trades. Use th
 ./dutchx-rinkeby trades --from-date=2018-05-25 --to-date=2018-05-26
 ```
 
-Additionally, you can apply any of this filters:
+Additionally, you can apply any of these filters:
 ```bash
 # Filter by token
 #   It will filter by trades of auctions that contain the given token

@@ -8,7 +8,7 @@ create a common liquidity pool that all users can benefit from.
 ![Open Protocol](./_static/open-protocol.png)
 
 ## Smart contracts
-The core of the project is the Smart Contracts, that hold the logic described in
+The core of the project is the Smart Contracts, which hold the logic described in
 the [Smart Contract Documentation](./smart-contract-documentation.html), and
 can be found in [https://github.com/gnosis/dx-contracts](https://github.com/gnosis/dx-contracts)
 
@@ -30,7 +30,7 @@ Security was the main focus on the design and implementation of the DutchX.
 Check out this [Security in DutchX](./security-of-the-contracts.html) document for more information.
 
 ## Services, API, Bots and CLI
-Another important piece on the DutchX is the [DutchX services](https://github.com/gnosis/dx-services) project.
+Another important piece of the DutchX is the [DutchX services](https://github.com/gnosis/dx-services) project.
 
 This project uses the smart contract as a base layer, and builds some
  repositories, services and utilities on top of it.
@@ -41,7 +41,7 @@ It has the following parts:
 * **Repositories**: Abstraction on top of the smart contracts to make it easier
 to interact with them. For example, they add the same validations that are going
 to be performed in the smart contract, so they can throw more meaningful errors,
-instead of the `revert` that smart contracts throw.
+instead of the `revert` that smart contracts throw by default.
 * **Services**: Some use cases built on top of the DutchX. The CLI, Bots and API
  use this layer to perform all its tasks.
 * **API**: REST Api that provides a simpler access to the data in the DutchX.
@@ -52,7 +52,7 @@ extracting information from them (for example getting the status of a token
 pair).
 It can be used in test nets like `rinkeby` or in `mainnet`.
 Learn more about the [CLI](./cli.html) page.
-* **Bots**: The bots are series of small applications that run in the background
+* **Bots**: The bots are a series of small applications that run in the background
 and have a scoped task to fulfill. They interact with the DutchX performing some
 operations. For example the liquidity bots watch some markets and provide
 liquidity, ensuring that auctions run continuously and that prices don't drop below

@@ -4,6 +4,15 @@ If you are using a smart contract multisig or some other contract to participate
 
 This guide expects that you already read all materials linked in [the previous section](dxDAO) and that you have understanding of the different staking percentages, ways to participate.
 
+## NOTE: 
+While doing this step you automatically sign our participation agreement. Please read it carefully before continuing:  	https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj
+* **THE PARTICIPATION AGREEMENT INCLUDES THE TERMS OF PARTICIPATION IN THE DXDAO.**
+* **THE PARTICIPATION AGREEMENT IS CRYPTOGRAPHICALLY HASHED BY EVERY TRANSACTION YOU SUBMIT ON THE ETHEREUM BLOCKCHAIN WHETHER VIA THE INTERFACE OR BY DIRECT INTERACTION WITH THE RESPECTIVE SMART CONTRACTS IN THE VOTE STAKING PERIOD (AS DEFINED IN THE AGREEMENT).** 
+### By signing your transaction, you confirm that:
+any such hash shall constitute conclusive evidence of your intent to be bound by this participation agreement and you waive any right to claim otherwise or to argue against its admissibility or authenticity in any legal proceedings;
+you have read, fully understood, and accept all the terms contained in the participation agreement.
+
+
 Contract Addresses:
 * [DxLockEth4Rep](https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5#contracts): 0x4564BFe303900178578769b2D76B1a13533E5fd5
 * [DxLockWhitelisted4Rep](https://etherscan.io/address/0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6#contracts): 0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6

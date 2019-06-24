@@ -10,6 +10,24 @@ Contract Addresses:
 * [DxLockMgnForRep](https://etherscan.io/address/0x2e6fae82c77e1d6433ccaaaf90281523b99d0d0a#contracts): 0x2E6FaE82c77e1D6433CCaAaF90281523b99D0D0a
 * [DxGenAuction4Rep](https://etherscan.io/address/0x4d8db062defa0254d00a44aa1602c30594e47b12#contracts): 0x4D8DB062dEFa0254d00a44aA1602C30594e47B12
 
+dxDAO Agreement document:
+- Link: https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj
+- hash: 0x2d9c919cecf0e19b7717a86747f703d8cf0f9ffd98e4e8a13638b1a92ef0b25a
+
+### How can you verify that the agreement hash is correct? 
+
+You can retrieve the agreement via IPFS. Please note that IPFS uses a different encoding (Base68).
+You can convert this hash into the propper IPFS hash here: https://incoherency.co.uk/base58/
+Note that you have to add the prefix "1220"
+ 
+The 12 describes the hashing algo: https://github.com/multiformats/go-multihash/blob/master/multihash.go#L41
+and tje 20 indicates the length. This is why usually IPFS hashes start with "Qm"
+
+QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj (base58) =>
+12202d9c919cecf0e19b7717a86747f703d8cf0f9ffd98e4e8a13638b1a92ef0b25a (hex) => without prefix:
+0x2d9c919cecf0e19b7717a86747f703d8cf0f9ffd98e4e8a13638b1a92ef0b25a
+
+
 ## 1. Staking Ether.
 In this method you will participate using Ether directly, not WETH.
 The Smart Contract used is https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5#contracts and you can find there the code and also the ABI, just below the smart contract code.

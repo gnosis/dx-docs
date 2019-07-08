@@ -5,8 +5,9 @@ Some information that you might find relevant when thinking about adding a token
 - It is completely free (gas costs, of course, incur)
 - If a token  is available to trade on the DutchX it does not necessairly imply that there is enough liquidity to actually be traded
 - A token that is available to trade is not the same as a [*whitelisted*](https://dutchx.readthedocs.io/en/latest/basic-mechanism.html#whitelist) token
+- **Gnosis Ltd does not decide on which tokens become tradable on the DutchX open protocol!**
 
-## The theory to the list
+## The theory to list
 - A new token always has to be added as a pair with WETH
   - For this, the first auction that is initiated has to be funded with an equivalent of 1k USD worth of WETH
   - The initiator has to set a price for WETH-NewToken; the auction will start at twice this price

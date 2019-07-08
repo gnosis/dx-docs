@@ -5,8 +5,9 @@ Where can you gather information on what's happening on the DutchX Protocol Leve
 There are some sources available for you:
 
 1. Check out the [**read-API**](https://dutchx.readthedocs.io/en/latest/api.html)
-2. Check out the [**DutchX Subgraph**](https://thegraph.com/explorer/subgraph/gnosis/dutchx) ([+Github Link](https://github.com/gnosis/dx-subgraph))
-3. Check out this [**dashboard**](https://explore.duneanalytics.com/public/dashboards/nigajDs8cp1lkmoXYNgdo3jMh2XCzUIiLk0J5Fst) provided by [Dune Analytics](https://www.duneanalytics.com/) 
+2. Check out this [**VisualX**](https://visualx.d.exchange), displaying past market data, auction details, check-balances functions and much more. 
+3. Check out the [**DutchX Subgraph**](https://thegraph.com/explorer/subgraph/gnosis/dutchx) ([+Github Link](https://github.com/gnosis/dx-subgraph))
+4. Check out this [**dashboard**](https://explore.duneanalytics.com/public/dashboards/nigajDs8cp1lkmoXYNgdo3jMh2XCzUIiLk0J5Fst) provided by [Dune Analytics](https://www.duneanalytics.com/) 
 
 You can also create your own alert on [**Alethio Monitoring**](https://company.aleth.io/blockchain-monitoring) to get notified of certain events on the DutchX. As an example, below is a step-by-step guide for an alert that tracks the event of a new token being added to the DutchX:
 - Select to monitor **Smart Contracts**

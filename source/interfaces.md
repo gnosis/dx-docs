@@ -26,26 +26,26 @@ The two graphical user interfaces are in nature very different as one allows par
 The two graphical user interfaces are an ideal gateway for users to generate Magnolia: users need a compatible wallet (like Metamask or the Gnosis Safe for example) with some ETH or any traded ERC20 token to start trading.
 
 ## Seller interface
-The slow.trade team has a Mainnet interface available at [slow.trade](https://slow.trade/#/). A rinkeby version - to test - is also available at [slow.trade/rinkeby](https://slow.trade/rinkeby/). 
-On slow.trade, the user is facilitated to take part as a seller, i.e. to deposit a token into an auction. The interface is extremely simple and a user can already take part by depositing at any point in time - the deposit gets automatically put into the next running auction. Slow.trade is - on purpose - kept simple, with little additional information. 
-It is recommended for users that do not have a price perception: no strategy is needed to take part!  
-Slow.trade is additionally useful for any user as it displays the Magnolia balance attached to a user’s address (which cannot be seen in the wallet as it is locked in a separate contract).  
-The project is open source, with this [Github](https://github.com/gnosis/dx-react).  
-*The team decides on which tokens to list on their interface (which may be only a subset of those tradable (of which only some might be whitelisted))*.
+The slow.trade team has a Mainnet interface available at [slow.trade](https://slow.trade/#/). A rinkeby version - to test - is also available at [slow.trade/rinkeby](https://slow.trade/rinkeby/).<br/> 
+On slow.trade, the user is facilitated to take part as a seller, i.e. to deposit a token into an auction. The interface is extremely simple and a user can already take part by depositing at any point in time - the deposit gets automatically put into the next running auction. Slow.trade is - on purpose - kept simple, with little additional information.<br/> 
+It is recommended for users that do not have a price perception: no strategy is needed to take part!<br/>  
+Slow.trade is additionally useful for any user as it displays the Magnolia balance attached to a user’s address (which cannot be seen in the wallet as it is locked in a separate contract).<br/>  
+The project is open source, with this [Github](https://github.com/gnosis/dx-react).<br/>  
+*The team decides on which tokens to list on their interface (which may be only a subset of those tradable (of which only some might be whitelisted))*.<br/>
 
 ## Bidder interface
-The bidder interface is available at [fairdex.net](https://fairdex.net/). Switch between Mainnet and Rinkeby with your wallet provider. This interface reflects more relevant data for bidders in particular:  
-Participating as a bidder requires more active participation (though made super simple via this interface). For one, bidders need to be active in moment of time that the price reflects their willingness to pay.  
-In fact, this is the best strategy for participation: participation at a higher price, the bidder is at risk to overpay and participation below, the bidder is at risk to not be able to take part in the auction. This is the ideal strategy due to the fact that in the end - at auction closing - all bidders pay the same final (lowest) price! Rather than getting anything back, the bidder obtains more of the token that he/she purchased. This in turn means: upon participation, the bidder knows the minimum amount that he/she will receive.  
-On top of this, actually, the user can claim already this amount (and then any additional amounts and the remainder also upon closing of the auction). Hence, a bidder has instant liquidity, where this is important.  
-In summary: the bidders need to have a defined willingness to pay!  
+The bidder interface is available at [fairdex.net](https://fairdex.net/). Switch between Mainnet and Rinkeby with your wallet provider.<br/> This interface reflects more relevant data for bidders in particular:<br/>  
+Participating as a bidder requires more active participation (though made super simple via this interface). For one, bidders need to be active in moment of time that the price reflects their willingness to pay.<br/>  
+In fact, this is the best strategy for participation: participation at a higher price, the bidder is at risk to overpay and participation below, the bidder is at risk to not be able to take part in the auction. This is the ideal strategy due to the fact that in the end - at auction closing - all bidders pay the same final (lowest) price! Rather than getting anything back, the bidder obtains more of the token that he/she purchased. This in turn means: upon participation, the bidder knows the minimum amount that he/she will receive.<br/>  
+On top of this, actually, the user can claim already this amount (and then any additional amounts and the remainder also upon closing of the auction). Hence, a bidder has instant liquidity, where this is important.<br/>  
+In summary: the bidders need to have a defined willingness to pay!<br/>  
 *The team decides on which tokens to list on their interface (which may be only a subset of those tradable (of which only some might be whitelisted))*.
 
 ## Command line interface (CLI)
-For more tech-savvy users of the DutchX protocol, instructions to using the command line interface are available [here](https://dutchx.readthedocs.io/en/latest/cli.html).  
+For more tech-savvy users of the DutchX protocol, instructions to using the command line interface are available [here](https://dutchx.readthedocs.io/en/latest/cli.html).<br/>  
 *The command line interface is token-agnostic.*  
 
 ## Application programming interface (API)
-Check out the API [here](https://dutchx.readthedocs.io/en/latest/api.html), available for both mainnet and rinkeby.
-This is a read-only (REST) version and returns a number of auction details. It is directly linked to the blockchain (other than token symbol, which shouldn’t be used for query: always use a token address!).  
+Check out the API [here](https://dutchx.readthedocs.io/en/latest/api.html), available for both mainnet and rinkeby.<br/>
+This is a read-only (REST) version and returns a number of auction details. It is directly linked to the blockchain (other than token symbol, which shouldn’t be used for query: always use a token address!).<br/>  
 *The application programming interface is token-agnostic.*

@@ -93,12 +93,12 @@ In version DutchX 2.0, OWL is part of the DutchX Protocol:
 ### What are auctioneer powers?
 On smart contract level, the DutchX has a number of clearly defined modifiable parameters that can be changed. The auctioneer has the powers over the following (complete list):
 
-- Changing the threshold to add tokens to the DutchX protocol
-- Chainging the threshold to start auctions
 - De- & whitelisting of tokens that generate Magnolia
+- Changing the threshold to start auctions
+- Changing the threshold to add tokens to the DutchX protocol
 - Setting a new external ETH/USD price feed
-- Setting a new entity able to modify the contract parameters (the ‘auctioneer’), and
-- Updating the DutchX contract logic *(change only executed with a 30day time lag)*.
+- Updating the DutchX contract logic, and
+- Setting a new entity able to modify the contract parameters (the ‘auctioneer’).
 
 ### Why are auctioneer powers needed?
 The DutchX was designed to be a fully-decentralized trading protocol. This means that changes to the DutchX protocol must also be decided in a decentralized fashion.  
@@ -111,4 +111,18 @@ Specifically, however, there are two reasons that make upgrade by hard-forks onl
 In the first version of the DutchX smart contracts, these auctioneer powers were relinquished. This meant that **neither Gnosis nor anyone else**, had the ability to alter the contracts parameters or logic.
 
 ### Who holds auctioneer powers to DutchX 2.0?
-The primary aim with this deployment is to provide the [dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html) with the auctioneer powers of the DutchX. Until then, projects can already start integrating on this final version as the DutchX 2.0 will remain unaltered.
+The primary aim with this deployment was to provide the [dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html) with the auctioneer powers of the DutchX. The following parameters may be modified by successful proposal in the dxDAO.
+
+### Some more details to the auctioneer powers:
+#### De- & whitelisting of tokens that generate Magnolia
+TODO
+#### Changing the threshold to start auctions
+TODO
+#### Changing the threshold to add tokens to the DutchX protocol
+TODO
+#### Setting a new external ETH/USD price feed 
+TODO*(change only executed with a 30day time lag)*
+#### Updating the DutchX contract logic 
+TODO*(change only executed with a 30day time lag)*.
+#### Setting a new auctioneer
+TODO

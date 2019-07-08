@@ -38,15 +38,15 @@ Magnolia are not needed to participate as a seller or bidder on the DutchX.
 
 ## Whitelist
 Whitelisted tokens are tokens that generate Magnolia when traded in a whitelisted pair. Non-whitelisted tokens can still be traded (if added to the DutchX protocol), but will not generate Magnolia! The idea of whitelisted tokens is to maintain MGN's benefit: no token should be traded with the sole intention to create Magnolia and benefit from liquidity contributions (and others' liquidity contribution to be hence reduced).<br/>
-Whitelisting will - in the future - be determined by [the dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html).<br/>  
-During the Vote Staking Period, Gnosis will whitelist any tokens that are added to the protocol, which have a reasonable pricefeed AND are part of this [suggested whitelist](https://github.com/gnosis/dx-contracts/blob/master/test/resources/approve-tokens/dxDAO_approved_tokens.js).<br/>  
-This list was put together based on a legal assessment of token characteristics, which suggest that legislation of major jurisdictions regulating securities, financial instruments or similar and/or mandating customer due diligence procedures do not apply to them at this point in time for the purposes of the DutchX protocol.<br/>
+Whitelisting is - as per 14 July 2019, 12GMT noon - determined by [the dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html).<br/>  
+During the Vote Staking Period, Gnosis whitelisted any tokens that were added to the protocol, which had a reasonable pricefeed AND were also part of this [suggested whitelist](https://github.com/gnosis/dx-contracts/blob/master/test/resources/approve-tokens/dxDAO_approved_tokens.js).<br/>  
+This suggested list had been put together based on a legal assessment of token characteristics, which suggest that legislation of major jurisdictions regulating securities, financial instruments or similar and/or mandating customer due diligence procedures do not apply to them at this point in time for the purposes of the DutchX protocol.<br/>
 Regardless of being whitelisted, tokens will still first need to be added to the protocol before trading is possible.  
 
 Note that whitelisted tokens are not the same as **listed** and **traded** tokens. A whitelisted token has the potential to create Magnolia tokens (used for reduction of liquidity contribution) if traded in a whitelisted pair. Tokens can be listed for trading on the DutchX protocol, albeit not whitelisted (and hence trades do not generate Magnolia); on the flip side, tokens could in the future also be whitelisted by the dxDAO, however not listed/traded on the DutchX protocol.
 
-- Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getWhitelistedTokens) on actually whitelisted tokens.
-- Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getTokens) on added tokens to the DutchX protocol.
+- **Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getWhitelistedTokens) on actually whitelisted tokens.**<br/>
+- **Check out [this API endpoint](https://dutchx.d.exchange/api/docs/#!/Markets_and_supported_tokens/getTokens) on added tokens to the DutchX protocol.**
 
 ## GNO
 There is no special use case for GNO. It is treated as any other ERC20 token.

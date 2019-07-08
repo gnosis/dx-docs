@@ -16,7 +16,7 @@ The DutchX is governed by a series of smart contracts deployed on the Ethereum B
 It is fully on-chain and permissionless. There is no restriction besides the fact that tokens traded on the DutchX must be `ERC20`_
 compliant.
 
-It was developed by Gnosis Limited as infrastructure of the Ethereum Blockchain. It is upgradeable and those powers are retained by the dxDAO (dxDAO.daostack.io). Gnosis Limited is not part of the dxDAO and retains absolutely no miscellaneous powers over or to affect the DutchX.
+It was developed by Gnosis Limited as infrastructure of the Ethereum Blockchain. It is upgradeable and those powers are retained by the [dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html). Gnosis Limited is not part of the dxDAO and retains absolutely no miscellaneous powers over or to affect the DutchX.
 
 .. raw:: html
 

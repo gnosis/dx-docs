@@ -125,30 +125,30 @@ Read above about [Magnolia](https://dutchx.readthedocs.io/en/latest/mechanism.ht
 
 #### Changing the threshold to start auctions
 Once this defined sellVolume (deposit) threshold is reached by both opposite auctions (each), and the prior auctions have finished, the new auctions commences.
-- The auctioneer calls the function *updateThresholdNewAuction* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol)
-- At the time of writing, this value is set at USD1000 (in uint USD)
+- The auctioneer calls the function *updateThresholdNewAuction* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol))
+- At the time of writing, this value is set at USD1000 *(Technical note: In the contract 1 USD is represented as 1e18 uint256. E.g. USD1000 = 1000000000000000000000)*
 - There is no time lag to calling this function
 - It applies to all auctions (no individual change possible) that have not started (also if currently waiting for funding)
 
 #### Changing the threshold to add tokens to the DutchX protocol
-- Once this defined sellVolume (deposit) threshold is reached, the first ever auction for this pair will commence.
+- Once this defined sellVolume (deposit) threshold is reached, the first ever auction for this pair will commence. *(Technical note: only one side has to reach the threshold if after 24h the thresholds have not been reached)*
 - The very first auction for an entirely new token on the DutchX has to be with WETH, where the defined threshold has to be reached solely on the WETH sellVolume.
 - For the very first aucion of another token pair (without WETH), the defined threshold can be reached through the combined sellVolumes on both sides of the auctions.
-- The auctioneer calls the function *updateThresholdNewTokenPair* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol)
-- At the time of writing this value is set at USD1000 (in uint USD)
+- The auctioneer calls the function *updateThresholdNewTokenPair* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol))
+- At the time of writing this value is set at USD1000 *(Technical note: In the contract 1 USD is represented as 1e18 uint256. E.g. USD1000 = 1000000000000000000000)*
 - There is no time lag to calling this function
 - It applies to all auctions (no individual change possible) that have not started (also if currently waiting for funding)
 
 #### Setting a new external ETH/USD price feed 
 The DutchX needs an ETH-USD price feed for two purposes: (i) to calculate the thresholds mentioned above as well as (ii) calculating the liquidity contribution which can be settled in USD. 
-- The auctioneer calls the function *initiateEthUsdOracleUpdate* in the [EthOracle Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/EthOracle.sol#L20)
+- The auctioneer calls the function *initiateEthUsdOracleUpdate* on the DutchExchangeProxy contract which is implemented in the [EthOracle Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/EthOracle.sol#L20)
 - There is a 30-day time lag for execution of this function 
-- After the 30 days are up, the auctioneer calls the function *updateEthUSDOracle* in the same contract
+- After the 30 days are up, the auctioneer or anyone else calls the function *updateEthUSDOracle* in the same contract
 - A slightly more technical side-note: though  *updateETHUSDOracle* may be triggerd by anyone, only the auctioneer can commence the 30 day time period.
 
 #### Updating the DutchX contract logic 
-Due to the proxy architecture of the smart contracts, the auctioneer may update the entire DutchX Mastercontract, hence being able to change anything part of the DutchX logic (not only the here mentioned modifiable parameters), *likely* without the need for integrations to be renewed and deposits to be withdrawn.
-- The auctioneer calls the *startMasterCopyCountdown* function in the [dxUpgrade contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/DxUpgrade.sol#L17)
+Due to the proxy architecture of the smart contracts, the auctioneer may update the entire DutchX Mastercontract, hence being able to change any part of the DutchX logic (not only the modifiable parameters mentioned here), *likely* without the need for integrations to be renewed and deposits to be withdrawn.
+- The auctioneer calls the *startMasterCopyCountdown* function on the DutchExchangeProxy contract which is implemented in the [DxUpgrade contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/DxUpgrade.sol#L17)
 - This triggers a 30-day time window before the change is executed
 - A slightly more technical side-note: though  *updateMasterCopy* may be triggerd by anyone, only the auctioneer can commence the-30 day time period.
 - The function can be called again during the time window effectively overwriting the prior change
@@ -156,5 +156,5 @@ Due to the proxy architecture of the smart contracts, the auctioneer may update 
 
 #### Setting a new auctioneer
 The auctioneer holds the power to update itself.
-- The auctioneer calls the *updateAuctioneer* function in the [AuctioneerManaged contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/AuctioneerManaged.sol#L8)
+- The auctioneer calls the *updateAuctioneer* function on the DutchExchangeProxy contract which is implemented in the [AuctioneerManaged contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/AuctioneerManaged.sol#L8)
 - There is no time lag for its execution when triggering this function.

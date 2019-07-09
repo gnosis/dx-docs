@@ -119,7 +119,7 @@ Whitelisted tokens - if traded in a whitelisted pair - generate Magnolia, which 
 Read above about [Magnolia](https://dutchx.readthedocs.io/en/latest/mechanism.html#magnolia), [Whitelist](https://dutchx.readthedocs.io/en/latest/mechanism.html#whitelist) and [Liquidity contribution](https://dutchx.readthedocs.io/en/latest/mechanism.html#liquidity-contribution).<br/>
 - Whitelisting (and de-whitelisting) can happen by token individually or by entire lists
 - It is not necessary that the token is either listed for trading or actively traded
-- The auctioneer calls the function *updateApprovalOfToken* in the [Token Whitelist contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/TokenWhitelist.sol#L28)
+- The auctioneer calls the function *updateApprovalOfToken* on the DutchExchangeProxy contract which is implemented in the [Token Whitelist contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/TokenWhitelist.sol#L28)
 - There is no time lag to the execution of this function
 - It applies immediately and is effective upon users *claiming* their tokens of whitelisted tokens (if traded in a whitelisted pair), also if the auction had finished prior to triggering this function
 

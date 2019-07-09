@@ -1,8 +1,8 @@
 # Integration Ideas
 
-Note: We are giving out bounties and ecosystem grants - if you find an idea particularly interesting and it is not part of one of our schemes - feel free to contact us and we can see if it fits our bounty schedule. More information on this will follow in due time.
-
-Please note that some teams are already working on various ideas. We try to update the section on [projects building on top of the DutchX](https://dutchx.readthedocs.io/en/latest/community-resources.html#projects-using-the-dutchx) for you.
+**Gnosis is  not funding any additional projects building on top of the DutchX as the DutchX is fully governed by [the dxDAO](https://dutchx.readthedocs.io/en/latest/dxDAO.html).** Check out how to submit a proposal and be funded by the dxDAO
+<br/>
+Below you find a collection of random ideas that came up while designing the DutchX.
 
 ## More defined sample ideas
 

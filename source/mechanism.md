@@ -115,14 +115,46 @@ The primary aim with this deployment was to provide the [dxDAO](https://dutchx.r
 
 ### Some more details to the auctioneer powers:
 #### De- & whitelisting of tokens that generate Magnolia
-TODO
+Whitelisted tokens - if traded in a whitelisted pair - generate Magnolia, which can be used to reduce liquditiy contribution.
+Read above about [Magnolia](https://dutchx.readthedocs.io/en/latest/mechanism.html#magnolia), [Whitelist](https://dutchx.readthedocs.io/en/latest/mechanism.html#whitelist) and [Liquidity contribution](https://dutchx.readthedocs.io/en/latest/mechanism.html#liquidity-contribution).<br/>
+- Whitelisting (and de-whitelisting) can happen by token individually or by entire lists
+- It is not necessary that the token is either listed for trading or actively traded
+- The auctioneer calls the function *updateApprovalOfToken* in the [Token Whitelist contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/TokenWhitelist.sol#L28)
+- There is no time lag to the execution of this function
+- It applies immediately and is effective upon users *claiming* their tokens of whitelisted tokens (if traded in a whitelisted pair), also if the auction had finished prior to triggering this function
+
 #### Changing the threshold to start auctions
-TODO
+Once this defined sellVolume (deposit) threshold is reached by both opposite auctions (each), and the prior auctions have finished, the new auctions will commence.
+- The auctioneer calls the function *updateThresholdNewAuction* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol)
+- At the time of writing, this value is set at USD1000 (in uint USD)
+- There is no time lag to calling this function
+- It applies to all auctions (no individual change possible) that have not started (also if currently waiting for funding)
+
 #### Changing the threshold to add tokens to the DutchX protocol
-TODO
+- Once this defined sellVolume (deposit) threshold is reached, the first ever auction for this pair will commence.
+- The very first auction for an entirely new token on the DutchX has to be with WETH, where the defined threshold has to be reached solely on the WETH sellVolume.
+- For the very first aucion of another token pair (without WETH), the defined threshold can be reached combined on both sides of the auctions sellVolumes.
+- The auctioneer calls the function *updateThresholdNewTokenPair* of the [Master Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchange.sol) (via the [Proxy](https://github.com/gnosis/dx-contracts/blob/master/contracts/DutchExchangeProxy.sol)
+- At the time of writing this value is set at USD1000 (in uint USD)
+- There is no time lag to calling this function
+- It applies to all auctions (no individual change possible) that have not started (also if currently waiting for funding)
+
 #### Setting a new external ETH/USD price feed 
-TODO*(change only executed with a 30day time lag)*
+The DutchX needs an ETH-USD price feed for two purposes: (i) to calculate the thresholds mentioned above as well as (ii) calculating the liquidity contribution which can be settled in USD. 
+- The auctioneer calls the function *initiateEthUsdOracleUpdate* in the [EthOracle Contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/EthOracle.sol#L20)
+- There is a 30day time lag for execution of this function 
+- After the 30days are up, the auctioneer calls the function *updateEthUSDOracle* in the same contract
+- A slightly more technical side-note: though  *updateETHUSDOracle* may be triggerd by anyone, only the auctioneer can commence the 30 day time period.
+
 #### Updating the DutchX contract logic 
-TODO*(change only executed with a 30day time lag)*.
+Due to the proxy architecture of the smart contracts, the auctioneer may update the entire DutchX Mastercontract, hence being able to change anything part of the DutchX logic (not only the here mentioned modifiable parameters), *likely* without the need for integrations to be renewed and deposits to be withdrawn.
+- The auctioneer calls the *startMasterCopyCountdown* function in the [dxUpgrade contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/DxUpgrade.sol#L17)
+- This triggers a 30-day time window before the change is executed
+- A slightly more technical side-note: though  *updateMasterCopy* may be triggerd by anyone, only the auctioneer can commence the 30 day time period.
+- The function can be called again during the time window effectively overwriting the prior change
+- The triggering can also be effectively cancelled by calling the same function with the *current* address as the *new* address.
+
 #### Setting a new auctioneer
-TODO
+The auctioneer holds the power to update itself.
+- The auctioneer calls the *updateAuctioneer* function in the [AuctioneerManaged contract](https://github.com/gnosis/dx-contracts/blob/master/contracts/base/AuctioneerManaged.sol#L8)
+- There is no time lag for its execution when triggering this function.

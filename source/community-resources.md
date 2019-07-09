@@ -2,12 +2,6 @@
 
 The DutchX is not just another trading platform, but an open trading protocol that anyone can build on. In order to keep this spirit of interactive use, we have a series of communication channels so you can contribute, build your own use case, and stay up to date on our latest news.
 
-#### Developer Incentivisation
-
-The DutchX protocol provides a lot of cool features and intrinsic motivation for traders, devs and projects to be integrating. However, to kick-start, we are not only taking part in [hackathons](https://dutchx.readthedocs.io/en/latest/hackathons.html), we have also developed a few incentive programs. Check out:
-- [Bounties on Gitcoin](https://gitcoin.co/profile/GnosisEcosystemFund) - note that only some are DutchX related.
-- [The Gnosis Ecosystem Fund](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
-
 #### Blog Posts
 
 [DutchX Blog](https://blog.gnosis.pm/tagged/dutchx):
@@ -82,4 +76,4 @@ Add this cool logo to your site if you built on top of the DutchX:
 
 -   [Ethresearch](https://ethresear.ch/t/dutchx-fully-decentralized-auction-based-exchange/2443)
 
--   **For developer questions, check out our [Gitter](https://gitter.im/gnosis/DutchX)**
+-   [Gitter](https://gitter.im/gnosis/DutchX)

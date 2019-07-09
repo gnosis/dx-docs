@@ -3,17 +3,17 @@ The dxDAO is a community-governed DAO with total control over the DutchX trading
 
 The dxDAO is not a Gnosis DAO. Gnosis is not part of the dxDAO. Although the technical development of the dxDAO is a project of Gnosis Limited with the support of DAOstack based on DAOstack’s Framework, the contribution of the Companies was limited to providing the technical basis for the dxDAO, including its one month initialisation phase, which ran from 29 May to 28 June 2019. Gnosis Limited did not participate in the initial voting rights’ distribution in the dxDAO.
 
-This readthedocs aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem
+This readthedocs document aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem
 
-**Vote Staking Period has ended**
+**Vote Staking Period has ended**<br/>
+<br/>
+[Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)<br/>
+<br/>
+**[How to submit a proposal and vote in the dxDAO](https://blog.gnosis.pm/how-to-submit-proposals-and-vote-in-the-dxdao-d24554163617)**<br/> 
+--> Anyone can do this, not only Reputation holders.<br/>
+--> You must read the [**participation agreement**](https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj)
 
-[Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)
-
-- [A few considerations for participation](https://blog.gnosis.pm/a-few-considerations-for-participation-in-the-dxdao-76b61718de75)
-- Learn about how everyone was able to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
-- [Tips and Tricks](https://daotalk.org/t/tips-and-tricks-for-dxdao-participation/568) for the dxDAO participation
 - Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao-whitepaper-v1.pdf)
-- Read the [participation agreement](https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj)
 - Check out [Dune Analytics' Dashboard](https://explore.duneanalytics.com/public/dashboards/cE1wo5jA2Dy6whfQnzkfZV1A7MUoyYNvfZtlTXZK)
 - Former vote staking interface [Stake for your vote](https://dxdao.daostack.io/stake-for-your-vote)
 
@@ -36,11 +36,11 @@ This readthedocs aims to make it easier for interested third parties to understa
 
 ## Miscellaneous
 
-- [ETH Lock Link to Etherscan](https://etherscan.io/address/0x4564BFe303900178578769b2D76B1a13533E5fd5)
-- [Token Lock Link to Etherscan](https://etherscan.io/address/0x1cb5B2BB4030220ad5417229A7A1E3c373cDD2F6)
-- [MGN Registration Link to Etherscan](https://etherscan.io/address/0x2e6fae82c77e1d6433ccaaaf90281523b99d0d0a)
-- [GEN Auction Link to Etherscan](https://etherscan.io/address/0x4d8db062defa0254d00a44aa1602c30594e47b12)
-- [Magnolia (MGN) Token FAQ](https://blog.gnosis.pm/magnolia-mgn-tokens-faq-a2a873cdce9a)
+- [dxDAO contract addresses](https://github.com/gnosis/dx-daostack)
+- [dxDAO Alchemy interface](https://github.com/gnosis/dx-daostack/tree/master/contracts)
+- [A few considerations for participation](https://blog.gnosis.pm/a-few-considerations-for-participation-in-the-dxdao-76b61718de75)
+- Learn about how everyone was able to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
+- [Tips and Tricks](https://daotalk.org/t/tips-and-tricks-for-dxdao-participation/568) for the dxDAO participation
 
 ## Participation using ABI
 - Stake using MEW/Mycrypto or any other ABI tools [following this guide](dxdao-abi-participation)

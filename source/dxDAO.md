@@ -19,7 +19,6 @@ This readthedocs document aims to make it easier for interested third parties to
 
 ## Social
 - Join the public telegram channel - meet the community & ask questions [here](https://t.me/dxDAO)
-- Follow the [dxDAO on Twitter](https://twitter.com/_dx_dao)
 - Take part in the discussion [here](https://daotalk.org/c/daos/dx-dao)
 
 ## Catch up on the topic
@@ -38,9 +37,6 @@ This readthedocs document aims to make it easier for interested third parties to
 
 - [dxDAO contract addresses](https://github.com/gnosis/dx-daostack)
 - [dxDAO Alchemy interface](https://github.com/gnosis/dx-daostack/tree/master/contracts)
-- [A few considerations for participation](https://blog.gnosis.pm/a-few-considerations-for-participation-in-the-dxdao-76b61718de75)
-- Learn about how everyone was able to take part [here](https://blog.gnosis.pm/step-by-step-guide-to-earn-reputation-for-the-dxdao-e79fa634d488)
-- [Tips and Tricks](https://daotalk.org/t/tips-and-tricks-for-dxdao-participation/568) for the dxDAO participation
 
 ## Participation using ABI
 - Stake using MEW/Mycrypto or any other ABI tools [following this guide](dxdao-abi-participation)

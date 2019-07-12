@@ -43,7 +43,6 @@ check out the :download:`DutchX Documentation <./_static/docs/DutchX_Documentati
 
    Introduction <self>
    Mechanism <mechanism>
-   smart-contract-documentation
    Price Oracle <price-oracle>
    List a token to trade <add-token-to-trade>
    dutchx-as-an-open-protocol

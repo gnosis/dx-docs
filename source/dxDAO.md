@@ -13,7 +13,7 @@ This readthedocs document aims to make it easier for interested third parties to
 --> Anyone can do this, not only Reputation holders.<br/>
 --> You must read the [**participation agreement**](https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz5921fSfvnZCB5rR8mCKj)
 
-- Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao-whitepaper-v1.pdf)
+- Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao_whitepaper_v1.pdf)
 - Check out [Dune Analytics' Dashboard](https://explore.duneanalytics.com/public/dashboards/cE1wo5jA2Dy6whfQnzkfZV1A7MUoyYNvfZtlTXZK)
 - Former vote staking interface [Stake for your vote](https://dxdao.daostack.io/stake-for-your-vote)
 

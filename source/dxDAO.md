@@ -1,14 +1,18 @@
 # dxDAO
-The dxDAO is a community-governed DAO with total control over the DutchX trading protocol, the first ever fully decentralized trading protocol.
-
+The dxDAO is a community-governed DAO with total control over the DutchX trading protocol.
+<br/>
 The dxDAO is not a Gnosis DAO. Gnosis is not part of the dxDAO. Although the technical development of the dxDAO is a project of Gnosis Limited with the support of DAOstack based on DAOstack’s Framework, the contribution of the Companies was limited to providing the technical basis for the dxDAO, including its one month initialisation phase, which ran from 29 May to 28 June 2019. Gnosis Limited did not participate in the initial voting rights’ distribution in the dxDAO.
-
+<br/>
 This readthedocs document aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem
 
-**Vote Staking Period has ended**<br/>
 <br/>
-[Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)<br/>
+[**GNOSIS IS STEPPING BACK FROM THE DXDAO**](https://blog.gnosis.pm/5d368bc269a3)
 <br/>
+Vote Staking Period was completed
+<br/>
+[Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)
+<br/>
+
 **[How to submit a proposal and vote in the dxDAO](https://blog.gnosis.pm/how-to-submit-proposals-and-vote-in-the-dxdao-d24554163617)**<br/> 
 --> Anyone can do this, not only Reputation holders.<br/>
 --> You must read the [**participation agreement**](https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz921fSfvnZCB5rR8mCKj)
@@ -19,7 +23,7 @@ This readthedocs document aims to make it easier for interested third parties to
 
 ## Social
 - Join the public telegram channel - meet the community & ask questions [here](https://t.me/dxDAO)
-- Take part in the discussion [here](https://daotalk.org/c/daos/dx-dao)
+- Take part in the discussion on [DAOtalk](https://daotalk.org/c/daos/dx-dao)
 
 ## Catch up on the topic
 
@@ -36,7 +40,7 @@ This readthedocs document aims to make it easier for interested third parties to
 ## Miscellaneous
 
 - [dxDAO contract addresses](https://github.com/gnosis/dx-daostack)
-- [dxDAO Alchemy interface](https://github.com/gnosis/dx-daostack/tree/master/contracts)
+- [dxDAO Alchemy interface](https://alchemy.daostack.io/dao/0x519b70055af55A007110B4Ff99b0eA33071c720a)
 
 ## Participation using ABI
 - Stake using MEW/Mycrypto or any other ABI tools [following this guide](dxdao-abi-participation)

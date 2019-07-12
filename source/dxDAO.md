@@ -1,22 +1,21 @@
 # dxDAO
-The dxDAO is a community-governed DAO with total control over the DutchX trading protocol.
-<br/>
+The dxDAO is a community-governed DAO with total control over the DutchX trading protocol.<br/>
+
 The dxDAO is not a Gnosis DAO. Gnosis is not part of the dxDAO. Although the technical development of the dxDAO is a project of Gnosis Limited with the support of DAOstack based on DAOstack’s Framework, the contribution of the Companies was limited to providing the technical basis for the dxDAO, including its one month initialisation phase, which ran from 29 May to 28 June 2019. Gnosis Limited did not participate in the initial voting rights’ distribution in the dxDAO.
 <br/>
-This readthedocs document aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem
+This readthedocs document aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem <br/>
 
+[**GNOSIS HAS STEPPED BACK FROM THE DXDAO**](https://blog.gnosis.pm/5d368bc269a3)
 <br/>
-[**GNOSIS IS STEPPING BACK FROM THE DXDAO**](https://blog.gnosis.pm/5d368bc269a3)
-<br/>
-Vote Staking Period was completed
-<br/>
-[Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)
-<br/>
+Vote Staking Period was completed on 28th of June 2019. <br/>
+Have a look at the outcome: [Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)<br/>
 
-**[How to submit a proposal and vote in the dxDAO](https://blog.gnosis.pm/how-to-submit-proposals-and-vote-in-the-dxdao-d24554163617)**<br/> 
+Governance has started, so make sure to read: **[How to submit a proposal and vote in the dxDAO](https://blog.gnosis.pm/how-to-submit-proposals-and-vote-in-the-dxdao-d24554163617)**
+<br/> 
 --> Anyone can do this, not only Reputation holders.<br/>
 --> You must read the [**participation agreement**](https://ipfs.io/ipfs/QmRQhXUKKfUCgsAf5jre18T3bz921fSfvnZCB5rR8mCKj)
 
+Still reading?
 - Read the dxDAO [whitepaper](https://github.com/gnosis/dx-daostack/blob/master/dxdao_whitepaper_v1.pdf)
 - Check out [Dune Analytics' Dashboard](https://explore.duneanalytics.com/public/dashboards/cE1wo5jA2Dy6whfQnzkfZV1A7MUoyYNvfZtlTXZK)
 - Former vote staking interface [Stake for your vote](https://dxdao.daostack.io/stake-for-your-vote)

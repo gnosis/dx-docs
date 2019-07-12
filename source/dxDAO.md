@@ -5,7 +5,7 @@ The dxDAO is not a Gnosis DAO. Gnosis is not part of the dxDAO. Although the tec
 <br/>
 This readthedocs document aims to make it easier for interested third parties to understand the DutchX and dxDAO data as critical infrastructure of the Ethereum blockchain ecosystem <br/>
 
-[**GNOSIS HAS STEPPED BACK FROM THE DXDAO**](https://blog.gnosis.pm/5d368bc269a3)
+[**GNOSIS HAS STEPPED BACK FROM THE DXDAO**](https://blog.gnosis.pm/gnosis-is-stepping-back-from-the-dxdao-5d368bc269a3)
 <br/>
 Vote Staking Period was completed on 28th of June 2019. <br/>
 Have a look at the outcome: [Overview of the dxDAO Reputation Distribution](https://medium.com/@gnosisPM/overview-of-the-dxdao-reputation-distribution-50755a7cdedf)<br/>
